@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajinomoto - Món Ngon Mỗi Ngày</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- Thanh điều hướng trên cùng -->
+    <header>
+        <div class="top-bar">
+            <div class="left">
+                <span>Về MNMN</span> | <span>Hỏi Đầu Bếp</span> | <span>Theo dõi trên:</span>
+                <img href="" style="margin: -5px 0; border-radius: 10px;" src="data:image/jpeg;base64,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" alt="Facebook">
+                <img style="margin: -5px 0; border-radius: 10px;"  src="data:image/jpeg;base64,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" alt="YouTube">
+           
+            </div>
+            <div class="right">
+                <span style="margin-right: 20px;">Số thành viên <b>61,457</b></span>
+                <a href="#" class="login-link">ĐĂNG NHẬP</a>
+            </div>
+        </div>
+
+        <!-- Menu chính -->
+       <section>
+            <ul class="menu">
+                <li class="dropdown">
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Thực đơn ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Công thức Miền Bắc</a></li>
+                        <li><a href="#">Công thức Miền Trung</a></li>
+                        <li><a href="#">Công thức Miền Nam</a></li>
+                        
+                    </ul>
+                </li>
+                
+
+                <!-- Thay "Gia vị bạn cần" bằng logo -->
+                <li class="logo-item">
+                    <img src="./public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+                </li>
+
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Yêu thích</a></li>
+            </ul>
+        </section>
+    </header>
+    <nav>
+
+
+    <!-- Banner quảng cáo -->
+    <div class="banner">
+        <img src="https://monngonmoingay.com/wp-content/uploads/2024/03/master-banner-01-2803.jpeg.webp" alt="Quảng cáo Gyoza">
+     </div>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="search-container">
+        <h2>Hơn <b>2.000</b> Công thức món ngon và dễ làm</h2>
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder=" món ngon đang tìm kiếm...">
+            <button>➡</button>
+        </div>
+    </div>
+</nav>
+    
+    <main>
+
+    <div class="container">
+        <h2 class="main-title">Món Ngon Xu Hướng</h2>
+        <div class="food-grid">
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Bánh Bông Lan Bơ Hành">
+                    <div class="overlay">
+                        <span class="like-count">45</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Bánh Bông Lan Bơ Hành</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Gà Chiên Xúc Xích Ớt Xiêm">
+                    <div class="overlay">
+                        <span class="like-count">1</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Gà Chiên Xúc Xích Ớt Xiêm</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Bánh Mì Xíu Mại">
+                    <div class="overlay">
+                        <span class="like-count">3</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Bánh Mì Xíu Mại</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Bò Cuộn Lá Rong Biển">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Bò Cuộn Lá Rong Biển</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Blendy®Matcha Sữa Tào Phớ">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Blendy®Matcha Sữa Tào Phớ</p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="featured-recipes">
+            <h2 class="section-title">Món Ngon Mỗi Ngày</h2>
+            <div class="recipes-container">
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2025/01/26.-SALAD-TAO-PHO-MAI.png.webp" alt="Mì xào bò rau củ">
+                        <button class="wishlist-button">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.53L12 21.35z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Mì xào bò rau củ</h3>
+                        <div class="recipe-info">
+                            <span class="servings"><svg viewBox="0 0 24 24"><path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4zm-6 8h12v-1c0-2.66-5.33-4-12-4S6 21.34 6 24v1z"/></svg> 4 Người</span>
+                            <span class="difficulty"><svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h14v2z"/></svg> Dễ</span>
+                            <span class="time"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7h1z"/></svg> 15 Phút</span>
+                        </div>
+                        <button class="view-button">XEM CHI TIẾT &gt;</button>
+                    </div>
+                </div>
+        
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2025/01/26.-SALAD-TAO-PHO-MAI.png.webp" alt="Salad táo phô mai">
+                        <button class="wishlist-button">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.53L12 21.35z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Salad táo phô mai</h3>
+                        <div class="recipe-info">
+                            <span class="servings"><svg viewBox="0 0 24 24"><path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4zm-6 8h12v-1c0-2.66-5.33-4-12-4S6 21.34 6 24v1z"/></svg> 4 Người</span>
+                            <span class="difficulty"><svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h14v2z"/></svg> Dễ</span>
+                            <span class="time"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7h1z"/></svg> 20 Phút</span>
+                        </div>
+                        <button class="view-button">XEM CHI TIẾT &gt;</button>
+                    </div>
+                </div>
+
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2025/01/26.-SALAD-TAO-PHO-MAI.png.webp" alt="Salad táo phô mai">
+                        <button class="wishlist-button">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.53L12 21.35z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Salad táo phô mai</h3>
+                        <div class="recipe-info">
+                            <span class="servings"><svg viewBox="0 0 24 24"><path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4zm-6 8h12v-1c0-2.66-5.33-4-12-4S6 21.34 6 24v1z"/></svg> 4 Người</span>
+                            <span class="difficulty"><svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h14v2z"/></svg> Dễ</span>
+                            <span class="time"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7h1z"/></svg> 20 Phút</span>
+                        </div>
+                        <button class="view-button">XEM CHI TIẾT &gt;</button>
+                    </div>
+                </div>
+        
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2025/01/26.-SALAD-TAO-PHO-MAI.png.webp" alt="Canh chua bồn bồn vị thái">
+                        <button class="wishlist-button">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.53L12 21.35z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Canh chua bồn bồn vị thái</h3>
+                        <div class="recipe-info">
+                            <span class="servings"><svg viewBox="0 0 24 24"><path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4zm-6 8h12v-1c0-2.66-5.33-4-12-4S6 21.34 6 24v1z"/></svg> 4 Người</span>
+                            <span class="difficulty"><svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h14v2z"/></svg> Dễ</span>
+                            <span class="time"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7h1z"/></svg> 25 Phút</span>
+                        </div>
+                        <button class="view-button">XEM CHI TIẾT &gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <section>
+        <div class="nutrition-section">
+            <h2 class="section-title">Thực Đơn Dinh Dưỡng</h2>
+            <div class="benefits-container">
+                <div class="benefit-item active">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/bo-mau.png.webp" alt="Hỗ trợ tiêu hóa tốt hơn">
+                    </div>
+                    <p class="benefit-text">Hỗ trợ tiêu hóa tốt hơn</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/giam-mo.png.webp" alt="Giảm khối mỡ thừa của cơ thể">
+                    </div>
+                    <p class="benefit-text">Giảm khối mỡ thừa của cơ thể</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/lam-viec-tri-nao.png.webp" alt="Giúp làm việc trí não hiệu quả">
+                    </div>
+                    <p class="benefit-text">Giúp làm việc trí não hiệu quả</p>
+                </div>
+                <div class="benefit-item active">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/gan-khoe.png.webp" alt="Hỗ trợ cho gan khỏe mạnh">
+                    </div>
+                    <p class="benefit-text">Hỗ trợ cho gan khỏe mạnh</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/than-khoe.png.webp" alt="Hỗ trợ cho thận khỏe mạnh">
+                    </div>
+                    <p class="benefit-text">Hỗ trợ cho thận khỏe mạnh</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/04/co-xuong.png.webp" alt="Hỗ trợ xây dựng khối cơ xương">
+                    </div>
+                    <p class="benefit-text">Hỗ trợ xây dựng khối cơ xương</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <span>©2025 - Ajinomoto Vietnam . All rights reserved</span>
+                <div class="protected-logo">
+                    <span>DIMCA</span>
+                    <span>PROTECTED</span>
+                </div>
+            </div>
+            <div class="footer-right">
+                <span>Theo dõi trên :</span>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><img src="facebook_icon.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="youtube_icon.png" alt="YouTube"></a>
+                    <a href="#" target="_blank"><img src="website_icon.png" alt="Website"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
