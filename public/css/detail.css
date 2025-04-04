@@ -441,8 +441,26 @@ nav {
 }
 
 /* Comments */
-.comments {
-    margin-bottom: 30px;
+.comment {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.comment p {
+    margin: 0;
+    font-size: 1rem;
+}
+.comment strong {
+    color: #E50000;
+}
+.comment-time {
+    font-size: 0.9rem;
+    color: #666;
+}
+.comment strong {
+    color: #E50000;
 }
 
 .comments h2 {
@@ -476,10 +494,10 @@ nav {
     cursor: pointer;
     align-self: flex-start;
 }
-
 /* Related Recipes */
 .related-recipes {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .related-recipes h2 {
@@ -488,36 +506,55 @@ nav {
     margin-bottom: 15px;
 }
 
+/* Dùng flexbox thay vì grid */
 .recipe-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
+/* Recipe Card */
 .recipe-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     text-align: center;
     padding: 15px;
+    width: 200px; /* Cố định chiều rộng */
+    transition: transform 0.2s, box-shadow 0.3s;
 }
 
+/* Hiệu ứng hover */
+.recipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ảnh */
 .recipe-card img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
+/* Tiêu đề */
 .recipe-card h3 {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 5px;
 }
 
+/* Thời gian */
 .recipe-card p {
     font-size: 0.9rem;
     color: #555;
 }
+
+
+
+
 
 /* Footer */
 footer {
