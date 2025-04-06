@@ -13,31 +13,39 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
 }
 
 /* Container chứa "Theo dõi trên" và các icon */
 .social-container {
     display: flex;
-    flex-direction: column; /* Sắp xếp theo chiều dọc */
-    align-items: flex-start; /* Căn trái */
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /* Icon mạng xã hội */
 .icon-contact {
-    display: flex; 
-    gap: 10px; 
-    margin-top: 5px; /* Khoảng cách từ "Theo dõi trên" đến các icon */
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon-contact span {
+    white-space: nowrap;
 }
 
 .icon-contact a {
-    color: white; 
+    color: white;
     font-size: 20px;
-    text-decoration: none; 
-    transition: color 0.3s ease; 
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .icon-contact a:hover {
-    color: #FFA7A7; /* Màu khi hover */
+    color: #FFA7A7;
 }
 
 /* Link đăng nhập */
@@ -49,10 +57,40 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    white-space: nowrap;
 }
 
 .login-link:hover {
     background-color: #ff7f7f;
+}
+
+/* Responsive cho top-bar */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .social-container,
+    .right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5px 0;
+        gap: 10px;
+    }
+
+    .icon-contact {
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .login-link {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
 }
 /* Menu chính */
 nav {
@@ -575,3 +613,106 @@ footer {
         text-align: center;
     }
   }
+
+  @media (max-width: 480px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    .dish-name {
+        font-size: 1.8rem;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .top-bar .right {
+        margin-top: 10px;
+    }
+    .logo-item {
+        display: none;
+}
+  }
+  /* hét menu */
+@media (max-width: 768px) {
+    .nutrition-section {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .benefits-container {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .benefit-item {
+        width: calc(33.33% - 20px); /* 3 cột mỗi hàng */
+        height: auto; /* Cho phép co giãn nếu cần */
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefit-item {
+        width: calc(50% - 20px); /* 2 cột khi màn nhỏ hơn */
+    }
+   
+}
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+    .banner img {
+        height: auto;
+        height: auto;
+    }
+
+    .search-container {
+        margin-top: -30px;
+        padding: 15px;
+    }
+
+    .search-box {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .search-box input {
+        font-size: 14px;
+    }
+
+    .search-box button {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner img {
+        height: 200px;
+    }
+
+    .search-box {
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .search-icon {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .search-box input, 
+    .search-box button {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .search-box button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
