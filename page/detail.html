@@ -13,47 +13,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <!-- Thanh điều hướng trên cùng -->
-   <header>
-    <div class="top-bar">
-        <div class="left">     
-            <div class="icon-contact">
-                <span>Về chúng tôi</span> | <span>Hỏi Đầu Bếp</span> | <span>Theo dõi trên:</span>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    <!-- Thanh điều hướng trên cùng -->
+    <header>
+        <div class="top-bar">
+            <div class="left">     
+                <div class="icon-contact">
+                    <span>Về chúng tôi</span> | <span>Hỏi Đầu Bếp</span> | <span>Theo dõi trên:</span>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <span style="margin-right: 20px;">Số thành viên <b>61,457</b></span>
+                <a href="login.html" class="login-link">ĐĂNG NHẬP</a>
             </div>
         </div>
-        <div class="right">
-            <span style="margin-right: 20px;">Số thành viên <b>61,457</b></span>
-            <a href="page/login.html" class="login-link">ĐĂNG NHẬP</a>
+    
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
         </div>
-    </div>
-
-    <!-- Menu chính -->
-       <section class="menu-section">
-     <!-- Thay "Gia vị bạn cần" bằng logo -->       
-        <ul class="menu">
-            <div class="logo-item">
-                <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
-            </div>
-            <li class="dropdown">
-                <a href="#">Trang chủ</a>
-            </li>
-            <li class="dropdown">
-                <a href="../index.html">Thực đơn ▼</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Công thức Miền Bắc</a></li>
-                    <li><a href="#">Công thức Miền Trung</a></li>
-                    <li><a href="#">Công thức Miền Nam</a></li>
-                    
-                </ul>
-            </li>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Yêu thích</a></li>
-        </ul>
-    </section>
-</header>
-
+    
+        <!-- Menu chính -->
+        <section class="menu-section">
+            <ul class="menu" id="mainMenu">
+                <div class="logo-item">
+                    <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+                </div>
+             
+                    <a href="../index.html" style="margin-left: 20px;">Trang chủ</a>
+                
+                <li class="dropdown">
+                    <a href="#">Thực đơn ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../page/products.html">Công thức Miền Bắc</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Trung</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Nam</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="favorite.html">Yêu thích</a></li>
+            </ul>
+        </section>
+    </header>
+<div class="button-return">
+    <a href="../index.html" class="return-link">Trở về</a>
+</div>
     <!-- Main Content -->
     <div class="main-wrapper">
         <!-- Sidebar -->
@@ -254,5 +259,6 @@
     </footer>
 
     <script src="../public/js/detail.js"></script>
+    <script src="../public/js/home.js"></script>
 </body>
 </html>

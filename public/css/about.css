@@ -1,6 +1,6 @@
 /* Reset CSS */
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -232,185 +232,107 @@ nav {
     text-align: justify;
   }
   
-  /* Responsive: Mobile-first */
-  @media (max-width: 768px) {
-    .h1 {
-      font-size: 1.5rem;
-    }
-  
-    .h2 {
-      font-size: 1.25rem;
-    }
-  
-    h3 {
-      font-size: 1.1rem;
-    }
-  
-    .p {
-      font-size: 0.95rem;
-    }
-  
-    body {
-      padding: 0 12px;
-    }
-  }
-  @media (max-width: 480px) {
-    .main-content {
-        padding: 15px;
-    }
-
-    .dish-name {
-        font-size: 1.8rem;
-    }
-
-    .top-bar {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .top-bar .right {
-        margin-top: 10px;
-    }
-}
-/* Footer */
-/* Footer */
-footer {
-    width: 100%;
-    height: auto;
-    background-color: #e50000;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .color {
-    width: 100%;
-    height: 5px;
-    background-color: #ffcc00;
-  }
-  
-  .all-colum {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .footer-colum {
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .footer-colum-1,
-  .footer-colum-2 {
-    flex: 1; 
-    min-width: 250px; 
-    /* background-color: #ff0000; */
-    padding: 20px;
-  }
-  
-  .footer-colum-3 {
-    flex: 2;
-    min-width: 300px;
-    /* background-color: #00ff00; */
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .footer-colum-3 iframe {
-    width: 100%;
-    height: 300px; 
-    border-radius: 10px;
-  }
-  
-  h3 {
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 8px;
-    margin-left: 20px;
-  }
-  
-  ul li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  ul li a:hover {
-    color: #ffcc00; 
-  }
-  
-  .all-colum i {
-    font-size: 15px;
-    margin-right: 5px;
-  }
-  
-  /* Responsive cho màn hình nhỏ hơn 768px */
-  @media (max-width: 768px) {
-    .all-colum {
-        flex-direction: column; 
-        align-items: center;
-    }
-    
-    .footer-colum {
-        width: 90%; 
-        text-align: center;
-    }
-  }
-  
-@media (max-width: 480px) {
-    .main-content {
-        padding: 15px;
-    }
-
-    .dish-name {
-        font-size: 1.8rem;
-    }
-
-    .top-bar {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .top-bar .right {
-        margin-top: 10px;
-    }
-}
-/* Responsive cho top-bar */
+/* Responsive cho màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
-    .top-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
+  .top-bar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      gap: 10px;
+  }
 
-    .social-container,
-    .right {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 5px 0;
-        gap: 10px;
-    }
+  .social-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 5px;
+      gap: 10px;
+  }
 
-    .icon-contact {
-        flex-wrap: wrap;
-        font-size: 14px;
-    }
+  .icon-contact {
+      flex-wrap: wrap;
+      font-size: 14px;
+  }
 
-    .login-link {
-        padding: 5px 10px;
-        font-size: 13px;
-    }
+  .login-link {
+      padding: 5px 10px;
+      font-size: 13px;
+  }
+
+  .menu-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .menu {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .menu li {
+      margin: 5px 0;
+  }
+
+  .footer-colum {
+      width: 100%;
+      text-align: center;
+  }
+
+  .footer-colum-3 iframe {
+      height: 200px;
+  }
 }
-/* Menu chính */
+
+/* Responsive cho màn hình nhỏ hơn 480px */
+@media (max-width: 480px) {
+  body {
+      padding: 0 10px;
+  }
+
+  .top-bar {
+      text-align: center;
+      gap: 15px;
+  }
+
+  .icon-contact {
+      justify-content: center;
+  }
+
+  .menu-section {
+      padding: 5px;
+  }
+
+  .menu li {
+      margin: 5px 0;
+  }
+
+  .menu a {
+      font-size: 14px;
+  }
+
+  .footer-colum {
+      padding: 10px;
+  }
+
+  .footer-colum-3 iframe {
+      height: 150px;
+  }
+
+  .h1 {
+      font-size: 1.5rem;
+  }
+
+  .h2 {
+      font-size: 1.25rem;
+  }
+
+  h3 {
+      font-size: 1.1rem;
+  }
+
+  .p {
+      font-size: 0.9rem;
+  }
+}

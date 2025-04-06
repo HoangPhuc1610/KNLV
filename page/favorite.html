@@ -24,31 +24,36 @@
         </div>
     </div>
 
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+        &#9776;
+    </div>
+
     <!-- Menu chính -->
-       <section class="menu-section">
-     <!-- Thay "Gia vị bạn cần" bằng logo -->       
-        <ul class="menu">
+    <section class="menu-section">
+        <ul class="menu" id="mainMenu">
             <div class="logo-item">
                 <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
             </div>
-            <li class="dropdown">
-                <a href="../index.html">Trang chủ</a>
-            </li>
+           
+                <a href="../index.html" style="margin-left: 20px;">Trang chủ</a>
+          
             <li class="dropdown">
                 <a href="#">Thực đơn ▼</a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Công thức Miền Bắc</a></li>
-                    <li><a href="#">Công thức Miền Trung</a></li>
-                    <li><a href="#">Công thức Miền Nam</a></li>
-                    
+                    <li><a href="../page/products.html">Công thức Miền Bắc</a></li>
+                    <li><a href="../page/products.html">Công thức Miền Trung</a></li>
+                    <li><a href="../page/products.html">Công thức Miền Nam</a></li>
                 </ul>
             </li>
-            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
             <li><a href="favorite.html">Yêu thích</a></li>
         </ul>
     </section>
 </header>
-
+<div class="button-return">
+    <a href="../index.html" class="return-link">Trở về</a>
+</div>
 <div class="container-5">
     <table id="favoriteTable">
         <thead>
@@ -149,7 +154,7 @@
             </ul>
         </div>
         <div class="footer-colum footer-colum-2">
-            <h3 style="color: ghostwhite;">Cửa hàng bán Đồ ăn nhanh - WR SHOP</h3>
+            <h3 style="color: ghostwhite;">Tìm kiếm công thức nấu ăn nhanh</h3>
             <ul>
                 <li><a href="#">Địa chỉ: Ấp Bàu Bông, xã Phước An, Nhơn Trạch Đồng Nai</a></li>
                 <li><a href="#">Hotline: 0794346995(Facebook, zalo)</a></li>
@@ -180,5 +185,6 @@
     </div>
   </footer>
   <script src="../public/js/index.js"></script>
+  <script src="../public/js/home.js"></script>
 </body>
 </html>

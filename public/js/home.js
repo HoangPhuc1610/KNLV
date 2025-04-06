@@ -1,19 +1,20 @@
-// Toggle menu khi nhấn hamburger
-function toggleMenu() {
-    const menu = document.getElementById("mainMenu");
-    menu.classList.toggle("active");
-}
 
-// Cho dropdown hoạt động trên mobile
-document.addEventListener("DOMContentLoaded", () => {
-    const dropdownLinks = document.querySelectorAll(".dropdown > a");
+const hamburger = document.getElementById('hamburger');
+const menu = document.getElementById('mainMenu');
+const dropdownLinks = document.querySelectorAll('.dropdown > a');
 
-    dropdownLinks.forEach(link => {
-        link.addEventListener("click", function (e) {
-            if (window.innerWidth <= 768) {
-                e.preventDefault();
-                this.parentElement.classList.toggle("open");
-            }
-        });
+// Toggle menu chính
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show');
+});
+
+// Toggle menu con trên mobile
+dropdownLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+        if (window.innerWidth <= 768) {
+            e.preventDefault(); // Ngăn reload
+            const parent = this.parentElement;
+            parent.classList.toggle('open');
+        }
     });
 });

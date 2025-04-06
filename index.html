@@ -8,7 +8,7 @@
     <!-- Link icon và font chữ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Thanh điều hướng trên cùng -->
@@ -27,29 +27,31 @@
             </div>
         </div>
 
+       <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
         <!-- Menu chính -->
         <section class="menu-section">
-            
-                   
             <ul class="menu" id="mainMenu">
                 <div class="logo-item">
                     <img src="./public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
                 </div>
+                <a href="index.html" style="margin-left: 20px;">Trang chủ</a>
                 <li class="dropdown">
-                    <a href="index.html">Trang chủ</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Thực đơn▼</a>
+                    <a href="#">Thực đơn ▼</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Công thức Miền Bắc</a></li>
-                        <li><a href="#">Công thức Miền Trung</a></li>
-                        <li><a href="#">Công thức Miền Nam</a></li>
+                        <li><a href="page/products.html">Công thức Miền Bắc</a></li>
+                        <li><a href="page/products.html">Công thức Miền Trung</a></li>
+                        <li><a href="page/products.html">Công thức Miền Nam</a></li>
                     </ul>
                 </li>
                 <li><a href="page/about.html">Giới thiệu</a></li>
                 <li><a href="page/favorite.html">Yêu thích</a></li>
             </ul>
         </section>
+
         
     <nav>
     <!-- Banner quảng cáo -->
@@ -74,12 +76,16 @@
         <h2 class="main-title">Món Ngon Xu Hướng</h2>
         <div class="food-grid">
             <div class="food-item">
-                <div class="image-container">
+                
+                <div class="image-container" >
+                    <a href="page/detail.html">
                     <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Bánh Bông Lan Bơ Hành">
                     <div class="overlay">
                         <span class="like-count">45</span>
                         <span class="heart-icon">❤️</span>
                     </div>
+                </a>
+                   
                 </div>
                 <p class="food-name">Bánh Bông Lan Bơ Hành</p>
             </div>
@@ -112,6 +118,16 @@
                     </div>
                 </div>
                 <p class="food-name">Bò Cuộn Lá Rong Biển</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp" alt="Blendy®Matcha Sữa Tào Phớ">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Blendy®Matcha Sữa Tào Phớ</p>
             </div>
             <div class="food-item">
                 <div class="image-container">
@@ -293,7 +309,7 @@
     </section>
 
     </main>
-    <section>
+    <!-- <section>
         <div class="nutrition-section">
             <h2 class="section-title">Thực Đơn Dinh Dưỡng</h2>
             <div class="benefits-container">
@@ -336,7 +352,7 @@
             </div>
             
         </div>
-    </section>
+    </section> -->
     <footer>
         <div class="color"></div>
         <div class="all-colum">
@@ -357,7 +373,7 @@
                 </ul>
             </div>
             <div class="footer-colum footer-colum-2">
-                <h3 style="color: ghostwhite;">Cửa hàng bán Đồ ăn nhanh - WR SHOP</h3>
+                <h3 style="color: ghostwhite;">Tìm kiếm công thức nấu ăn nhanh</h3>
                 <ul>
                     <li><a href="#">Địa chỉ: Ấp Bàu Bông, xã Phước An, Nhơn Trạch Đồng Nai</a></li>
                     <li><a href="#">Hotline: 0794346995(Facebook, zalo)</a></li>
@@ -389,9 +405,6 @@
       </footer>
 
       <script src="public/js/index.js"></script>
-      <script src="./public/js/home.js"></script>
-
-
-     
+      <script src="./public/js/home.js"></script>  
 </body>
 </html>
