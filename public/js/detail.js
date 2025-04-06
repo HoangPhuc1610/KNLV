@@ -1,3 +1,46 @@
+   //hamburger menu
+    // JavaScript để làm menu hamburger hoạt động
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('mainMenu');
+
+    hamburger.addEventListener('click', function() {
+        menu.classList.toggle('show');
+    });
+    console.log('Hamburger menu script loaded.');
+
+// Lấy tất cả các dropdown
+const dropdowns = document.querySelectorAll('.dropdown');
+
+// Thêm sự kiện khi nhấn vào dropdown
+dropdowns.forEach(dropdown => {
+    const dropdownLink = dropdown.querySelector('a');
+    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+    
+    dropdownLink.addEventListener('click', function(event) {
+        // Ngăn không cho link chuyển trang khi nhấn
+        event.preventDefault();
+        
+        // Toggle class 'open' để mở hoặc đóng menu
+        dropdown.classList.toggle('open');
+        
+        // Đảm bảo rằng khi nhấn vào một dropdown thì các dropdown khác sẽ đóng lại
+        dropdowns.forEach(otherDropdown => {
+            if (otherDropdown !== dropdown) {
+                otherDropdown.classList.remove('open');
+            }
+        });
+    });
+
+    // Đảm bảo khi nhấn bên ngoài dropdown thì dropdown cũng sẽ đóng lại
+    document.addEventListener('click', function(event) {
+        if (!dropdown.contains(event.target) && dropdown.classList.contains('open')) {
+            dropdown.classList.remove('open');
+        }
+    });
+});
+
+   
+   
    // Toggle Steps Section
    const toggleStepsBtn = document.querySelector('.toggle-steps-btn');
    const stepsContent = document.querySelector('.steps-content');

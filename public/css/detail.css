@@ -38,61 +38,74 @@ body {
     font-weight: bold;
 }
 
+/* Menu chính */
 nav {
-    background-color: #FFF5F5;
-    padding: 15px 0;
+    padding: 10px;
     text-align: center;
 }
 
+.menu-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
 .menu {
     list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
 }
 
 .menu li {
     position: relative;
-    margin: 0 20px;
+    margin: 0 15px;
+    padding: 10px;
 }
 
 .menu a {
     text-decoration: none;
-    color: #333;
+    color: black;
     font-weight: bold;
-    font-size: 1.1rem;
-    padding: 10px 15px;
     display: block;
 }
 
+.dropdown > a {
+    color: black;
+}
+
+/* Logo trong menu */
 .logo-item {
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 
 .menu-logo {
-    height: 90px;
-    margin: -15px 0;
+    margin: -20px 0px;
+    height: 100px;
 }
 
+/* Dropdown menu */
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: white;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     list-style: none;
     padding: 0;
-    width: 220px;
+    width: 250px;
     border-radius: 5px;
-    z-index: 1000;
 }
 
 .dropdown-menu li {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
 }
 
 .dropdown-menu li:last-child {
@@ -100,14 +113,86 @@ nav {
 }
 
 .dropdown-menu a {
-    padding: 10px 15px;
-    color: #333;
-    font-size: 0.95rem;
-    font-weight: normal;
+    padding: 5px;
+    display: block;
+    color: black;
 }
 
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+    color: red;
+}
+
+/* Hiển thị menu khi di chuột vào */
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+/* Hamburger button */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: 1001;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+        background-color: white;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        z-index: 1000;
+        border-top: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu li {
+        width: 100%;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 1000;
+        display: none;  /* Ẩn dropdown mặc định */
+    }
+
+    .dropdown.open .dropdown-menu {
+        display: block;  /* Hiển thị dropdown khi class 'open' được thêm vào */
+    }
+
+    .dropdown > a::after {
+        content: "▼";
+        float: right;
+    }
 }
 
 /* Main Wrapper */
@@ -511,6 +596,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
 }
 
 /* Recipe Card */
@@ -528,6 +614,10 @@ nav {
 .recipe-card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+.recipe-card a {
+    text-decoration: none;
+    color: inherit;
 }
 /* Ảnh */
 .recipe-card img {
