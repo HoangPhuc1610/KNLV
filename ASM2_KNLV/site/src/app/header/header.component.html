@@ -1,0 +1,40 @@
+<!-- Thanh điều hướng trên cùng -->
+<div class="top-bar">
+    <div class="left">
+      <div class="icon-contact">
+        <span>Về chúng tôi</span> | <span>Hỏi Đầu Bếp</span> | <span>Theo dõi trên:</span>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="right">
+      <span style="margin-right: 20px;">Số thành viên <b>0</b></span>
+      <a routerLink="/dangky" class="login-link">ĐĂNG NHẬP</a>
+    </div>
+  </div>
+  
+  <!-- Hamburger Icon -->
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+  
+  <!-- Menu chính -->
+  <section class="menu-section">
+    <ul class="menu" [class.show]="isMenuOpen">
+      <div class="logo-item">
+        <img src="assets/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+      </div>
+      <a routerLink="/" style="margin-left: 20px;">Trang chủ</a>
+      <li class="dropdown" [class.open]="dropdownOpen[0]">
+        <a href="#" (click)="toggleDropdown($event, 0)" style="color: black;">Thực đơn ▼</a>
+        <ul class="dropdown-menu">
+          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Bắc</a></li>
+          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Trung</a></li>
+          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Nam</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="/gioithieu" style="color: black;">Giới thiệu</a></li>
+      <li><a routerLink="/yeuthich" style="color: black;">Yêu thích</a></li>
+    </ul>
+  </section>
+  

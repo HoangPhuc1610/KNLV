@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="../css/edit.css">
+
+<body>
+    <form id="formCategory">
+        <input type="hidden" id="categoryId"> <!-- Input ẩn để lưu ID danh mục -->
+        <input type="text" name="name" placeholder="Tên danh mục" required>
+        <input type="file" name="img">
+
+        <!-- Hiển thị ảnh hiện tại nếu có -->
+        <div id="categoryImageContainer">
+            <img id="categoryImage" src="" alt="Ảnh danh mục" width="200">
+        </div>
+
+        <button type="submit">Cập nhật danh mục</button>
+    </form>
+
+    <script>
+      // Lấy ID từ URL
+const urlParams = new URLSearchParams(window.location.search);
+const categoryId = urlParams.get("id");
+
+// Lấy token từ localStorage
+const getToken = () => localStorage.getItem("token");
+
+// Kiểm tra quyền admin
+const isAdmin = () => localStorage.getItem("role") === "admin";
+
+// Nếu không phải admin, chặn truy cập
+if (!isAdmin()) {
+    window.location.href = "../../index.html"; // Chuyển hướng về trang chủ
+    alert("Bạn không có quyền truy cập!");
+  
+}
+
+// Nếu có ID thì lấy dữ liệu danh mục từ API
+if (categoryId) {
+    fetch(`http://localhost:3000/categories/${categoryId}`, {
+        headers: {
+            "Authorization": `Bearer ${getToken()}`
+        }
+    })
+        .then(response => response.json())
+        .then(category => {
+            document.getElementById("categoryId").value = category._id;
+            document.querySelector("[name='name']").value = category.name;
+
+            // Hiển thị ảnh danh mục hiện tại nếu có
+            const categoryImage = document.getElementById("categoryImage");
+            if (category.img) {
+                categoryImage.src = `http://localhost:3000/img/${category.img}`;
+            } else {
+                categoryImage.alt = "Không có ảnh";
+            }
+        })
+        .catch(error => console.error("Lỗi khi tải danh mục:", error));
+}
+
+// Xử lý cập nhật danh mục khi submit form
+document.getElementById("formCategory").addEventListener("submit", async function(event) {
+    event.preventDefault(); // Ngăn chặn load lại trang
+
+    const formData = new FormData(this); // Lấy dữ liệu form
+
+    try {
+        const response = await fetch(`http://localhost:3000/categories/${categoryId}`, {
+            method: "PATCH",
+            body: formData, // Gửi formData thay vì JSON
+            headers: {
+                "Authorization": `Bearer ${getToken()}` // Gửi token để xác thực
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`Lỗi: ${response.status}`);
+        }
+        alert("Cập nhật danh mục thành công!");
+        window.location.href = "category.html"; // Quay lại trang danh sách danh mục
+
+    } catch (error) {
+        console.error("Lỗi khi cập nhật danh mục:", error);
+        alert("Không thể cập nhật danh mục!");
+    }
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+        .header {
+            background-color: #FF6F61;
+            color: #fff;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .header h1 { margin: 0; font-size: 24px; }
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            height: 100vh;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            color: #fff;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            border-bottom: 1px solid #495057;
+        }
+        .sidebar a:hover { background-color: #495057; }
+        .main-content {
+            margin-left: 250px;
+            margin-top: 80px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard - Admin</h1>
+    </div>
+
+    <div class="sidebar">
+        <h3 style="text-align: center; color: #ffc107;">Quản lý</h3>
+        <a href="../dashboard.html">Dashboard</a>
+        <a href="../product/product.html">Quản lý sản phẩm</a>
+        <a href="category/category.html" id="background">Quản lý danh mục</a>
+        <a href="../user/user.html">Quản lý người dùng</a>
+        <a href="../order/order.html">Quản lý đơn hàng</a>
+        <a href="../../index.html">Trang Chủ</a>
+    </div>
+
+    <div class="main-content">
+        <h2>Quản lý Danh Mục</h2>
+        <div class="addAndSearch">
+            <a href="addcate.html"><button>Thêm danh mục</button></a>
+            <input type="text" id="search" placeholder="Tìm kiếm danh mục...">
+        </div>
+        <br><br>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên danh mục</th>
+                    <th>Hình ảnh</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="showCate"></tbody>
+        </table>
+    </div>
+
+    <script>
+       // Hàm lấy token từ localStorage
+const getToken = () => localStorage.getItem("token");
+
+// Kiểm tra quyền admin
+const isAdmin = () => localStorage.getItem("role") === "admin";
+
+// Hàm lấy danh mục từ API
+const fetchCategories = async () => {
+    if (!isAdmin()) {
+        window.location.href = "../../index.html"; // Chuyển hướng về trang chủ
+        alert("Bạn không có quyền truy cập!");
+        return;
+    }
+
+    try {
+        const token = getToken();
+        const response = await fetch('http://localhost:3000/categories', {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${token}`, // Gửi token
+                "Content-Type": "application/json",
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`Lỗi: ${response.status}`);
+        }
+
+        const categories = await response.json();
+        console.log("Danh mục nhận được:", categories); // Debug
+
+        let html = "";
+        categories.forEach((category, index) => {
+            html += `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>${category.name}</td>    
+                    <td>
+                        <img src="http://localhost:3000/img/${category.img}" alt="${category.name}" width="100px" height="100px">
+                    </td>
+                    <td>
+                        <a href="editcate.html?id=${category._id}"><button>Sửa</button></a>
+                        <button onclick="deleteCategory('${category._id}')">Xóa</button>
+                    </td>
+                </tr>
+            `;
+        });
+
+        document.getElementById("showCate").innerHTML = html;
+    } catch (error) {
+        console.error("Lỗi khi lấy danh mục:", error);
+        alert("Không thể lấy danh mục, vui lòng kiểm tra lại!");
+    }
+};
+
+// Gọi hàm lấy danh mục
+fetchCategories();
+
+
+const deleteCategory = async (id) => {
+    if (!isAdmin()) {
+        alert("Bạn không có quyền xóa danh mục!");
+        return;
+    }
+
+    if (confirm("Bạn có chắc chắn muốn xóa danh mục này không?")) {
+        try {
+            const token = getToken();
+            const response = await fetch(`http://localhost:3000/categories/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Authorization": `Bearer ${token}`, // Gửi token khi xóa
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`Lỗi: ${response.status}`);
+            }
+
+            alert("Xóa danh mục thành công!");
+            fetchCategories(); // Load lại danh sách sau khi xóa
+        } catch (error) {
+            console.error("Lỗi khi xóa danh mục:", error);
+            alert("Không thể xóa danh mục!");
+        }
+    }
+};
+
+    </script>
+</body>
+</html>

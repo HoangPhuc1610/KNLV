@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6789d2b79e9cee1fc7851b7b"
+  },
+  "name": "Bánh sinh nhật",
+  "img": "img1.jpg"
+},
+{
+  "_id": {
+    "$oid": "6789d3169e9cee1fc7851b7c"
+  },
+  "name": "Bánh kem lạnh",
+  "img": "img11.jpg"
+}]

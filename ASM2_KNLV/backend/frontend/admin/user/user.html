@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Dashboard - Admin</h1>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3 style="text-align: center; color: #ffc107;">Quản lý</h3>
+        <a href="../dashboard.html" >Dashboard</a>
+        <a href="../product/product.html" >Quản lý sản phẩm</a>
+        <a href="../category/category.html">Quản lý danh mục</a>
+        <a href="../user/user.html" id="background">Quản lý người dùng</a>
+        <a href="../order/order.html" >Quản lý đơn hàng</a>
+        <a href="../../index.html">Trang chủ</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Quản lý Người Dùng</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Email</th>
+                    <th>Vai trò</th>
+                    <th>Khóa</th>
+                </tr>
+            </thead>
+            <tbody id="showUsers">
+                <!-- Dữ liệu sẽ load từ JavaScript -->
+            </tbody>
+        </table>
+    
+    </div>
+</body>
+</html>
+<script >
+    // Lấy token từ localStorage
+const getToken = () => localStorage.getItem("token");
+
+// Kiểm tra quyền admin
+const isAdmin = () => localStorage.getItem("role") === "admin";
+
+// Nếu không phải admin, chuyển hướng về trang khác
+if (!isAdmin()) {
+    alert("Bạn không có quyền truy cập trang này!");
+    window.location.href = "../dashboard.html";
+}
+
+// Hàm lấy danh sách người dùng
+const fetchUsers = async () => {
+    try {
+        const response = await fetch("http://localhost:3000/users/getalluser", {
+            headers: {
+                "Authorization": `Bearer ${getToken()}`
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error("Không thể lấy danh sách người dùng");
+        }
+
+        const users = await response.json();
+        let html = "";
+
+        users.forEach((user, index) => {
+            html += `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>${user.email}</td>
+                    <td>${user.role === "admin" ? "Admin" : "User"}</td>
+                    <td>
+                        <button onclick="toggleUserStatus('${user._id}', '${user.isLocked}')">
+                            ${user.isLocked ? "Mở khóa" : "Khóa"}
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+
+        document.getElementById("showUsers").innerHTML = html;
+    } catch (error) {
+        console.error("Lỗi khi lấy danh sách người dùng:", error);
+    }
+};
+
+fetchUsers();
+
+</script>

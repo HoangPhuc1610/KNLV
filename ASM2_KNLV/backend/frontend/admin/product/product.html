@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Dashboard - Admin</h1>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3 style="text-align: center; color: #ffc107;">Quản lý</h3>
+        <a href="../dashboard.html" >Dashboard</a>
+        <a href="../product/product.html" id="background">Quản lý sản phẩm</a>
+        <a href="../category/category.html">Quản lý danh mục</a>
+        <a href="../user/user.html" >Quản lý người dùng</a>
+        <a href="../order/order.html" >Quản lý đơn hàng</a>
+        <a href="../../index.html">Trang Chủ</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Quản lý Sản phẩm</h2>
+        <div class="addAndSearch">
+            <a href="../product/addpro.html"><button>Thêm sản phẩm</button></a>
+            <input type="text" id="search" placeholder="Tìm kiếm sản phẩm...">
+        </div>
+        <br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Danh mục</th>
+                    <th>Hình ảnh</th>
+                    <th>Sản phẩm hot</th>
+                    <th>Mô tả</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="showPro">
+                
+            </tbody>
+        </table>
+    
+    </div>
+</body>
+</html>
+
+<script>
+    // Kiểm tra quyền truy cập
+const verifyAdminAccess = () => {
+    const token = localStorage.getItem('token');
+    const role = localStorage.getItem('role');
+
+    if (!token || role !== 'admin') {
+        alert("Bạn không có quyền truy cập trang này!");
+        window.location.href = "../../index.html"; // Chuyển hướng về trang chủ
+        return false;
+    }
+    return true;
+};
+ const fetchData = async () => {
+    if (!verifyAdminAccess()) return;
+
+    try {
+        const response = await fetch('http://localhost:3000/products', {
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error('Không thể tải sản phẩm');
+        }
+
+        const data = await response.json();
+        console.log("Danh sách sản phẩm:", data);
+
+        let html = "";
+        data.forEach((product, index) => {
+            html += `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>${product.name}</td>    
+                    <td>${product.price}</td>
+                    <td>${product.categoryId ? product.categoryId.name : "Không có danh mục"}</td> 
+                    <td>
+                        <img width="100px" src="http://localhost:3000/img/${product.img}" alt="${product.name}">
+                    </td>
+                    <td><input type="checkbox" ${product.hot ? "checked" : ""}></td>
+                    <td>${product.description}</td>
+                    <td>
+                        <a href="editpro.html?id=${product._id}"><button>Sửa</button></a>
+                        <button onclick="deleteProduct('${product._id}')">Xóa</button>
+                    </td>
+                </tr>
+            `;
+        });
+
+        document.getElementById("showPro").innerHTML = html;
+    } catch (error) {
+        console.error("Lỗi khi tải sản phẩm:", error);
+        alert("Không thể tải sản phẩm!");
+    }
+};
+
+fetchData();
+
+          // Hàm xóa sản phẩm
+const deleteProduct = async (id) => {
+    if (!verifyAdminAccess()) return;
+
+    if (confirm("Bạn có chắc chắn muốn xóa sản phẩm này không?")) {
+        try {
+            const response = await fetch(`http://localhost:3000/products/${id}`, {
+                method: "DELETE",
+                headers: {
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`Lỗi: ${response.status}`);
+            }
+
+            alert("Xóa sản phẩm thành công!");
+            fetchData(); // Load lại danh sách sau khi xóa
+        } catch (error) {
+            console.error("Lỗi khi xóa sản phẩm:", error);
+            alert("Không thể xóa sản phẩm!");
+        }
+    }
+};
+
+// Kiểm tra quyền truy cập ngay khi tải trang
+verifyAdminAccess();
+
+
+</script>
