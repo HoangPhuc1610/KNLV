@@ -42,10 +42,10 @@ const register = [
       const hashPassword = await bcrypt.hash(req.body.password, 10);
       //tạo một instance mới của usermodel
       const newuser= new userModel({
-          name: req.body.name,
+          name: req.body.username,
           email:req.body.email,
           password: hashPassword,
-          img: req.file ? req.file.filename : null // Lưu tên file ảnh nếu có
+    
       })
       const data = await newuser.save();
       res.json(data);

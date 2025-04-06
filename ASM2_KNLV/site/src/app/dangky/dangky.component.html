@@ -5,10 +5,10 @@
     </div>
   
     <!-- Form Đăng Nhập -->
-    <div class="form-container" [ngClass]="{ 'form-hidden': formType !== 'login' }">
+    <div class="form-container" [ngClass]="{ 'form-hidden': formType !== 'login' }"  >
       <form (submit)="onLoginSubmit($event)">
         <div class="form-group">
-          <label for="login-username">Tên đăng nhập</label>
+          <label for="login-username">Email</label>
           <input type="text" id="login-username" required>
         </div>
         <div class="form-group">
@@ -27,25 +27,45 @@
     </div>
   
     <!-- Form Đăng Ký -->
-    <div class="form-container" [ngClass]="{ 'form-hidden': formType !== 'register' }">
-      <form (ngSubmit)="onSubmit()">
-        <div class="form-group">
-          <label for="register-email">Email</label>
-          <input type="email" [(ngModel)]="user.email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label for="register-password">Mật khẩu</label>
-            <div class="password-wrapper">
-              <input [type]="showRegisterPassword ? 'text' : 'password'" id="register-password" [(ngModel)]="user.password" name="password" required>
-              <i class="fa-solid" [ngClass]="showRegisterPassword ? 'fa-eye-slash' : 'fa-eye'" (click)="toggleRegisterPassword()"></i>
-            </div>
-        </div>          
-        <div class="form-group">
-          <label for="confirm-password">Nhập lại mật khẩu</label>
-          <input [type]="showRegisterPassword ? 'text' : 'password'" id="confirm-password" [(ngModel)]="user.confirmPassword" name="confirmPassword" required>
-        </div>
-        <button type="submit">Đăng ký</button>
-      </form>
+<div class="form-container" [ngClass]="{ 'form-hidden': formType !== 'register' }">
+    <form #registerForm="ngForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="register-username">Tên</label>
+      <input type="text" [(ngModel)]="user.username" name="username" required>
     </div>
+    <!-- Email -->
+  <div class="form-group">
+    <label class="form-label">Email:</label>
+    <input type="email" name="email" class="form-control" [(ngModel)]="user.email" #email="ngModel" required email>
+    <small class="text-danger" *ngIf="email.invalid && email.touched">Email không hợp lệ!</small>
+</div>
+ 
+    
+      <!-- Password -->
+  <div class="form-group">
+    <label class="form-label">Mật khẩu:</label>
+    <div class="password-wrapper">
+    <input [type]="showRegisterPassword ? 'text' : 'password'" name="password" class="form-control" [(ngModel)]="user.password" #password="ngModel" required minlength="6">
+    <i class="fa-solid" [ngClass]="showRegisterPassword ? 'fa-eye-slash' : 'fa-eye'" (click)="toggleRegisterPassword()"></i>
   </div>
+  <small class="text-danger" *ngIf="password.invalid && password.touched">Mật khẩu phải ít nhất 6 ký tự!</small>
+</div>
+
+  <!-- Confirm Password -->
+  <div class="mb-3">
+    <label class="form-label">Xác nhận mật khẩu:</label>
+    <input [type]="showRegisterPassword ? 'text' : 'password'" name="confirmPassword" class="form-control" [(ngModel)]="user.confirmPassword" #confirmPassword="ngModel" required>
+    <small class="text-danger" *ngIf="confirmPassword.invalid && confirmPassword.touched">Vui lòng nhập lại mật khẩu!</small>
+    <small class="text-danger" *ngIf="user.password !== user.confirmPassword && confirmPassword.touched">Mật khẩu xác nhận không khớp!</small>
+</div>
+
+
+
+    <button type="submit" [disabled]="registerForm.invalid">Đăng ký</button>
+  </form>
+  <p *ngIf="submitted" class="text-success text-center mt-3">Bạn đã đăng ký thành công!</p>
+</div>
+
+
+ 
   

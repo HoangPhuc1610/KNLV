@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dangky',
+  standalone: true,
   imports: [FormsModule, CommonModule],
   templateUrl: './dangky.component.html',
   styleUrl: './dangky.component.css'
@@ -17,6 +18,7 @@ export class DangkyComponent {
   showRegisterPassword = false;
 
   user = {
+    username: '',
     email: '',
     password: '',
     confirmPassword: ''
@@ -51,12 +53,10 @@ export class DangkyComponent {
     }
 
     const formData = new FormData();
+    formData.append('username', this.user.username);
     formData.append('email', this.user.email);
     formData.append('password', this.user.password);
     formData.append('confirmPassword', this.user.confirmPassword);
-    if (this.selectedFile) {
-      formData.append('img', this.selectedFile);
-    }
 
     this.userService.postUser(formData).subscribe({
       next: () => {

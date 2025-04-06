@@ -3,10 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 export interface UserInterface{
+  name: string;
   email: string;
   password: string;
   confirmPassword: string;
-  img: string;
   role: {type:String, default:"user"};
 }
 @Injectable({
