@@ -28,31 +28,36 @@
         </div>
     </div>
 
-    <!-- Menu chính -->
-       <section class="menu-section">
-     <!-- Thay "Gia vị bạn cần" bằng logo -->       
-        <ul class="menu">
-            <div class="logo-item">
-                <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
-            </div>
-            <li class="dropdown">
-                <a href="../index.html">Trang chủ</a>
-            </li>
-            <li class="dropdown">
-                <a href="#">Thực đơn ▼</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Công thức Miền Bắc</a></li>
-                    <li><a href="#">Công thức Miền Trung</a></li>
-                    <li><a href="#">Công thức Miền Nam</a></li>
-                    
-                </ul>
-            </li>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="favorite.html">Yêu thích</a></li>
-        </ul>
-    </section>
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
+        <!-- Menu chính -->
+        <section class="menu-section">
+            <ul class="menu" id="mainMenu">
+                <div class="logo-item">
+                    <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+                </div>
+                
+                    <a href="../index.html" style="margin-left: 20px;">Trang chủ</a>
+            
+                <li class="dropdown">
+                    <a href="#">Thực đơn ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../page/products.html">Công thức Miền Bắc</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Trung</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Nam</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="favorite.html">Yêu thích</a></li>
+            </ul>
+        </section>
 </header>
- 
+<div class="button-return">
+    <a href="../index.html" class="return-link">Trở về</a>
+</div>
 <div class="container-login">
     <div class="tabs">
         <div class="tab active" onclick="showForm('login')">Đăng nhập</div>
@@ -103,5 +108,6 @@
     </div>
 </div>
 <script src="../public/js/index.js"></script>
+<script src="../public/js/home.js"></script>
 </body>
 </html>

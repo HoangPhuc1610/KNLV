@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách món ăn</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="left">
+                <div class="icon-contact">
+                    <span>Về chúng tôi</span> | <span>Hỏi Đầu Bếp</span> | <span>Theo dõi trên:</span>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <span style="margin-right: 20px;">Số thành viên <b>61,457</b></span>
+                <a href="login.html" class="login-link">ĐĂNG NHẬP</a>
+            </div>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
+        <!-- Menu chính -->
+        <section class="menu-section">
+            <ul class="menu" id="mainMenu">
+                <div class="logo-item">
+                    <img src="../public/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+                </div>
+              
+                    <a href="../index.html" style="margin-left: 20px;">Trang chủ</a>
+        
+                <li class="dropdown">
+                    <a href="#">Thực đơn ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../page/products.html">Công thức Miền Bắc</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Trung</a></li>
+                        <li><a href="../page/products.html">Công thức Miền Nam</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="favorite.html">Yêu thích</a></li>
+            </ul>
+        </section>
+    </header>
+    <div class="button-return">
+        <a href="../index.html" class="return-link">Trở về</a>
+    </div>
+    <main class="products-page">
+        <!-- Bộ lọc -->
+        <aside class="filter-section">
+            <h2>Bộ lọc</h2>
+            <div class="filter-group">
+                <label for="sort">Sắp xếp:</label>
+                <select id="sort">
+                    <option value="newest">Mới nhất</option>
+                    <option value="oldest">Cũ nhất</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="cook-time">Thời gian nấu:</label>
+                <select id="cook-time">
+                    <option value="all">Tất cả</option>
+                    <option value="short">Dưới 30 phút</option>
+                    <option value="medium">30-60 phút</option>
+                    <option value="long">Trên 60 phút</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="cook-time">Khẩu phần:</label>
+                <select id="cook-time">
+                    <option value="all">Tất cả</option>
+                    <option value="short">1 người</option>
+                    <option value="medium">2-3 người</option>
+                    <option value="long">4-6 người</option>
+                </select>
+            </div>
+            <button class="apply-filter-btn">Áp dụng</button>
+        </aside>
+
+        <!-- Danh sách món ăn -->
+        <section class="recipes-section">
+            <h2>Danh sách món ăn</h2>
+            <div class="recipes-container">
+                <!-- Công thức món ăn -->
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 1" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 1</h3>
+                        <p class="recipe-time">Thời gian nấu: 20 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 2</h3>
+                        <p class="recipe-time">Thời gian nấu: 45 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 2</h3>
+                        <p class="recipe-time">Thời gian nấu: 45 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 2</h3>
+                        <p class="recipe-time">Thời gian nấu: 45 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 2</h3>
+                        <p class="recipe-time">Thời gian nấu: 45 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="../public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
+                    <div class="recipe-details">
+                        <h3 class="recipe-name">Món ăn 2</h3>
+                        <p class="recipe-time">Thời gian nấu: 45 phút</p>
+                        <button class="view-recipe-btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <!-- Thêm các món ăn khác -->
+            </div>
+        </section>
+    </main>
+
+    <script src="../public/js/products.js"></script>
+    <script src="../public/js/home.js"></script>
+</body>
+</html>
