@@ -1,0 +1,106 @@
+<nav>
+    <!-- Banner quảng cáo -->
+    <div class="banner">
+        <img src="https://monngonmoingay.com/wp-content/uploads/2024/03/master-banner-01-2803.jpeg.webp"
+            alt="Quảng cáo Gyoza">
+    </div>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="search-container">
+        <h2>Hơn <b>2.000</b> Công thức món ngon và dễ làm</h2>
+        <div class="search-box">
+            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" placeholder=" món ngon đang tìm kiếm...">
+            <button>➡</button>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <div class="container">
+        <h2 class="main-title">Món Ngon Xu Hướng</h2>
+        <div class="food-grid">
+            <div class="food-item">
+
+                <div class="image-container">
+                    <a href="page/detail.html">
+                        <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                            alt="Bánh Bông Lan Bơ Hành">
+                        <div class="overlay">
+                            <span class="like-count">45</span>
+                            <span class="heart-icon">❤️</span>
+                        </div>
+                    </a>
+
+                </div>
+                <p class="food-name">Bánh Bông Lan Bơ Hành</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                        alt="Gà Chiên Xúc Xích Ớt Xiêm">
+                    <div class="overlay">
+                        <span class="like-count">1</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Gà Chiên Xúc Xích Ớt Xiêm</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                        alt="Bánh Mì Xíu Mại">
+                    <div class="overlay">
+                        <span class="like-count">3</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Bánh Mì Xíu Mại</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                        alt="Bò Cuộn Lá Rong Biển">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Bò Cuộn Lá Rong Biển</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                        alt="Blendy®Matcha Sữa Tào Phớ">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Blendy®Matcha Sữa Tào Phớ</p>
+            </div>
+            <div class="food-item">
+                <div class="image-container">
+                    <img src="https://monngonmoingay.com/wp-content/smush-webp/2024/09/banh-bong-lan-man-8-1.jpg.webp"
+                        alt="Blendy®Matcha Sữa Tào Phớ">
+                    <div class="overlay">
+                        <span class="like-count">36</span>
+                        <span class="heart-icon">❤️</span>
+                    </div>
+                </div>
+                <p class="food-name">Blendy®Matcha Sữa Tào Phớ</p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="featured-recipes">
+            <div class="recipes-container">
+                <app-listcard [data]="getMienBac" [title]="'Món ăn miền Bắc'"></app-listcard>
+                <app-listcard [data]="getMienTrung" [title]="'Món ăn miền Trung'"></app-listcard>
+                <app-listcard [data]="getMienNam" [title]="'Món ăn miền Nam'"></app-listcard>
+            </div>
+        </div>
+    </section>
+
+</main>
