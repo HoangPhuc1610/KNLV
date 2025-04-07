@@ -76,10 +76,10 @@ const register = [
         }
         
         // Tạo token JWT
-        const token = jwt.sign({ id: checkuser._id, role: checkuser.role}, 'hello', { expiresIn: '1h' });
+        const token = jwt.sign({ id: checkuser._id, role: checkuser.role, name: checkuser.name}, 'hello', { expiresIn: '1h' });
       
         // Trả về token
-        res.json({ token, role: checkuser.role });
+        res.json({ token, role: checkuser.role, name: checkuser.name });
   
       } catch (error) {
         res.status(500).json({ message: error.message });

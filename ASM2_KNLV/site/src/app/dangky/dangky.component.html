@@ -6,23 +6,27 @@
   
     <!-- Form Đăng Nhập -->
     <div class="form-container" [ngClass]="{ 'form-hidden': formType !== 'login' }"  >
-      <form (submit)="onLoginSubmit($event)">
+      <form [formGroup]="loginForm"  (submit)="onLoginSubmit($event)">
         <div class="form-group">
           <label for="login-username">Email</label>
-          <input type="text" id="login-username" required>
+          <input type="text" id="login-username"  formControlName="email" required>
+          <div *ngIf="this.loginForm.get('email')!.invalid && this.loginForm.get('email')!.touched">Email không hợp lệ</div>
         </div>
+
         <div class="form-group">
             <label for="login-password">Mật khẩu</label>
             <div class="password-wrapper">
-              <input [type]="showLoginPassword ? 'text' : 'password'" id="login-password" required>
+              <input [type]="showLoginPassword ? 'text' : 'password'" id="login-password" formControlName="password" required>
               <i class="fa-solid" [ngClass]="showLoginPassword ? 'fa-eye-slash' : 'fa-eye'" (click)="toggleLoginPassword()"></i>
             </div>
-        </div>          
+            <div *ngIf="this.loginForm.get('password')!.invalid && this.loginForm.get('password')!.touched">Mật khẩu sai hoặc email sai</div>
+        </div>    
+              
         <div class="checkbox-group">
-          <input type="checkbox" id="remember" checked>
+          <input  type="checkbox"  id="remember" checked>
           <label for="remember">Lưu thông tin này cho lần sau?</label>
         </div>
-        <button type="submit">Đăng nhập</button>
+        <button type="submit" [disabled] = "this.loginForm.invalid" >Đăng nhập</button>
       </form>
     </div>
   
@@ -63,6 +67,9 @@
 
     <button type="submit" [disabled]="registerForm.invalid">Đăng ký</button>
   </form>
+  <p *ngIf="errorMessage" class="text-success text-center mt-3">
+    {{ errorMessage }}
+  </p>
   <p *ngIf="submitted" class="text-success text-center mt-3">Bạn đã đăng ký thành công!</p>
 </div>
 

@@ -39,10 +39,11 @@ export class HeaderComponent {
   }
 
   getUserName(): string {
-    return localStorage.getItem('email') || 'Người dùng';
+    return localStorage.getItem('name') || 'Người dùng';
   }
 
   logout() {
+    localStorage.removeItem('name');
     localStorage.removeItem('token');
     localStorage.removeItem('email');
     localStorage.removeItem('role');

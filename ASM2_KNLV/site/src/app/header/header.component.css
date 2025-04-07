@@ -1049,3 +1049,109 @@ ul li a:hover {
 }
 
 
+/* tài khoản */
+/* Tạo style cho phần tài khoản */
+.account {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  /* Style cho phần tên tài khoản */
+  .account-link {
+    text-decoration: none;
+    color: white; /* Màu chữ trắng */
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 5px 10px; /* Thêm padding để tạo khoảng cách */
+    font-size: 16px; /* Tăng kích thước chữ chút */
+  }
+  
+  /* Hiệu ứng hover trên tên tài khoản */
+  .account-link:hover {
+    color: #FF6F61; /* Màu khi hover vào tên tài khoản */
+  }
+  
+  /* Menu thả xuống khi hover vào tài khoản */
+  .account-menu {
+    display: none;  /* Ẩn menu mặc định */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+    padding: 5px 0; /* Giảm padding cho menu để gọn hơn */
+    min-width: 120px; /* Thêm chiều rộng cố định cho menu */
+    opacity: 0; /* Ẩn menu khi không hover */
+    visibility: hidden; /* Ẩn menu khi không hover */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Style cho các mục trong menu */
+  .account-menu li {
+    margin: 5px 0;
+  }
+  
+  /* Style cho các liên kết trong menu */
+  .account-menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px; /* Thêm padding để mục menu dễ nhìn */
+    display: block; /* Làm cho các mục menu dễ bấm */
+    font-size: 14px; /* Giảm kích thước chữ trong menu */
+  }
+  
+  /* Hiệu ứng hover cho các mục trong menu */
+  .account-menu li a:hover {
+    color: #FF6F61; /* Màu khi hover vào item trong menu */
+    background-color: #f0f0f0; /* Thêm màu nền khi hover */
+    border-radius: 3px; /* Góc bo tròn cho mục hover */
+  }
+  
+  /* Hiển thị menu khi hover vào phần tài khoản */
+  .account:hover .account-menu {
+    display: block;
+    opacity: 1; /* Hiển thị menu */
+    visibility: visible; /* Hiển thị menu */
+  }
+  
+  /* Responsive: Điều chỉnh bố cục cho màn hình nhỏ hơn */
+  @media (max-width: 768px) {
+    /* Khi màn hình nhỏ hơn 768px, giảm margin và điều chỉnh kích thước menu */
+    .account {
+      margin-right: 0;
+    }
+  
+    /* Đảm bảo menu không tràn ra ngoài */
+    .account-menu {
+      min-width: 100px; /* Thu nhỏ menu */
+    }
+  
+    /* Đảm bảo phần tên tài khoản không bị tràn */
+    .account-link {
+      padding: 0px 5px;
+      font-size: 14px;
+    }
+  
+    /* Hiển thị menu trên các thiết bị di động khi bấm vào tài khoản */
+    .account:hover .account-menu {
+      position: static; /* Thay đổi menu thành static để không bị tràn */
+    }
+  }
+  
+  /* Responsive: Điều chỉnh bố cục cho màn hình nhỏ hơn 480px */
+  @media (max-width: 480px) {
+    .account-link {
+      font-size: 12px; /* Giảm kích thước chữ cho các màn hình rất nhỏ */
+    }
+  
+    .account-menu li a {
+      font-size: 12px; /* Giảm kích thước chữ trong menu */
+    }
+  }
+  

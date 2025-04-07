@@ -7,7 +7,6 @@ import { TimkiemComponent } from './timkiem/timkiem.component';
 import { ChitietsanphamComponent } from './chitietsanpham/chitietsanpham.component';
 import { GiohangComponent } from './giohang/giohang.component';
 import { DangkyComponent } from './dangky/dangky.component';
-import { DangnhapComponent } from './dangnhap/dangnhap.component';
 import { YeuthichComponent } from './yeuthich/yeuthich.component';
 
 
@@ -22,7 +21,6 @@ export const routes: Routes = [
     {path:"chitiet/:id",component:ChitietsanphamComponent},
     {path:"giohang",component:GiohangComponent},
     {path:"dangky",component:DangkyComponent},
-    {path:"dangnhap",component:DangnhapComponent},
     {path: "yeuthich", component: YeuthichComponent}
     
 ];

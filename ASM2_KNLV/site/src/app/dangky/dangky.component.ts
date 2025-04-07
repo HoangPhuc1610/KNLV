@@ -1,13 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormGroup, FormsModule } from '@angular/forms';
 import { UserService } from '../user.service';
 import { Router } from '@angular/router';
+import { ReactiveFormsModule, FormBuilder,  Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-dangky',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, ReactiveFormsModule],
   templateUrl: './dangky.component.html',
   styleUrl: './dangky.component.css'
 })
@@ -26,8 +28,18 @@ export class DangkyComponent {
 
   selectedFile: File | null = null;
   submitted = false;
+  errorMessage: string | undefined;
+  
+  //đăng nhập
+  loginForm: FormGroup;
 
-  constructor(private userService: UserService, private router: Router) {}
+
+  constructor(private userService: UserService, private router: Router, private fb: FormBuilder) {
+    this.loginForm = this.fb.group({
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]]
+    });
+  }
 
   setFormType(type: 'login' | 'register') {
     this.formType = type;
@@ -62,16 +74,36 @@ export class DangkyComponent {
       next: () => {
         console.log('Đăng ký thành công', this.user);
         this.submitted = true;
+        this.errorMessage = '';
       },
-      error: () => {
+      error: (err) => {
         console.error('Đăng ký thất bại');
+        this.errorMessage = err?.error?.message || 'Lỗi không xác định';
       }
     });
   }
 
+  // đăng nhập
   onLoginSubmit(event: Event) {
     event.preventDefault();
-    // TODO: xử lý login nếu muốn
+    if (this.loginForm.valid) {
+      const formData:any = this.loginForm.value;
+
+      this.userService.login(formData).subscribe({
+        next: (data) => {
+          localStorage.setItem('name', data.name);
+          localStorage.setItem('token', data.token);
+          localStorage.setItem('email', formData.email);
+          localStorage.setItem('role', data.role);
+          alert('Đăng nhập thành công!');
+          window.location.href = "/";
+        },
+        error: (err) => {
+          alert('Sai email hoặc sai mật khẩu!');
+          console.error('Lỗi đăng nhập:', err);
+        }
+      }); 
+    }
     console.log('Đăng nhập form đang được gửi!');
   }
 }
