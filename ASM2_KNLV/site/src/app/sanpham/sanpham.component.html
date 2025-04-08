@@ -35,54 +35,14 @@
     <section class="recipes-section">
         <h2>Danh sách món ăn</h2>
         <div class="recipes-container">
-            <!-- Công thức món ăn -->
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 1" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 1</h3>
-                    <p class="recipe-time">Thời gian nấu: 20 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 2</h3>
-                    <p class="recipe-time">Thời gian nấu: 45 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 2</h3>
-                    <p class="recipe-time">Thời gian nấu: 45 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 2</h3>
-                    <p class="recipe-time">Thời gian nấu: 45 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 2</h3>
-                    <p class="recipe-time">Thời gian nấu: 45 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <img src="assets/public/img/banhxeo.jpg" alt="Món ăn 2" class="recipe-image">
-                <div class="recipe-details">
-                    <h3 class="recipe-name">Món ăn 2</h3>
-                    <p class="recipe-time">Thời gian nấu: 45 phút</p>
-                    <button class="view-recipe-btn">Xem chi tiết</button>
-                </div>
+            <div *ngFor="let product of sortedProduct" class="recipe-card">
+              <img [src]="product.thong_tin_mon_an.img" [alt]="product.thong_tin_mon_an.ten_mon" class="recipe-image">
+              <div class="recipe-details">
+                <h3 class="recipe-name">{{ product.thong_tin_mon_an.ten_mon }}</h3>
+                <p class="recipe-time">Miền: {{ product.thong_tin_mon_an.mien_quoc_gia }}</p>
+                <p class="recipe-description">{{ product.thong_tin_mon_an.mo_ta_ngan }}</p>
+                <button class="view-recipe-btn">Xem chi tiết</button>
+              </div>
             </div>
             <!-- Thêm các món ăn khác -->
         </div>

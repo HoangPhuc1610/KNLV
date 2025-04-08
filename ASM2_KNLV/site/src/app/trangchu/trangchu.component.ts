@@ -5,28 +5,36 @@ import { CommonModule } from '@angular/common';
 import { ListcardComponent } from '../listcard/listcard.component';
 @Component({
   selector: 'app-trangchu',
+  standalone: true,
   imports: [CommonModule,ListcardComponent],
   templateUrl: './trangchu.component.html',
   styleUrl: './trangchu.component.css'
 })
 export class TrangchuComponent {
-  getHotPro: ProductInterface[] = [];
-  getsinhnhat: ProductInterface[] = [];
-  getkemlanh: ProductInterface[] = [];
+  getMienBac: ProductInterface[] = [];
+  getMienTrung: ProductInterface[] = [];
+  getMienNam: ProductInterface[] = [];
+  getAllPro: ProductInterface[] = [];
   constructor(private productService: ProductService) {}
   ngOnInit(){
-  this.productService.getHotPro().subscribe((data) => {
-    this.getHotPro = data;
-    console.log( "hot:",this.getHotPro);
+  this.productService.getMienBac().subscribe((data) => {
+    this.getMienBac = data;
+    console.log( "hot:",this.getMienBac);
   }); 
-  this.productService.getsinhnhat().subscribe((data) => {
-    this.getsinhnhat = data;
-    console.log("trong nước:", this.getHotPro);
+  this.productService.getMienTrung().subscribe((data) => {
+    this.getMienTrung = data;
+    console.log( "hot:",this.getMienTrung);
   }); 
-  this.productService.getkemlanh().subscribe((data) => {
-    this.getkemlanh = data;
-    console.log( "quốc tế:", this.getHotPro);
+  this.productService.getMienNam().subscribe((data) => {
+    this.getMienNam = data;
+    console.log( "hot:",this.getMienNam);
   }); 
+
+  this.productService.getAllPro().subscribe((data) => {
+    this.getAllPro = data;
+    console.log( "all:",this.getAllPro);
+  }
+  );
 }
 }
 

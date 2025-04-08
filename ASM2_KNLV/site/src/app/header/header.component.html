@@ -38,7 +38,7 @@
       </div>
       <a routerLink="/" style="margin-left: 20px;">Trang chủ</a>
       <li class="dropdown" [class.open]="dropdownOpen[0]">
-        <a href="#" (click)="toggleDropdown($event, 0)" style="color: black;">Thực đơn ▼</a>
+        <a [routerLink]="['/sanpham']" (click)="toggleDropdown($event, 0)" style="color: black;">Công thức món ăn ▼</a>
         <ul class="dropdown-menu">
           <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Bắc</a></li>
           <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Trung</a></li>
