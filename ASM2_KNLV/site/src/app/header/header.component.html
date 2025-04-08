@@ -34,15 +34,19 @@
   <section class="menu-section">
     <ul class="menu" [class.show]="isMenuOpen">
       <div class="logo-item">
+        <a (click)="goToTop()" style="cursor: pointer;">
         <img src="assets/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
+      </a>
       </div>
-      <a routerLink="/" style="margin-left: 20px;">Trang chủ</a>
+      <a routerLink="/" style="margin-left: 20px;" >Trang chủ</a>
       <li class="dropdown" [class.open]="dropdownOpen[0]">
         <a [routerLink]="['/sanpham']" (click)="toggleDropdown($event, 0)" style="color: black;">Công thức món ăn ▼</a>
         <ul class="dropdown-menu">
-          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Bắc</a></li>
-          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Trung</a></li>
-          <li><a routerLink="/sanpham" style="color: black;">Công thức Miền Nam</a></li>
+          <li *ngFor="let cat of categories">
+            <a (click)="selectCategory(cat._id)" style="color: black; cursor: pointer;">
+              {{ cat.name }}
+            </a>
+          </li>
         </ul>
       </li>
       <li><a routerLink="/gioithieu" style="color: black;">Giới thiệu</a></li>

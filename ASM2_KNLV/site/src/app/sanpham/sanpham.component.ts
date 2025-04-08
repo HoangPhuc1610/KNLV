@@ -19,8 +19,7 @@ export class SanphamComponent {
   
   allProduct: ProductInterface[] = [];
   sortedProduct: ProductInterface[] = [];
-  categories: CategoryInterface[] = [];
-  
+  categories: CategoryInterface[] = []; 
   sortOrder: string = '';
   selectedCategory: string = '';
   
