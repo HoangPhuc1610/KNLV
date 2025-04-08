@@ -4,6 +4,8 @@ import { ProductInterface } from '../product-interface';
 import { ActivatedRoute } from '@angular/router'; // lấy pảram hoặc query URL
 import { CommonModule } from '@angular/common';
 import { CartService } from '../cart.service';
+import { UserService } from '../user.service';
+
 @Component({
   selector: 'app-chitietsanpham',
   imports: [CommonModule],
@@ -13,7 +15,7 @@ import { CartService } from '../cart.service';
 export class ChitietsanphamComponent {
 
   productDetail! : ProductInterface; // ! không đc null;
-  constructor(private productService: ProductService, private route: ActivatedRoute, private cartService: CartService) {}
+  constructor(private productService: ProductService, private route: ActivatedRoute, private cartService: CartService, private userService: UserService) {}
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
     console.log(id);
@@ -22,11 +24,30 @@ export class ChitietsanphamComponent {
       this.productDetail = data;
       console.log("array nè: ", this.productDetail);
     });
-}
-// thêm giỏ hàng
-// addCart(quantity: string):void {
-//   this.cartService.addCart(this.productDetail, parseInt(quantity,10));
-//   console.log(this.cartService.getCartLength());
-//   console.log(this.cartService);
-//   }
+  }
+  
+  addToFavorite(): void {
+    const email = localStorage.getItem('email'); 
+    if (!email) {
+      alert('Bạn cần đăng nhập để thêm sản phẩm vào danh sách yêu thích!');
+      return;
+    }
+
+    const productId = this.productDetail._id; 
+    if (!productId) {
+      console.error('Product ID is undefined.');
+      alert('Không thể thêm sản phẩm vào danh sách yêu thích.');
+      return;
+    }
+    this.userService.addToFavorite(email, productId).subscribe(
+      (response) => {
+        console.log('Thêm vào yêu thích thành công:', response);
+        alert('Sản phẩm đã được thêm vào danh sách yêu thích!');
+      },
+      (error) => {
+        console.error('Lỗi khi thêm vào yêu thích:', error);
+        alert('Có lỗi xảy ra khi thêm vào danh sách yêu thích.');
+      }
+    );
+  }
 }

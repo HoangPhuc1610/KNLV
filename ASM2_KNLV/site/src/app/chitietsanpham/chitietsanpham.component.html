@@ -12,7 +12,7 @@
             <p>Khẩu phần: {{productDetail.nguyen_lieu.khau_phan}}</p>
             <p>Calo: 350kcal</p>
             <h3>THÊM VÀO YÊU THÍCH</h3>
-            <button class="favorite-btn" onclick="toggleFavorite()">
+            <button class="favorite-btn" (click)="addToFavorite()">
                 <span class="favorite-icon">❤️</span> Thêm vào yêu thích
             </button>
         </div>

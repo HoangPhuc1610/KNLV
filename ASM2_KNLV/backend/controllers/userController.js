@@ -19,6 +19,7 @@ const upload = multer({storage: storage, fileFilter: checkfile})
 const userModel= require('../models/userModel')
 const bcrypt = require("bcryptjs");
 const jwt= require("jsonwebtoken");
+const mongoose = require('mongoose'); // Thêm dòng này
 
 const getAllUsers = async (req, res) => {
   try {
@@ -139,6 +140,31 @@ const verifyAdmin = async (req, res, next) => {
    }
   
 }
+
+const addFavorite = async (req, res) => {
+  try {
+    const { email, productId } = req.params;
+
+    const user = await userModel.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ message: 'Không tìm thấy người dùng' });
+    }
+
+    const objectId = new mongoose.Types.ObjectId(productId);
+
+    // Kiểm tra trùng ID
+    if (user.favorite.some(fav => fav.equals(objectId))) {
+      return res.status(400).json({ message: 'Sản phẩm đã có trong danh sách yêu thích' });
+    }
+
+    user.favorite.push(objectId);
+    await user.save();
+
+    res.status(200).json({ message: 'Đã thêm vào yêu thích', favorite: user.favorite });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
   
 module.exports= {
     register,
@@ -146,5 +172,6 @@ module.exports= {
     verifyToken,
     getUser, 
     verifyAdmin,
-    getAllUsers
+    getAllUsers,
+    addFavorite
 }
