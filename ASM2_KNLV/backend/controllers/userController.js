@@ -165,7 +165,25 @@ const addFavorite = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-  
+
+// Kiểm tra sản phẩm đã được yêu thích chưa
+const checkFavorite = async (req, res) => {
+  const { email, productId } = req.params;
+  try {
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    // Convert productId về String nếu cần
+    const isFav = user.favorite.includes(productId.toString());
+
+    res.json(isFav); // true / false
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error });
+  }
+};
+
+
+
 module.exports= {
     register,
     login,
@@ -173,5 +191,6 @@ module.exports= {
     getUser, 
     verifyAdmin,
     getAllUsers,
-    addFavorite
+    addFavorite,
+    checkFavorite
 }

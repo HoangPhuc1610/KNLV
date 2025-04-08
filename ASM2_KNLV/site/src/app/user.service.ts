@@ -33,4 +33,8 @@ export class UserService {
     const url = `http://localhost:3000/users/${email}/favorite/${productId}`;
     return this.http.post<any>(url, {}); 
   }
+
+  checkFavorite(email: string, productId: string) {
+    return this.http.get<boolean>(`http://localhost:3000/api/users/${email}/favorite/${productId}`);
+  }
 }
