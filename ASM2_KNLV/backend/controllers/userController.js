@@ -165,6 +165,25 @@ const addFavorite = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+const checkFavorite = async (req, res) => {
+  try {
+    const { email, productId } = req.params;
+
+    const user = await userModel.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ message: 'Không tìm thấy người dùng' });
+    }
+
+    const objectId = new mongoose.Types.ObjectId(productId);
+
+    const isFavorite = user.favorite.some(fav => fav.equals(objectId));
+    
+    res.status(200).json({ isFavorite }); // true hoặc false
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
   
 module.exports= {
     register,
@@ -173,5 +192,6 @@ module.exports= {
     getUser, 
     verifyAdmin,
     getAllUsers,
-    addFavorite
+    addFavorite,
+    checkFavorite
 }
