@@ -15,7 +15,9 @@ body {
     align-items: center;
     flex-wrap: wrap;
     font-size: 14px;
-}
+    /* Không đặt position: fixed hay absolute */
+  }
+  
 
 /* Container chứa "Theo dõi trên" và các icon */
 .social-container {
@@ -101,10 +103,15 @@ nav {
 }
 
 .menu-section {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 90px;
     padding: 0 20px;
     border-bottom: 1px solid #ddd;
 }

@@ -5,30 +5,31 @@
         <h2>Bộ lọc</h2>
         <div class="filter-group">
             <label for="sort">Sắp xếp:</label>
-            <select id="sort">
+            <select id="sort" [(ngModel)]="sortOption">
                 <option value="newest">Mới nhất</option>
                 <option value="oldest">Cũ nhất</option>
             </select>
-        </div>
-        <div class="filter-group">
+          </div>
+          <div class="filter-group">
             <label for="cook-time">Thời gian nấu:</label>
-            <select id="cook-time">
+            <select id="cook-time" [(ngModel)]="cookTimeFilter">
                 <option value="all">Tất cả</option>
                 <option value="short">Dưới 30 phút</option>
                 <option value="medium">30-60 phút</option>
                 <option value="long">Trên 60 phút</option>
             </select>
-        </div>
-        <div class="filter-group">
-            <label for="cook-time">Khẩu phần:</label>
-            <select id="cook-time">
+          </div>
+          <div class="filter-group">
+            <label for="khau-phan">Khẩu phần:</label>
+            <select id="khau-phan" [(ngModel)]="khauPhanFilter">
                 <option value="all">Tất cả</option>
-                <option value="short">1 người</option>
-                <option value="medium">2-3 người</option>
-                <option value="long">4-6 người</option>
+                <option value="short">1 người</option>
+                <option value="medium">2-3 người</option>
+                <option value="long">4-6 người</option>
             </select>
-        </div>
-        <button class="apply-filter-btn">Áp dụng</button>
+          </div>
+          <button class="apply-filter-btn" (click)="applyFilters()">Áp dụng</button>
+          
     </aside>
 
     <!-- Danh sách món ăn -->
@@ -46,7 +47,7 @@
                 <button class="view-recipe-btn">Xem chi tiết</button>
               </div>
             </div>
-            <!-- Thêm các món ăn khác -->
+
         </div>
     </section>
 </main>

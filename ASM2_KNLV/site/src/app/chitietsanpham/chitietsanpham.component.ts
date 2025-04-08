@@ -24,9 +24,9 @@ export class ChitietsanphamComponent {
     });
 }
 // thêm giỏ hàng
-addCart(quantity: string):void {
-  this.cartService.addCart(this.productDetail, parseInt(quantity,10));
-  console.log(this.cartService.getCartLength());
-  console.log(this.cartService);
-  }
+// addCart(quantity: string):void {
+//   this.cartService.addCart(this.productDetail, parseInt(quantity,10));
+//   console.log(this.cartService.getCartLength());
+//   console.log(this.cartService);
+//   }
 }

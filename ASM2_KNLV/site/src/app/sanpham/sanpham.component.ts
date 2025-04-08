@@ -19,17 +19,10 @@ export class SanphamComponent {
   
   allProduct: ProductInterface[] = [];
   sortedProduct: ProductInterface[] = [];
-  categories: CategoryInterface[] = [];
-  
+  categories: CategoryInterface[] = []; 
   sortOrder: string = '';
   selectedCategory: string = '';
-  minPrice: number = 0;
-  maxPrice: number = 1000000;
   
-  sliderOptions: Options = {
-    floor: 5000,
-    ceil: 1000000
-  };
 
   keyword: string = '';
 
@@ -46,27 +39,25 @@ export class SanphamComponent {
     });
   }
 
-  sortProducts() {
-    if (this.sortOrder === "asc") {
-      this.sortedProduct.sort((a, b) => a.price - b.price);
-    } else if (this.sortOrder === "desc") {
-      this.sortedProduct.sort((a, b) => b.price - a.price);
-    } else {
-      this.sortedProduct = [...this.allProduct];
-    }
-  }
+  // sortProducts() {
+  //   if (this.sortOrder === "asc") {
+  //     this.sortedProduct.sort((a, b) => a.price - b.price);
+  //   } else if (this.sortOrder === "desc") {
+  //     this.sortedProduct.sort((a, b) => b.price - a.price);
+  //   } else {
+  //     this.sortedProduct = [...this.allProduct];
+  //   }
+  // }
 
   filterByCategory() {
     if (this.selectedCategory) {
-      this.sortedProduct = this.allProduct.filter(p => p.categoryId._id === this.selectedCategory);
+      this.sortedProduct = this.allProduct.filter(p => p.categoryId === this.selectedCategory);
     } else {
       this.sortedProduct = [...this.allProduct];
     }
   }
 
-  filterByPrice() {
-    this.sortedProduct = this.allProduct.filter(p => p.price >= this.minPrice && p.price <= this.maxPrice);
-  }
+
 
   onSearch() {
     if (!this.keyword.trim()) return;

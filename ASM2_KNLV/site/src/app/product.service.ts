@@ -11,14 +11,14 @@ export class ProductService {
   getAllPro(): Observable<ProductInterface[]> {
     return this.http.get<ProductInterface[]>('http://localhost:3000/products');
   }
-  getHotPro(): Observable<ProductInterface[]> {
-    return this.http.get<ProductInterface[]>('http://localhost:3000/products?hot=1&limit=6');
+  getMienBac(): Observable<ProductInterface[]> {
+    return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=67ebfee2f8d3b2e3ede2ba7d&limit=8');
   }
-  getsinhnhat(): Observable<ProductInterface[]> {
-    return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=6789d2b79e9cee1fc7851b7b&limit=6');
+  getMienTrung(): Observable<ProductInterface[]> {
+    return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=67ed0c710018c91a35113362&limit=8');
   }
-  getkemlanh(): Observable<ProductInterface[]> {
-    return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=6789d3169e9cee1fc7851b7c&limit=6');
+  getMienNam(): Observable<ProductInterface[]> {
+    return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=67ed0db10018c91a35113365&limit=8');
   }
   
   searchProducts(keyword: string):Observable<ProductInterface[]> {
@@ -26,6 +26,9 @@ export class ProductService {
   }
   getprobyid(id: string):Observable<ProductInterface> {
     return this.http.get<ProductInterface>(`http://localhost:3000/products/${id}`);
+  }
+  getProductsByCategory(categoryId: string): Observable<ProductInterface[]> {
+    return this.http.get<ProductInterface[]>(`http://localhost:3000/products?idcate=${categoryId}`);
   }
   getCategories(): Observable<CategoryInterface[]> {
     return this.http.get<CategoryInterface[]>('http://localhost:3000/categories');
