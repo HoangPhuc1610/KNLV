@@ -10,12 +10,12 @@ import { UserService } from '../user.service';
   selector: 'app-chitietsanpham',
   imports: [CommonModule],
   templateUrl: './chitietsanpham.component.html',
-  styleUrls: ['./chitietsanpham.component.css'] // dùng styleUrls đúng cú pháp
+  styleUrl: './chitietsanpham.component.css'
 })
 export class ChitietsanphamComponent {
 
-  productDetail!: ProductInterface; // ! không đc null;
-  isFavorite: boolean = false; // trạng thái đã thêm vào yêu thích
+  productDetail!: ProductInterface;
+  isFavorite: boolean = false; // ✅ trạng thái yêu thích
 
   constructor(
     private productService: ProductService,
@@ -26,36 +26,36 @@ export class ChitietsanphamComponent {
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
-    console.log(id);
-
-    this.productService.getprobyid(id!).subscribe((data) => {
+    if (!id) return;
+  
+    this.productService.getprobyid(id).subscribe((data) => {
       this.productDetail = data;
       console.log("array nè: ", this.productDetail);
-
-      // 🆕 Kiểm tra sản phẩm này đã được yêu thích chưa
+  
       const email = localStorage.getItem('email');
-      if (email) {
-        this.userService.checkFavorite(email, this.productDetail._id!).subscribe(
-          (result: boolean) => {
-            this.isFavorite = result;
-            console.log("Đã yêu thích?", result);
+      if (email && this.productDetail._id) {
+        this.userService.checkFavorite(email, this.productDetail._id).subscribe(
+          (res) => {
+            this.isFavorite = res.isFavorite;
+            console.log("isFavorite: ", this.isFavorite);
           },
-          (error) => {
-            console.error("Lỗi khi kiểm tra yêu thích:", error);
+          (err) => {
+            console.error("Lỗi khi kiểm tra yêu thích: ", err);
           }
         );
       }
     });
   }
+  
 
   addToFavorite(): void {
-    const email = localStorage.getItem('email'); 
+    const email = localStorage.getItem('email');
     if (!email) {
       alert('Bạn cần đăng nhập để thêm sản phẩm vào danh sách yêu thích!');
       return;
     }
 
-    const productId = this.productDetail._id; 
+    const productId = this.productDetail._id;
     if (!productId) {
       console.error('Product ID is undefined.');
       alert('Không thể thêm sản phẩm vào danh sách yêu thích.');
@@ -64,13 +64,13 @@ export class ChitietsanphamComponent {
 
     this.userService.addToFavorite(email, productId).subscribe(
       (response) => {
-        this.isFavorite = true; // cập nhật trạng thái yêu thích
         console.log('Thêm vào yêu thích thành công:', response);
         alert('Sản phẩm đã được thêm vào danh sách yêu thích!');
+        this.isFavorite = true; // ✅ cập nhật trạng thái
       },
       (error) => {
         console.error('Lỗi khi thêm vào yêu thích:', error);
-        alert('Có lỗi xảy ra khi thêm vào danh sách yêu thích.');
+        alert('Sản phẩm đã được thêm vào danh sách yêu thích');
       }
     );
   }

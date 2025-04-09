@@ -165,25 +165,26 @@ const addFavorite = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-
-// Kiểm tra sản phẩm đã được yêu thích chưa
 const checkFavorite = async (req, res) => {
-  const { email, productId } = req.params;
   try {
-    const user = await User.findOne({ email });
-    if (!user) return res.status(404).json({ message: "User not found" });
+    const { email, productId } = req.params;
 
-    // Convert productId về String nếu cần
-    const isFav = user.favorite.includes(productId.toString());
+    const user = await userModel.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ message: 'Không tìm thấy người dùng' });
+    }
 
-    res.json(isFav); // true / false
+    const objectId = new mongoose.Types.ObjectId(productId);
+
+    const isFavorite = user.favorite.some(fav => fav.equals(objectId));
+    
+    res.status(200).json({ isFavorite }); // true hoặc false
   } catch (error) {
-    res.status(500).json({ message: "Server error", error });
+    res.status(500).json({ message: error.message });
   }
 };
 
-
-
+  
 module.exports= {
     register,
     login,

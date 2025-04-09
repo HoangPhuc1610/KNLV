@@ -11,12 +11,11 @@
             <h3>NGUYÊN LIỆU</h3>
             <p>Khẩu phần: {{productDetail.nguyen_lieu.khau_phan}}</p>
             <p>Calo: 350kcal</p>
-            <h3>YÊU THÍCH</h3>
-            <button class="favorite-btn" [disabled]="isFavorite" (click)="addToFavorite()">
-              <span class="favorite-icon" [ngClass]="{ 'active': isFavorite }">❤️</span>
-              {{ isFavorite ? 'Đã thêm vào yêu thích' : 'Thêm vào yêu thích' }}
-            </button>
-            
+            <h3>THÊM VÀO YÊU THÍCH</h3>
+            <button class="favorite-btn" (click)="addToFavorite()" [disabled]="isFavorite">
+                {{ isFavorite ? 'Đã yêu thích' : 'Thêm vào yêu thích' }}
+              </button>
+              
         </div>
     </aside>
 
