@@ -1,79 +1,41 @@
 <div class="container-5">
     <table id="favoriteTable">
-        <thead>
-            <tr>
-                <th>Ảnh</th>
-                <th>Tên Món</th>
-                <th>Thời Gian</th>
-                <th>Độ Khó</th>
-                <th>Hành Động</th>
-            </tr>
-        </thead>
-        <tbody id="favoriteList">
-            <tr>
-                <td><img src="../public/img/pho.jpg" class="food-image" alt="Phở Bò"></td>
-                <td>Phở Bò</td>
-                <td>45 phút</td>
-                <td>Trung bình</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../public/img/buncha.jpg" class="food-image" alt="Bún Chả"></td>
-                <td>Bún Chả</td>
-                <td>30 phút</td>
-                <td>Dễ</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../public/img/comtam.jpg" class="food-image" alt="Cơm Tấm"></td>
-                <td>Cơm Tấm</td>
-                <td>25 phút</td>
-                <td>Dễ</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../public/img/banhxeo.jpg" class="food-image" alt="Bánh Xèo"></td>
-                <td>Bánh Xèo</td>
-                <td>40 phút</td>
-                <td>Khó</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../public/img/goicuon.jpg" class="food-image" alt="Gỏi Cuốn"></td>
-                <td>Gỏi Cuốn</td>
-                <td>20 phút</td>
-                <td>Dễ</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../public/img/thitkho.jpg" class="food-image" alt="Chè Ba Màu"></td>
-                <td>Thịt kho</td>
-                <td>45 phút</td>
-                <td>Khó</td>
-                <td>
-                    <button class="btn remove-btn">Xóa</button>
-                    <button class="btn remove-btn">Xem chi tiết</button>
-                </td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Ảnh</th>
+          <th>Tên Món</th>
+          <th>Thời Gian</th>
+          <th>Miền Quốc Gia</th> <!-- ✅ Đã sửa -->
+          <th>Hành Động</th>
+        </tr>
+      </thead>
+      <tbody id="favoriteList">
+        <tr *ngFor="let item of favoriteProducts">
+          <td>
+            <img
+              [src]="'/public/images/' + item.thong_tin_mon_an.img"
+              class="food-image"
+              alt="{{ item.thong_tin_mon_an.ten_mon }}"
+            />
+          </td>
+          <td>{{ item.thong_tin_mon_an.ten_mon }}</td>
+          <td>{{ item.cach_lam.thoi_gian_lam }}</td>
+          <td>{{ item.thong_tin_mon_an.mien_quoc_gia }}</td>
+ <!-- ✅ Hiển thị miền -->
+          <td>
+            <button class="btn remove-btn" (click)="removeFromFavorite(item._id)">Xóa</button>
+
+            <button class="btn remove-btn" [routerLink]="['/chitiet', item._id]">Xem chi tiết</button>
+
+          </td>
+        </tr>
+      </tbody>
     </table>
-    <div class="empty-state" id="emptyState">
-        <span>🍽️</span><br>
-        Chưa có món ăn nào trong danh sách yêu thích!
+  
+    <!-- Empty State -->
+    <div class="empty-state" id="emptyState" *ngIf="favoriteProducts.length === 0">
+      <span>🍽️</span><br />
+      Chưa có món ăn nào trong danh sách yêu thích!
     </div>
-</div>
+  </div>
+  

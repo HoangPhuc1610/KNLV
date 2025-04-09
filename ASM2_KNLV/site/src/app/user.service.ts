@@ -8,6 +8,7 @@ export interface UserInterface{
   password: string;
   confirmPassword: string;
   role: {type:String, default:"user"};
+  favorite: [{type:String}];
 }
 @Injectable({
   providedIn: 'root'
@@ -28,5 +29,13 @@ export class UserService {
   getUser(): Observable<any> {
     return this.http.get<any>('http://localhost:3000/users');
   }
-  
+  addToFavorite(email: string, productId: string): Observable<any> {
+    const url = `http://localhost:3000/users/${email}/favorite/${productId}`;
+    return this.http.post<any>(url, {}); 
+  }
+  checkFavorite(email: string, productId: string) {
+    return this.http.get<{ isFavorite: boolean }>(
+      `http://localhost:3000/users/${email}/favorite/${productId}`
+    );
+  }
 }
