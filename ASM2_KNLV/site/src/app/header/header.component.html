@@ -38,7 +38,7 @@
         <img src="assets/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo">
       </a>
       </div>
-      <a routerLink="/" style="margin-left: 20px;" >Trang chủ</a>
+      <a routerLink="/" style="margin-left: 20px;" (click)="goToTop()" style="cursor: pointer;">Trang chủ</a>
       <li class="dropdown" [class.open]="dropdownOpen[0]">
         <a [routerLink]="['/sanpham']" (click)="toggleDropdown($event, 0)" style="color: black;">Công thức món ăn ▼</a>
         <ul class="dropdown-menu">
