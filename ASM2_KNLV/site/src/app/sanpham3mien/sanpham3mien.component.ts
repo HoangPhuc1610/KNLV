@@ -75,9 +75,22 @@ export class Sanpham3mienComponent implements OnInit {
     this.sortedProduct = filtered;
   }
 
-  parseTime(timeStr: string): number {
-    // Chuyển chuỗi thời gian như "45 phút" thành số
-    const match = timeStr.match(/\d+/);
-    return match ? parseInt(match[0], 10) : 0;
+parseTime(timeStr: string): number {
+  let minutes = 0;
+
+  // Bắt số tiếng (giờ)
+  const hoursMatch = timeStr.match(/(\d+)\s*(tiếng|giờ)/i);
+  if (hoursMatch) {
+    minutes += parseInt(hoursMatch[1], 10) * 60;
   }
+
+  // Bắt số phút
+  const minutesMatch = timeStr.match(/(\d+)\s*(phút)/i);
+  if (minutesMatch) {
+    minutes += parseInt(minutesMatch[1], 10);
+  }
+
+  return minutes;
+}
+
 }

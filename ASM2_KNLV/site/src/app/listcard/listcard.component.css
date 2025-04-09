@@ -560,12 +560,19 @@ a{
 
 .recipe-image img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast; /* dành cho Safari */
+    image-rendering: pixelated; /* nếu là ảnh pixel (vd: icon 8bit) */
     display: block;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .banner {
+      background-image: url('http://localhost:3000/images/{{product.thong_tin_mon_an.img}}');
+    }
+  }
 .wishlist-button {
     position: absolute;
     top: 10px;
@@ -621,7 +628,6 @@ a{
 
 .view-button {
     background-color: #e74c3c;
-    color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -630,7 +636,9 @@ a{
     transition: background-color 0.3s ease;
     outline: none;
 }
-
+.view-button>a{
+    color: #fff;
+}
 .view-button:hover {
     background-color: #c0392b;
 }
