@@ -67,10 +67,16 @@
     text-align: center;
 }
 
-.recipe-image {
+.recipe-image  {
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast; /* dành cho Safari */
+    image-rendering: pixelated; /* nếu là ảnh pixel (vd: icon 8bit) */
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .recipe-details {
@@ -88,18 +94,22 @@
 }
 
 .view-recipe-btn {
-    padding: 10px 20px;
-    background-color: #e17055;
-    color: white;
+    background-color: #e74c3c;
     border: none;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    outline: none;
 }
-
+.view-recipe-btn>a{
+    color: #fff;
+    text-decoration: none;
+}
 .view-recipe-btn:hover {
     background-color: #d63031;
 }
-
 /* Responsive cho điện thoại (max-width: 480px) */
 @media (max-width: 480px) {
     .products-page {

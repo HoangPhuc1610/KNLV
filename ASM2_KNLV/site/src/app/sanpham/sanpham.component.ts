@@ -4,14 +4,14 @@ import { ProductService } from '../product.service';
 import { CommonModule } from '@angular/common';
 import { ListcardComponent } from '../listcard/listcard.component';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { NgxSliderModule, Options } from '@angular-slider/ngx-slider';
 import { CategoryInterface } from '../product-interface';
 
 @Component({
   selector: 'app-sanpham',
   standalone: true,
-  imports: [CommonModule, ListcardComponent, FormsModule, NgxSliderModule],
+  imports: [CommonModule, ListcardComponent, FormsModule, NgxSliderModule,RouterModule],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
 })  
@@ -22,8 +22,6 @@ export class SanphamComponent {
   categories: CategoryInterface[] = []; 
   sortOrder: string = '';
   selectedCategory: string = '';
-  
-
   keyword: string = '';
 
   constructor(private productService: ProductService, private router: Router) {}
