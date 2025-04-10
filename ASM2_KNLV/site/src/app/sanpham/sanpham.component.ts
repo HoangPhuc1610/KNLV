@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { NgxSliderModule, Options } from '@angular-slider/ngx-slider';
 import { CategoryInterface } from '../product-interface';
+import { ListcardComponent } from '../listcard/listcard.component';
 
 @Component({
   selector: 'app-sanpham',
