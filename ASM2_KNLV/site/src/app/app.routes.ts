@@ -9,6 +9,8 @@ import { GiohangComponent } from './giohang/giohang.component';
 import { DangkyComponent } from './dangky/dangky.component';
 import { YeuthichComponent } from './yeuthich/yeuthich.component';
 import { Sanpham3mienComponent } from './sanpham3mien/sanpham3mien.component';
+import { CommentComponent } from './comment/comment.component';
+import { DangnhapComponent } from './dangnhap/dangnhap.component';
 
 
 
@@ -22,8 +24,10 @@ export const routes: Routes = [
     {path:"chitiet/:id",component:ChitietsanphamComponent},
     {path:"giohang",component:GiohangComponent},
     {path:"dangky",component:DangkyComponent},
+    {path:"dangnhap",component:DangnhapComponent},
     {path: "yeuthich", component: YeuthichComponent},
     {path: "sanpham3mien", component: Sanpham3mienComponent},
-    {path: "timkiem/", component: TimkiemComponent}, 
+    {path: "comment", component: CommentComponent}
+
     
 ];

@@ -1,49 +1,49 @@
 {
-  "hash": "b65b6250",
-  "configHash": "cc05e7ee",
+  "hash": "23747636",
+  "configHash": "4230c937",
   "lockfileHash": "00817c5b",
-  "browserHash": "28fc3752",
+  "browserHash": "aab7e620",
   "optimized": {
     "@angular-slider/ngx-slider": {
       "src": "../../../../../../node_modules/@angular-slider/ngx-slider/fesm2022/angular-slider-ngx-slider.mjs",
       "file": "@angular-slider_ngx-slider.js",
-      "fileHash": "06fa5503",
+      "fileHash": "371becf8",
       "needsInterop": false
     },
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "b3a7c02a",
+      "fileHash": "fee8c5d7",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "301e5fd9",
+      "fileHash": "ddd7d38b",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "7e6e6fb5",
+      "fileHash": "d8650370",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "d6d7556a",
+      "fileHash": "6d31d862",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d04528e2",
+      "fileHash": "efd0131c",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "55e4cf72",
+      "fileHash": "ac0b0826",
       "needsInterop": false
     }
   },

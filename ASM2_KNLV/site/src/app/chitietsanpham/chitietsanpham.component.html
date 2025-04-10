@@ -85,19 +85,9 @@
             </ul>
         </section>
          <!-- Comments -->
-         <section class="comments">
-            <h2>Ý Kiến Đóng Góp, Ý Tưởng!</h2>
-            <form>
-                <textarea placeholder="Viết ý kiến của bạn..." required></textarea>
-                <button type="submit">Gửi Ý Kiến</button>
-            </form>
-        
-            <!-- Bình luận mẫu đây -->
-            <div class="comment">
-                <p><strong>Nguyễn Văn A</strong> <span class="comment-time"> 14:30  04/04/2025</span></p>
-                <p>Món này nhìn hấp dẫn quá! Mình sẽ thử làm vào cuối tuần này.</p>
-            </div>
-           
-        </section>
+        <!-- Comments Section -->
+        <ng-container *ngIf="productDetail._id">
+          <app-comment [productId]="productDetail._id"></app-comment>
+        </ng-container>
     </main>
 </div>
