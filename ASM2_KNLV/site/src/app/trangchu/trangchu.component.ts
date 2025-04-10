@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProductInterface } from '../product-interface';
 import { ProductService } from '../product.service';
 import { CommonModule } from '@angular/common';
@@ -18,8 +18,8 @@ export class TrangchuComponent implements OnInit {
   getMienTrung: ProductInterface[] = [];
   getMienNam: ProductInterface[] = [];
   getAllPro: ProductInterface[] = [];
+  gethot: ProductInterface[] = [];
   keyword: string = '';
-
   constructor(
     private productService: ProductService,
     private router: Router  // Sửa lại cách inject Router
@@ -42,6 +42,10 @@ export class TrangchuComponent implements OnInit {
     this.productService.getAllPro().subscribe((data) => {
       this.getAllPro = data;
       console.log( "all:",this.getAllPro);
+    });
+    this.productService.getHot().subscribe((data) => {
+      this.gethot = data;
+      console.log( "hot là:",this.gethot);
     });
   }
 

@@ -40,6 +40,7 @@ export interface ProductInterface {
       dieu_chinh_khau_vi: string[];
     };
     categoryId: string;
+    hot: number;
 }
 
 export interface CategoryInterface {
