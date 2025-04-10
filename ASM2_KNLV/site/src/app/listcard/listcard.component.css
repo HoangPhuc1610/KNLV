@@ -693,6 +693,7 @@ a{
     .recipe-info {
         font-size: 0.8em; /* Giảm kích thước chữ */
         gap: 8px;
+
     }
 
     .recipe-info svg {

@@ -20,7 +20,9 @@ export class ProductService {
   getMienNam(): Observable<ProductInterface[]> {
     return this.http.get<ProductInterface[]>('http://localhost:3000/products?idcate=67ed0db10018c91a35113365&limit=8');
   }
-  
+  getHot(): Observable<ProductInterface[]> {
+    return this.http.get<ProductInterface[]>('http://localhost:3000/products?hot=1');
+  }
   searchProducts(keyword: string):Observable<ProductInterface[]> {
     return this.http.get<ProductInterface[]>(`http://localhost:3000/products?ten_mon=${keyword}`);
   }

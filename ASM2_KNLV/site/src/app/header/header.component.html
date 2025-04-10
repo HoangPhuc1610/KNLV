@@ -24,13 +24,19 @@
     </div>
   </div>
   
-  <!-- Hamburger Icon -->
-  <div class="hamburger" (click)="toggleMenu()">
-    &#9776;
-  </div>
+
   
   <!-- Menu chính -->
   <section class="menu-section">
+      <!-- Hamburger Icon -->
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+  <div class="logo-item">
+    <a (click)="goToTop()" style="cursor: pointer;">
+    <img src="assets/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo-mobile">
+  </a>
+  </div>
     <ul class="menu" [class.show]="isMenuOpen">
       <div class="logo-item">
         <a (click)="goToTop()" style="cursor: pointer;">
