@@ -1097,6 +1097,7 @@ ul li a:hover {
     visibility: hidden; /* Ẩn menu khi không hover */
     transition: opacity 0.3s ease, visibility 0.3s ease;
     cursor: pointer;
+    z-index: 1000;
   }
   
   /* Style cho các mục trong menu */

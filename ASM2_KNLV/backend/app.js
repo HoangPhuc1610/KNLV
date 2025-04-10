@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/DB_KNLV')
-    .then(() => console.log('MongoDB connected'))
-    .catch(err => console.log(err));
+mongoose.connect('mongodb://127.0.0.1:27017/DB_KNLV')
+  .then(() => console.log('Connected to MongoDB successfully!'))
+  .catch(err => console.error('Failed to connect to MongoDB:', err));
 
 var createError = require('http-errors');
 var express = require('express');
@@ -16,6 +16,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var productsRouter = require('./routes/products');
 var categoriesRouter = require('./routes/categories');
+var commentsRouter = require('./routes/comments');
 
 
 
@@ -41,6 +42,7 @@ app.use('/users', usersRouter);
 app.use('/products', productsRouter);
 app.use('/categories', categoriesRouter);
 app.use('/images', express.static('public/images'));
+app.use('/comments', commentsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
