@@ -3,7 +3,9 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { CartService } from '../cart.service';
 import { CommonModule } from '@angular/common';
-
+import { CategoryInterface } from '../product-interface';
+import { ProductInterface } from '../product-interface';
+import { ProductService } from '../product.service';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -15,9 +17,23 @@ export class HeaderComponent {
   isMenuOpen = false;
   dropdownOpen = [false];
   keyword: string = '';
+  categories: CategoryInterface[] = [];
+  products: ProductInterface[] = [];
 
-  constructor(private router: Router, public cartService: CartService) {}
 
+  constructor(private router: Router, public cartService: CartService,   private productService: ProductService) {}
+  ngOnInit(): void {
+    this.productService.getCategories().subscribe(data => {
+      this.categories = data;
+    });
+  }
+  selectCategory(categoryId: string | undefined) {
+    if (categoryId) {
+      this.router.navigate(['/sanpham3mien'], { queryParams: { category: categoryId } });
+    }
+  }
+  
+    
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
@@ -50,4 +66,13 @@ export class HeaderComponent {
     alert('Đăng xuất thành công!');
     this.router.navigate(['/']);
   }
+  goToTop() {
+    this.router.navigateByUrl('/')
+      .then(() => {
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 50); // đợi Angular load xong
+      });
+  }
+  
 }

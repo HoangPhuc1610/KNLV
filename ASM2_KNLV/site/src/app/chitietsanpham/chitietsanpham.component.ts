@@ -1,16 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ProductService } from '../product.service';
 import { ProductInterface } from '../product-interface';
 import { ActivatedRoute } from '@angular/router'; // lấy param hoặc query URL
 import { CommonModule } from '@angular/common';
 import { CartService } from '../cart.service';
 import { UserService } from '../user.service';
+import { CommentComponent } from '../comment/comment.component';
 
 @Component({
   selector: 'app-chitietsanpham',
-  imports: [CommonModule],
+  standalone: true,
+  imports: [CommonModule, CommentComponent],
   templateUrl: './chitietsanpham.component.html',
-  styleUrl: './chitietsanpham.component.css'
+  styleUrl: './chitietsanpham.component.css',
+  schemas: [] // No need for CUSTOM_ELEMENTS_SCHEMA if CommentComponent is properly imported
 })
 export class ChitietsanphamComponent {
 
@@ -30,7 +33,7 @@ export class ChitietsanphamComponent {
   
     this.productService.getprobyid(id).subscribe((data) => {
       this.productDetail = data;
-      console.log("array nè: ", this.productDetail);
+      console.log("Product details loaded: ", this.productDetail);
   
       const email = localStorage.getItem('email');
       if (email && this.productDetail._id) {
@@ -40,7 +43,7 @@ export class ChitietsanphamComponent {
             console.log("isFavorite: ", this.isFavorite);
           },
           (err) => {
-            console.error("Lỗi khi kiểm tra yêu thích: ", err);
+            console.error("Error checking favorite: ", err);
           }
         );
       }

@@ -24,13 +24,13 @@ const categories = require('../models/categoryModel');
 // Hàm lấy tất cả sản phẩm
 const getAllproducts = async (req, res, next) => {
   try {
-    const { name, idcate, limit, sort, page, hot, sale } = req.query;
+    const { ten_mon, idcate, limit, sort, page, hot, sale } = req.query;
     let query = {}; // Query chua dieu kien tim kiem
     let options = {}; // Các tùy chọn như limit và sort
 
     // Kiểm tra và thêm điều kiện lọc cho tên sản phẩm
-    if (name) {
-      query.name = new RegExp(name, 'i'); // Tìm kiếm tên sản phẩm
+    if (ten_mon) {
+      query["thong_tin_mon_an.ten_mon"] = new RegExp(ten_mon, 'i'); // Tìm kiếm tên sản phẩm
     }
 
     // Kiểm tra và thêm điều kiện lọc cho sản phẩm hot

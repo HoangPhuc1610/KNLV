@@ -184,7 +184,42 @@ const checkFavorite = async (req, res) => {
   }
 };
 
-  
+//Xóa sp yêu thích
+const removeFavorite = async (req, res) => {
+  try {
+    const { email, productId } = req.params;
+
+    const user = await userModel.findOne({ email });
+    if (!user) return res.status(404).json({ message: 'Không tìm thấy người dùng' });
+
+    // Xóa productId khỏi danh sách yêu thích
+    user.favorite = user.favorite.filter(id => id.toString() !== productId);
+    await user.save();
+
+    res.status(200).json({ message: 'Đã xóa khỏi danh sách yêu thích' });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
+const getFavorites = async (req, res) => {
+  try {
+    const { email } = req.params;
+
+    const user = await userModel.findOne({ email }).populate('favorite');
+
+    if (!user) {
+      return res.status(404).json({ message: 'Không tìm thấy người dùng' });
+    }
+
+    res.status(200).json({ favoriteProducts: user.favorite });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
 module.exports= {
     register,
     login,
@@ -193,5 +228,7 @@ module.exports= {
     verifyAdmin,
     getAllUsers,
     addFavorite,
-    checkFavorite
+    checkFavorite,
+    getFavorites,
+    removeFavorite
 }
