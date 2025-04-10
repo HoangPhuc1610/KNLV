@@ -23,6 +23,7 @@ export const routes: Routes = [
     {path:"giohang",component:GiohangComponent},
     {path:"dangky",component:DangkyComponent},
     {path: "yeuthich", component: YeuthichComponent},
-    {path: "sanpham3mien", component: Sanpham3mienComponent}
+    {path: "sanpham3mien", component: Sanpham3mienComponent},
+    {path: "timkiem/", component: TimkiemComponent}, 
     
 ];

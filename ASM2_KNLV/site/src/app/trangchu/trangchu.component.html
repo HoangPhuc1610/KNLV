@@ -8,11 +8,16 @@
     <!-- Thanh tìm kiếm -->
     <div class="search-container">
         <h2>Hơn <b>2.000</b> Công thức món ngon và dễ làm</h2>
-        <div class="search-box">
-            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-            <input type="text" placeholder=" món ngon đang tìm kiếm...">
-            <button>➡</button>
-        </div>
+        <form class="d-flex ms-5" (ngSubmit)="onSearch()" #searchForm="ngForm">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Tìm kiếm món ăn"
+              name="search"
+              [(ngModel)]=" keyword"
+            >
+            <input class="btn btn-outline-success p-1" type="submit" value="Tìm">
+          </form>
     </div>
 </nav>
 

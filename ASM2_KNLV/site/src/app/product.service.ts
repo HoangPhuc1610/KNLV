@@ -22,7 +22,7 @@ export class ProductService {
   }
   
   searchProducts(keyword: string):Observable<ProductInterface[]> {
-    return this.http.get<ProductInterface[]>(`http://localhost:3000/products?name=${keyword}`);
+    return this.http.get<ProductInterface[]>(`http://localhost:3000/products?ten_mon=${keyword}`);
   }
   getprobyid(id: string):Observable<ProductInterface> {
     return this.http.get<ProductInterface>(`http://localhost:3000/products/${id}`);
@@ -33,4 +33,5 @@ export class ProductService {
   getCategories(): Observable<CategoryInterface[]> {
     return this.http.get<CategoryInterface[]>('http://localhost:3000/categories');
   }
+  
 }

@@ -17,9 +17,9 @@ export class TimkiemComponent {
   ) {}  
     ngOnInit() {
       this.route.queryParams.subscribe((params) => {
-        this.productService.searchProducts(params['name']).subscribe((data) => {
+        this.productService.searchProducts(params['ten_mon']).subscribe((data) => {
           this.searchPro = data;
         });
-      })
+      });
     }
 }
