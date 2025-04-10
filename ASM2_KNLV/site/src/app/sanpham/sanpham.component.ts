@@ -6,11 +6,12 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { NgxSliderModule, Options } from '@angular-slider/ngx-slider';
 import { CategoryInterface } from '../product-interface';
+import { ListcardComponent } from '../listcard/listcard.component';
 
 @Component({
   selector: 'app-sanpham',
   standalone: true,
-  imports: [CommonModule, FormsModule, NgxSliderModule, RouterModule],
+  imports: [CommonModule, FormsModule, NgxSliderModule, RouterModule,ListcardComponent],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
 })

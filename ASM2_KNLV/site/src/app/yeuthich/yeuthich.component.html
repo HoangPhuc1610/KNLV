@@ -12,19 +12,16 @@
       <tbody id="favoriteList">
         <tr *ngFor="let item of favoriteProducts">
           <td>
-            <img
-              [src]="'/public/images/' + item.thong_tin_mon_an.img"
-              class="food-image"
-              alt="{{ item.thong_tin_mon_an.ten_mon }}"
-            />
+            <img src="http://localhost:3000/images/{{ item.thong_tin_mon_an.img }}" style="width: 120px; border-radius: 5px;" alt="">
+            
           </td>
           <td>{{ item.thong_tin_mon_an.ten_mon }}</td>
           <td>{{ item.cach_lam.thoi_gian_lam }}</td>
           <td>{{ item.thong_tin_mon_an.mien_quoc_gia }}</td>
  <!-- ✅ Hiển thị miền -->
           <td>
-            <button class="btn remove-btn" (click)="removeFromFavorite(item._id)">Xóa</button>
-
+            <button class="btn remove-btn" (click)="removeFromFavorite(item._id)" >Xóa</button>
+            
             <button class="btn remove-btn" [routerLink]="['/chitiet', item._id]">Xem chi tiết</button>
 
           </td>
