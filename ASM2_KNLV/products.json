@@ -1,7 +1,5 @@
 [{
-  "_id": {
-    "$oid": "67ef65327519e2040feca66a"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Bún bò Nam Bộ",
     "mien_quoc_gia": "Miền Nam",
@@ -174,12 +172,11 @@
   },
   "categoryId": {
     "$oid": "67ed0db10018c91a35113365"
-  }
+  },
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca66b"
-  },
+  
   "thong_tin_mon_an": {
     "ten_mon": "Gà Bắp Kho Xả",
     "mien_quoc_gia": "Miền Nam",
@@ -297,9 +294,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca66c"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Cháo Lươn Miền Nam",
     "mien_quoc_gia": "Miền Nam",
@@ -444,9 +439,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca66d"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Gỏi Cá Trích",
     "mien_quoc_gia": "Miền Nam",
@@ -596,9 +589,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca66e"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Gỏi Cá Trích",
     "mien_quoc_gia": "Miền Nam",
@@ -748,9 +739,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca66f"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Khổ Qua Xào Trứng",
     "mien_quoc_gia": "Miền Nam",
@@ -881,9 +870,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca670"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Cánh Gà Chiên Nước Mắm",
     "mien_quoc_gia": "Miền Nam",
@@ -1025,9 +1012,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca671"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Rau Muống Xào Tỏi",
     "mien_quoc_gia": "Miền Nam",
@@ -1148,9 +1133,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca672"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Canh Bầu Tôm",
     "mien_quoc_gia": "Miền Nam",
@@ -1280,9 +1263,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca673"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Lươn Xào Sả Ớt",
     "mien_quoc_gia": "Miền Nam",
@@ -1416,9 +1397,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca674"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Thịt kho hột vịt",
     "mien_quoc_gia": "Miền Nam",
@@ -1581,9 +1560,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca675"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Khổ qua nhồi thịt",
     "mien_quoc_gia": "Miền Nam",
@@ -1737,12 +1714,11 @@
   },
   "categoryId": {
     "$oid": "67ebfee2f8d3b2e3ede2ba7e"
-  }
+  },
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca676"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Cá kho tộ – Cá lóc/cá basa",
     "mien_quoc_gia": "Miền Nam",
@@ -1904,9 +1880,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca677"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Canh chua cá lóc",
     "mien_quoc_gia": "Miền Nam",
@@ -2071,12 +2045,11 @@
   },
   "categoryId": {
     "$oid": "67ed0db10018c91a35113365"
-  }
+  },
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca678"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Lẩu mắm",
     "mien_quoc_gia": "Miền Tây",
@@ -2251,11 +2224,9 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca679"
-  },
+
   "thong_tin_mon_an": {
-    "ten_mon": "Bánh xèo",
+    "ten_mon": "Bánh xèo miền Nam",
     "mien_quoc_gia": "Miền Nam",
     "mo_ta_ngan": "Bánh xèo giòn rụm với lớp vỏ vàng ươm từ bột gạo và nghệ, nhân tôm, thịt, giá đỗ thơm ngon, ăn kèm rau sống và nước mắm chua ngọt đậm đà",
     "img": "imgNam16.jpg"
@@ -2452,9 +2423,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67a"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Cơm tấm",
     "mien_quoc_gia": "Miền Nam",
@@ -2651,9 +2620,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67b"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Hủ tiếu Nam Vang",
     "mien_quoc_gia": "Miền Nam",
@@ -2853,154 +2820,146 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67c"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Canh bầu nấu tôm",
-    "mien_quoc_gia": "Miền Nam",
-    "mo_ta_ngan": "Món canh thanh nhẹ, ngọt tự nhiên từ bầu và tôm tươi, thường nấu nhanh, ăn kèm cơm trắng trong bữa ăn gia đình",
-    "img": "imgNam19.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bầu (trái bầu non)",
-        "so_luong": "500 gram (1 trái vừa)"
+
+  
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh Canh Ghẹ Phú Quốc",
+      "mien_quoc_gia": "Miền Nam",
+      "mo_ta_ngan": "Bánh canh ghẹ Phú Quốc là món ăn đặc sản nổi tiếng với nước dùng ngọt thanh từ ghẹ tươi, bánh canh dai mềm, ăn kèm với ghẹ thịt tươi ngon, mang lại hương vị đặc trưng của biển đảo.",
+      "img": "imgNam19.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần (~400g)",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Ghẹ tươi",
+          "so_luong": "2 con (~250g)"
+        },
+        {
+          "ten": "Bánh canh bột gạo",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "2 củ"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Nước dừa tươi",
+          "so_luong": "200ml"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Gia vị: muối, tiêu",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Rau thơm (húng quế, ngò rí)",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Chanh",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay ghẹ bằng tôm hoặc cua nếu không có ghẹ.",
+          "Nếu không có nước dừa tươi, có thể thay bằng nước dùng từ thịt gà."
+        ]
       },
-      {
-        "ten": "Tôm tươi",
-        "so_luong": "200 gram (10-12 con vừa)"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "20 gram (vài nhánh)"
-      },
-      {
-        "ten": "Ngò rí (rau mùi)",
-        "so_luong": "10 gram (vài nhánh)"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Tiêu xay",
-        "so_luong": "1/4 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Nước lọc hoặc nước dùng",
-        "so_luong": "1.5 lít"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        "Tôm tươi thay bằng tôm khô hoặc cá băm",
-        "Bầu thay bằng bí xanh hoặc mướp",
-        "Ngò rí thay bằng rau thơm khác như húng quế"
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu nước dùng",
+        "Chảo chiên",
+        "Dao, thớt",
+        "Tô trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng nồi lớn để nấu nước dùng từ ghẹ, giúp nước dùng ngọt và đậm đà.",
+        "Dùng chảo chống dính để chiên hành và tỏi cho thơm.",
+        "Dao bén để dễ dàng cắt ghẹ và rau thơm."
       ]
     },
-    "don_vi_do_luong": "muỗng canh (15 ml), muỗng cà phê (5 ml), gram, ml"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi vừa (dung tích 2-3 lít)",
-      "Dao",
-      "Thớt",
-      "Muỗng",
-      "Rổ",
-      "Chảo nhỏ"
-    ],
-    "chi_dan_de_hieu": [
-      "Nồi vừa để nấu canh, giữ nhiệt đều",
-      "Rổ để rửa bầu và tôm",
-      "Chảo nhỏ để phi tỏi"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Bầu: Gọt vỏ, rửa sạch, cắt khúc vừa ăn (khoảng 3-4 cm) hoặc bào mỏng",
-          "Tôm: Rửa sạch, bóc vỏ, bỏ chỉ lưng, giữ nguyên đầu và đuôi nếu thích, ướp với 1/2 muỗng cà phê muối và 1/4 muỗng cà phê tiêu",
-          "Hành lá, ngò rí: Rửa sạch, thái nhỏ",
-          "Tỏi: Bóc vỏ, băm nhuyễn"
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Phi thơm và xào tôm",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Đun nóng chảo với 1 muỗng canh dầu ăn, phi thơm tỏi băm",
-          "Cho tôm vào xào sơ đến khi tôm chuyển màu hồng, vớt ra để riêng"
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Nấu canh",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Đun sôi 1.5 lít nước lọc hoặc nước dùng trong nồi",
-          "Cho bầu vào, nấu lửa vừa trong 5-7 phút đến khi bầu mềm",
-          "Thêm tôm đã xào vào nồi, nêm 1 muỗng canh nước mắm, 1/2 muỗng cà phê đường, điều chỉnh gia vị cho vừa ăn",
-          "Nấu thêm 3-5 phút, tắt bếp, rắc hành lá và ngò rí lên trên"
-        ]
-      }
-    ],
-    "thoi_gian_lam": "30 phút",
-    "luu_y": [
-      "Chọn bầu non để canh ngọt và mềm, không bị xơ",
-      "Không nấu tôm quá lâu để tránh dai",
-      "Nấu lửa vừa để nước canh trong, không đậy nắp khi cho bầu vào"
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4 người (ăn với cơm trắng)",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Nếu nấu cho 2 người, giảm một nửa nguyên liệu: 250 gram bầu, 100 gram tôm, 750 ml nước, gia vị giảm tương ứng"
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Tôm thay bằng thịt heo băm hoặc cá viên",
-      "Bầu thay bằng bí xanh, mướp hoặc rau cải",
-      "Thêm gừng thái sợi để tăng hương vị"
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng vị mặn: Thêm 1/2 muỗng canh nước mắm",
-      "Tăng vị ngọt: Thêm 1/2 muỗng cà phê đường",
-      "Tăng vị cay: Thêm 1/2 quả ớt tươi thái lát hoặc 1/4 muỗng cà phê tiêu"
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0db10018c91a35113365"
-  }
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Luộc ghẹ và chuẩn bị nước dùng",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Cho ghẹ vào nồi nước sôi, luộc trong khoảng 10 phút cho đến khi ghẹ chín.",
+            "Vớt ghẹ ra, gỡ thịt ghẹ và giữ lại vỏ ghẹ.",
+            "Tiếp tục nấu nước dùng từ vỏ ghẹ cùng với hành tím, tỏi băm, nước dừa tươi và gia vị."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Nấu bánh canh",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Luộc bánh canh trong nước sôi cho đến khi bánh canh mềm và chín.",
+            "Vớt bánh canh ra, xả qua nước lạnh để giữ được độ dẻo và không bị dính."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Xếp bánh canh vào tô, cho thịt ghẹ lên trên.",
+            "Rưới nước dùng lên bánh canh và ghẹ.",
+            "Trang trí với rau thơm, ớt tươi thái lát, chanh và một chút tiêu xay."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "35 phút",
+      "luu_y": [
+        "Có thể thêm gia vị như mắm tôm hoặc dầu hành phi để tăng hương vị món ăn.",
+        "Nước dùng phải trong và ngọt từ ghẹ, không nên quá mặn.",
+        "Nếu muốn món ăn thêm đậm đà, bạn có thể cho thêm chút muối vào nước dùng."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 phần (~400g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Có thể thay ghẹ bằng cua biển hoặc tôm nếu không có ghẹ tươi.",
+        "Dùng nước dùng từ xương heo nếu muốn nước dùng béo ngậy."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Thêm chút ớt nếu muốn món ăn thêm cay.",
+        "Có thể điều chỉnh lượng nước mắm tùy theo khẩu vị."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0db10018c91a35113365"
+    }
+  
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67d"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Canh hẹ nấu tôm",
     "mien_quoc_gia": "Miền Nam",
@@ -3139,9 +3098,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67e"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Thịt kho mắm ruốc",
     "mien_quoc_gia": "Miền Trung",
@@ -3194,7 +3151,8 @@
           "ten": "Thịt nạc vai",
           "so_luong": "500g"
         }
-      ]
+      ],
+      "don_vi_do_luong": "gram, muỗng canh, nhánh, tép, củ, quả"
     }
   },
   "dung_cu_can_thiet": {
@@ -3205,6 +3163,9 @@
       "Muỗng",
       "Dao",
       "Thớt"
+    ],
+    "chi_dan_de_hieu": [
+      "Dùng chảo để xào thịt, nồi để kho thịt cho thấm gia vị."
     ]
   },
   "cach_lam": {
@@ -3212,6 +3173,7 @@
       {
         "buoc": 1,
         "ten_buoc": "Sơ chế nguyên liệu",
+        "thoi_gian": "10 phút",
         "chi_tiet": [
           "Thịt ba chỉ rửa sạch, thái miếng vừa ăn, ướp với nước mắm, tiêu, bột ngọt và nước màu.",
           "Sả, tỏi, hành khô, gừng, ớt băm nhỏ."
@@ -3220,6 +3182,7 @@
       {
         "buoc": 2,
         "ten_buoc": "Nấu thịt",
+        "thoi_gian": "25 phút",
         "chi_tiet": [
           "Phi thơm sả, tỏi, hành khô, gừng, ớt trong chảo.",
           "Cho thịt vào xào đến khi săn lại.",
@@ -3230,6 +3193,7 @@
       {
         "buoc": 3,
         "ten_buoc": "Hoàn thiện",
+        "thoi_gian": "5 phút",
         "chi_tiet": [
           "Tắt bếp, thêm hành lá cắt nhỏ lên trên."
         ]
@@ -3242,7 +3206,10 @@
     ]
   },
   "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người"
+    "khau_phan": "2 người",
+    "tinh_toan_cho_khau_phan_khac": [
+      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
+    ]
   },
   "kha_nang_tuy_bien": {
     "lua_chon_thay_the_nguyen_lieu": [
@@ -3257,9 +3224,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca67f"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Bánh bèo",
     "mien_quoc_gia": "Miền Trung",
@@ -3329,7 +3294,16 @@
         "ten": "Nước mắm",
         "so_luong": "70ml"
       }
-    ]
+    ],
+    "de_tim_kiem": {
+      "goi_y_thay_the": [
+        {
+          "ten": "Tôm khô",
+          "so_luong": "50g thay cho tôm đất"
+        }
+      ],
+      "don_vi_do_luong": "gram, ml, muỗng canh, củ, tép, nhánh"
+    }
   },
   "dung_cu_can_thiet": {
     "danh_sach_dung_cu": [
@@ -3340,6 +3314,9 @@
       "Bát tô",
       "Dao",
       "Thớt"
+    ],
+    "chi_dan_de_hieu": [
+      "Dùng nồi hấp để hấp bánh, chảo để làm nhân tôm và mỡ hành."
     ]
   },
   "cach_lam": {
@@ -3347,6 +3324,7 @@
       {
         "buoc": 1,
         "ten_buoc": "Chuẩn bị bột bánh",
+        "thoi_gian": "10 phút",
         "chi_tiet": [
           "Trộn bột gạo và bột năng với nước lạnh.",
           "Thêm nước nóng, khuấy đều cho đến khi bột mịn."
@@ -3355,6 +3333,7 @@
       {
         "buoc": 2,
         "ten_buoc": "Hấp bánh",
+        "thoi_gian": "15 phút",
         "chi_tiet": [
           "Đổ bột vào chén nhỏ, hấp khoảng 10-15 phút cho đến khi bánh chín và trong suốt."
         ]
@@ -3362,6 +3341,7 @@
       {
         "buoc": 3,
         "ten_buoc": "Chuẩn bị nhân tôm",
+        "thoi_gian": "15 phút",
         "chi_tiet": [
           "Luộc tôm đất, bóc vỏ và giã nhuyễn.",
           "Tôm khô ngâm nước, giã nhuyễn.",
@@ -3371,6 +3351,7 @@
       {
         "buoc": 4,
         "ten_buoc": "Làm mỡ hành",
+        "thoi_gian": "5 phút",
         "chi_tiet": [
           "Hành lá cắt nhỏ, phi với dầu ăn."
         ]
@@ -3378,6 +3359,7 @@
       {
         "buoc": 5,
         "ten_buoc": "Làm nước mắm chua ngọt",
+        "thoi_gian": "5 phút",
         "chi_tiet": [
           "Pha nước mắm, đường, nước cốt dừa và nước lọc, khuấy đều."
         ]
@@ -3385,10 +3367,15 @@
       {
         "buoc": 6,
         "ten_buoc": "Hoàn thành",
+        "thoi_gian": "5 phút",
         "chi_tiet": [
           "Bày bánh bèo ra đĩa, rắc nhân tôm, mỡ hành, ăn kèm nước mắm."
         ]
       }
+    ],
+    "thoi_gian_lam": "55 phút",
+    "luu_y": [
+      "Đảm bảo bột mịn để bánh không bị vón cục."
     ]
   },
   "so_luong_khi_lam_xong": {
@@ -3409,1393 +3396,1424 @@
     "$oid": "67ed0c710018c91a35113362"
   }
 },
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca680"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh xèo miền Trung",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bánh xèo miền Trung là món ăn đặc trưng với lớp vỏ giòn tan, nhân tôm thịt thơm ngon và màu vàng bắt mắt. Bánh thường nhỏ gọn, mỏng giòn và được chế biến tinh tế hơn so với bánh xèo miền Nam.",
-    "img": "imgTrung3.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bột gạo",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Bột nghệ",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Nước lạnh",
-        "so_luong": "200ml"
-      },
-      {
-        "ten": "Nước cốt dừa",
-        "so_luong": "100ml"
-      },
-      {
-        "ten": "Tôm tươi",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Thịt ba chỉ",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Giá đỗ",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "2 nhánh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "50ml"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Xà lách, rau thơm, khế, chuối chát"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Chảo nhỏ",
-      "Cọ quét dầu",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị bột bánh",
-        "chi_tiet": [
-          "Trộn bột gạo, bột nghệ, nước lạnh và nước cốt dừa.",
-          "Khuấy đều đến khi hỗn hợp mịn.",
-          "Để bột nghỉ khoảng 30 phút."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Chuẩn bị nhân bánh",
-        "chi_tiet": [
-          "Rửa sạch tôm, bóc vỏ, rút chỉ.",
-          "Thịt ba chỉ thái mỏng.",
-          "Giá đỗ rửa sạch.",
-          "Hành lá thái nhỏ."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Xào nhân",
-        "chi_tiet": [
-          "Phi hành tím, xào tôm, cho thịt vào xào cùng.",
-          "Nêm gia vị vừa ăn."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Đổ bánh xèo",
-        "chi_tiet": [
-          "Làm nóng chảo, quét dầu.",
-          "Múc bột đổ vào chảo, dàn đều.",
-          "Cho nhân vào giữa bánh, gấp đôi lại, chiên vàng đều."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Pha nước chấm",
-        "chi_tiet": [
-          "Pha nước mắm, đường, chanh, tỏi, ớt theo khẩu vị."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay tôm bằng thịt nướng hoặc chả."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường và nước mắm để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca681"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh Khoai Mì Nướng",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bánh khoai mì nướng là món bánh truyền thống của miền Trung Việt Nam, được làm từ khoai mì (sắn) và nước cốt dừa. Bánh có vị ngọt thanh, thơm mùi dừa và có độ dai nhẹ, rất hấp dẫn.",
-    "img": "imgTrung4.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Khoai mì",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "150g"
-      },
-      {
-        "ten": "Nước cốt dừa",
-        "so_luong": "200ml"
-      },
-      {
-        "ten": "Dừa nạo",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Trứng gà",
-        "so_luong": "2 quả"
-      },
-      {
-        "ten": "Bơ lạt",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Vani",
-        "so_luong": "1 muỗng cà phê"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi hấp",
-      "Lò nướng",
-      "Khuôn bánh",
-      "Máy xay sinh tố",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế khoai mì",
-        "chi_tiet": [
-          "Gọt vỏ khoai mì, rửa sạch và ngâm nước muối loãng khoảng 4-5 tiếng.",
-          "Vớt ra, rửa lại, để ráo nước."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Xay khoai mì",
-        "chi_tiet": [
-          "Cắt khoai mì thành miếng nhỏ, cho vào máy xay sinh tố xay nhuyễn.",
-          "Vắt lấy nước khoai mì, để lắng 30 phút, chắt bỏ nước trong, giữ lại bột lắng."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Trộn bột bánh",
-        "chi_tiet": [
-          "Trộn bột khoai mì với đường, nước cốt dừa, dừa nạo, trứng gà, bơ lạt, muối và vani.",
-          "Khuấy đều đến khi hỗn hợp mịn."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Nướng bánh",
-        "chi_tiet": [
-          "Làm nóng lò nướng ở 180°C.",
-          "Quét bơ lên khuôn chống dính.",
-          "Đổ hỗn hợp vào khuôn, dàn đều.",
-          "Nướng 45-50 phút đến khi bánh vàng thơm."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Hoàn thành",
-        "chi_tiet": [
-          "Để bánh nguội rồi cắt miếng vừa ăn."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay nước cốt dừa bằng sữa tươi để tạo hương vị khác."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường để phù hợp với khẩu vị cá nhân."
-    ]
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca682"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Chè Bắp",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Chè bắp là món chè truyền thống của miền Trung, đặc biệt là ở Hội An. Món chè này được làm từ bắp ngô tươi, nước cốt dừa và đường, tạo nên hương vị ngọt thanh, béo ngậy và thơm ngon. Chè bắp thường được ăn lạnh, rất thích hợp để giải nhiệt trong những ngày hè nóng bức.",
-    "img": "imgTrung5.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bắp ngô tươi",
-        "so_luong": "2 trái"
-      },
-      {
-        "ten": "Nước cốt dừa",
-        "so_luong": "200ml"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/4 muỗng cà phê"
-      },
-      {
-        "ten": "Lá dứa (tùy chọn)",
-        "so_luong": "2-3 lá"
-      },
-      {
-        "ten": "Nước lọc",
-        "so_luong": "500ml"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị bắp",
-        "chi_tiet": [
-          "Bóc vỏ, rửa sạch và tách hạt.",
-          "Nếu dùng lá dứa, rửa sạch và buộc gọn."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu chè",
-        "chi_tiet": [
-          "Cho bắp ngô và nước lọc vào nồi, đun sôi.",
-          "Hạ lửa nhỏ, nấu 15-20 phút đến khi bắp mềm.",
-          "Thêm đường, muối, lá dứa, khuấy đều.",
-          "Đun nhỏ lửa thêm 5-10 phút cho chè thấm đều gia vị."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Thêm nước cốt dừa",
-        "chi_tiet": [
-          "Đổ nước cốt dừa vào nồi, khuấy đều, đun thêm 5 phút.",
-          "Tắt bếp, để chè nguội."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thành",
-        "chi_tiet": [
-          "Múc chè ra bát, để nguội hoặc cho vào tủ lạnh trước khi thưởng thức."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay bắp ngô tươi bằng bắp ngô đóng hộp nếu không có bắp tươi."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca683"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Cơm Hến",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Cơm hến là món ăn đặc sản của Huế, nổi tiếng với sự kết hợp độc đáo giữa cơm trắng, hến xào, rau sống, đậu phộng rang, và nước mắm chua ngọt. Món ăn này có hương vị đậm đà, thanh mát và rất bổ dưỡng.",
-    "img": "imgTrung6.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Hến tươi",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Cơm trắng",
-        "so_luong": "2 bát"
-      },
-      {
-        "ten": "Đậu phộng rang",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Mỡ hành",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Rau thơm, rau răm, giá đỗ, bắp chuối bào"
-      },
-      {
-        "ten": "Bánh tráng nướng",
-        "so_luong": "2 cái"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "1 tép"
-      },
-      {
-        "ten": "Ớt băm",
-        "so_luong": "1 trái"
-      },
-      {
-        "ten": "Nước cốt chanh",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Tiêu xay",
-        "so_luong": "1/2 muỗng cà phê"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi",
-      "Chảo",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị hến",
-        "chi_tiet": [
-          "Rửa sạch hến, ngâm nước muối loãng 1 giờ.",
-          "Luộc hến 5-7 phút, vớt ra, để ráo."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Xào hến",
-        "chi_tiet": [
-          "Phi thơm tỏi băm với dầu.",
-          "Cho hến vào xào nhanh tay, nêm muối, tiêu, nước mắm."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Pha nước mắm chua ngọt",
-        "chi_tiet": [
-          "Pha nước mắm, đường, nước cốt chanh, tỏi băm, ớt băm, khuấy đều."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Chuẩn bị rau sống",
-        "chi_tiet": [
-          "Rửa sạch rau, để ráo.",
-          "Bắp chuối bào ngâm nước muối loãng 10 phút, vớt ra."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Hoàn thành",
-        "chi_tiet": [
-          "Cho cơm vào bát, thêm hến xào.",
-          "Rắc đậu phộng, mỡ hành, rau sống, bánh tráng, rưới nước mắm."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay hến bằng nghêu hoặc sò."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường và nước mắm để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca684"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh căn",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bánh căn là món ăn đặc sản của miền Trung, thường được làm từ bột gạo và nước cốt dừa, có màu vàng đẹp mắt nhờ bột nghệ. Bánh căn có lớp vỏ giòn tan, nhân tôm thịt thơm ngon, thường được ăn kèm với rau sống và nước mắm chua ngọt.",
-    "img": "imgTrung7.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bột gạo",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Bột nghệ",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Nước lạnh",
-        "so_luong": "200ml"
-      },
-      {
-        "ten": "Nước cốt dừa",
-        "so_luong": "100ml"
-      },
-      {
-        "ten": "Tôm tươi",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Thịt ba chỉ",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Giá đỗ",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "2 nhánh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "50ml"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Xà lách, rau thơm, khế, chuối chát"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Chảo nhỏ hoặc chảo bánh căn",
-      "Cọ quét dầu",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị bột bánh",
-        "chi_tiet": [
-          "Trộn bột gạo, bột nghệ, nước lạnh và nước cốt dừa.",
-          "Khuấy đều cho đến khi hỗn hợp mịn.",
-          "Để bột nghỉ 30 phút."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Chuẩn bị nhân bánh",
-        "chi_tiet": [
-          "Rửa sạch tôm, bóc vỏ, rút chỉ.",
-          "Thịt ba chỉ thái mỏng.",
-          "Giá đỗ rửa sạch.",
-          "Hành lá thái nhỏ."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Xào nhân",
-        "chi_tiet": [
-          "Phi thơm hành tím, xào tôm, cho thịt vào xào cùng.",
-          "Nêm gia vị vừa ăn."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Đổ bánh căn",
-        "chi_tiet": [
-          "Làm nóng chảo, quét dầu.",
-          "Múc bột đổ vào chảo, dàn đều.",
-          "Cho nhân vào giữa bánh, gấp đôi lại, chiên vàng đều."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Pha nước chấm",
-        "chi_tiet": [
-          "Pha nước mắm, đường, chanh, tỏi, ớt theo khẩu vị."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay tôm bằng thịt nướng hoặc chả."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường và nước mắm để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca685"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Cháo cá lóc",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Cháo cá lóc là món ăn bổ dưỡng, dễ làm và rất phổ biến ở miền Trung. Món cháo này có hương vị thơm ngon, kết hợp giữa thịt cá lóc ngọt mềm và gạo nấu nhừ, thường được ăn kèm với rau sống và nước mắm chua ngọt.",
-    "img": "imgTrung8.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Cá lóc",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Gạo tẻ",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Gạo nếp",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Nấm rơm",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "3 nhánh"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Rau thơm, rau răm, giá đỗ"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Tiêu xay",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "1 tép"
-      },
-      {
-        "ten": "Ớt băm",
-        "so_luong": "1 trái"
-      },
-      {
-        "ten": "Nước cốt chanh",
-        "so_luong": "1 muỗng canh"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi",
-      "Chảo",
-      "Thìa",
-      "Bát tô",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị cá lóc",
-        "chi_tiet": [
-          "Rửa sạch cá lóc, đánh vảy, bỏ nội tạng, cắt khúc.",
-          "Ướp cá với muối, tiêu, nước mắm 15 phút."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu cháo",
-        "chi_tiet": [
-          "Vo sạch gạo, cho vào nồi với nước, đun sôi rồi hạ lửa nhỏ.",
-          "Thêm cá lóc vào cháo, đun nhỏ lửa đến khi cá chín mềm.",
-          "Thêm nấm rơm rửa sạch, cắt nhỏ, nấu thêm 10 phút."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Pha nước mắm chua ngọt",
-        "chi_tiet": [
-          "Pha nước mắm, đường, nước cốt chanh, tỏi băm, ớt băm, khuấy đều."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Chuẩn bị rau sống",
-        "chi_tiet": [
-          "Rửa sạch rau, để ráo nước."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Hoàn thành",
-        "chi_tiet": [
-          "Múc cháo ra bát, rắc hành lá cắt nhỏ.",
-          "Ăn kèm rau sống và nước mắm chua ngọt."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu nấu cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay cá lóc bằng cá basa hoặc cá trê."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường và nước mắm để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca686"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Mắm Nêm",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Mắm nêm là loại nước chấm truyền thống của miền Trung Việt Nam, được làm từ cá cơm lên men. Mắm nêm có hương vị đậm đà, mạnh mẽ và thường được pha chế với các nguyên liệu như đường, tỏi, ớt, nước cốt chanh và dứa để tạo nên một loại nước chấm thơm ngon, thích hợp ăn kèm với các món như bún thịt nướng, bánh xèo, và các món hải sản.",
-    "img": "imgTrung9.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Mắm nêm (cá cơm lên men)",
-        "so_luong": "1 chén"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "3 tép"
-      },
-      {
-        "ten": "Nước cốt chanh",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Ớt băm",
-        "so_luong": "1-2 trái"
-      },
-      {
-        "ten": "Dứa chín",
-        "so_luong": "1/2 chén (băm nhuyễn hoặc xay)"
-      },
-      {
-        "ten": "Nước lọc",
-        "so_luong": "1/4 chén"
-      }
-    ]
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Bát tô",
-      "Thìa",
-      "Dao",
-      "Thớt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị nguyên liệu",
-        "chi_tiet": [
-          "Tỏi băm nhuyễn, ớt băm nhỏ.",
-          "Dứa chín băm nhuyễn hoặc xay."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Pha mắm nêm",
-        "chi_tiet": [
-          "Cho mắm nêm vào bát tô, thêm tỏi băm và ớt băm vào, khuấy đều.",
-          "Thêm đường vào hỗn hợp, khuấy cho đường tan hoàn toàn.",
-          "Thêm nước cốt chanh vào, khuấy đều để tạo vị chua.",
-          "Thêm dứa băm nhuyễn hoặc xay vào, khuấy đều.",
-          "Thêm nước lọc vào để điều chỉnh độ sánh của nước chấm."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Hoàn thành",
-        "chi_tiet": [
-          "Nêm nếm lại cho vừa miệng, có thể thêm nước mắm hoặc đường tùy khẩu vị."
-        ]
-      }
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Gấp đôi nguyên liệu nếu làm cho 4 người."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay dứa bằng xoài hoặc khế để tạo hương vị khác."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng hoặc giảm lượng đường và nước mắm để phù hợp với khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca687"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bún Bò Huế",
-    "mien_quoc_gia": "Miền trung",
-    "mo_ta_ngan": "Món nước đặc trưng với nước dùng đậm đà, thơm mùi sả và mắm ruốc, kết hợp với thịt bò và giò heo, ăn kèm rau sống và bún sợi to.",
-    "img": "https://tse3.mm.bing.net/th?id=OIP.UX-RqtaIwIxLoibshvtcWAHaEo&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4-5 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Xương bò",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Bắp bò",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Giò heo",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Chả cua",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Bún sợi to",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Sả",
-        "so_luong": "2 cây"
-      },
-      {
-        "ten": "Hành tây",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Mắm ruốc Huế",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Ớt chưng",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Gia vị",
-        "so_luong": "Muối, nước mắm, đường, bột ngọt"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Xà lách, giá đỗ, ngò gai, rau thơm"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "1 củ"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+
+ 
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh Xèo Miền Trung",
+      "mien_quoc_gia": "Miền Trung ",
+      "mo_ta_ngan": "Bánh xèo miền Trung giòn rụm, vàng ươm, nhân tôm, thịt, giá đỗ, ăn kèm rau sống và nước chấm chua ngọt.",
+      "img": "imgTrung3.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "4 phần ăn",
+      "danh_sach_nguyen_lieu": [
         {
-          "nguyen_lieu": "Xương bò",
-          "thay_the": "Xương heo"
+          "ten": "Bột gạo",
+          "so_luong": "200g"
         },
         {
-          "nguyen_lieu": "Mắm ruốc Huế",
-          "thay_the": "Mắm tôm"
+          "ten": "Bột nghệ",
+          "so_luong": "1/2 muỗng cà phê"
         },
         {
-          "nguyen_lieu": "Chả cua",
-          "thay_the": "Chả lụa"
+          "ten": "Nước lọc",
+          "so_luong": "300ml"
+        },
+        {
+          "ten": "Sữa tươi không đường",
+          "so_luong": "50ml"
+        },
+        {
+          "ten": "Tôm tươi",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Thịt heo ba chỉ",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Giá đỗ",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Hành lá",
+          "so_luong": "50g"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Tỏi",
+          "so_luong": "3 tép"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "2 quả"
+        },
+        {
+          "ten": "Chanh",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "100ml"
+        },
+        {
+          "ten": "Rau sống (xà lách, húng quế, cải xanh)",
+          "so_luong": "200g"
         }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng bột bánh xèo pha sẵn để tiện lợi.",
+          "Thay tôm bằng mực tươi nếu muốn đổi vị."
+        ]
+      },
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, tép, quả, nhánh"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Chảo chống dính",
+        "Muôi múc bột",
+        "Thớt, dao",
+        "Bát trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Chảo chống dính giúp bánh giòn và dễ lật.",
+        "Muôi múc bột cần vừa phải để bánh mỏng đều.",
+        "Dao sắc để thái thịt và hành lá.",
+        "Bát trộn lớn để pha bột dễ dàng."
       ]
     },
-    "don_vi_do_luong": "gram, muỗng canh"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi lớn để hầm xương",
-      "Chảo để phi hành tỏi",
-      "Khuôn hoặc rổ để chần bún",
-      "Dao, thớt để cắt thịt",
-      "Mâm hoặc tô lớn để bày món ăn",
-      "Muôi hoặc vá để múc nước dùng"
-    ],
-    "chi_dan_de_hieu": []
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Chần xương bò, bắp bò, giò heo qua nước sôi rồi rửa sạch.",
-          "Hành tây cắt đôi, sả đập dập.",
-          "Phi thơm tỏi, hành tím để tạo hương vị."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu nước dùng",
-        "thoi_gian": "2 giờ",
-        "chi_tiet": [
-          "Hầm xương bò với sả và hành tây trong 3 lít nước.",
-          "Lọc nước mắm ruốc và cho vào nồi.",
-          "Nêm gia vị vừa ăn, tiếp tục đun trong 20 phút."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Chuẩn bị topping",
-        "thoi_gian": "20 phút",
-        "chi_tiet": [
-          "Thái lát bắp bò, giò heo, chả cua.",
-          "Chần bún qua nước sôi."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thiện món ăn",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Cho bún vào tô, xếp topping lên trên.",
-          "Chan nước dùng nóng vào tô.",
-          "Trang trí với hành lá, rau thơm."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "Khoảng 2 giờ 45 phút",
-    "luu_y": [
-      "Hầm xương bò đủ lâu để nước dùng trong và ngọt.",
-      "Lọc kỹ mắm ruốc để tránh bị cặn.",
-      "Có thể thay chả cua bằng chả lụa nếu không thích."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4-5 người",
-    "tinh_toan_cho_khau_phan_khac": []
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể dùng xương heo thay xương bò.",
-      "Thay mắm ruốc bằng mắm tôm nếu không có.",
-      "Bỏ chả cua hoặc thay bằng chả lụa."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Thêm ớt chưng để tạo vị cay.",
-      "Giảm mắm ruốc nếu muốn vị nhẹ hơn.",
-      "Dùng nước hầm xương heo để nước dùng ít béo hơn."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca688"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Mì Quảng",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Mì Quảng có nước dùng sền sệt, đậm đà hương vị của tôm, thịt heo và gia vị. Món ăn được ăn kèm với rau sống, đậu phộng rang, và bánh tráng nướng.",
-    "img": "https://tse4.mm.bing.net/th?id=OIP.fzrDkyt5G7AVGIWXMZntNQHaE8&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4-5 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Mì Quảng",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Thịt heo (ba chỉ hoặc nạc)",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Tôm",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Bột ngọt",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Hạt tiêu",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu điều (hoặc dầu ăn)",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Hành tím băm",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Nước dừa tươi",
-        "so_luong": "200ml"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "tuỳ chọn"
-      },
-      {
-        "ten": "Bánh tráng nướng",
-        "so_l01ng": "2-3 cái"
-      },
-      {
-        "ten": "Đậu phộng rang",
-        "so_luong": "100g"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        "Dàu điều có thể thay thế bằng dầu ăn"
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Pha bột bánh",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Trộn bột gạo, bột nghệ, nước lọc, sữa tươi và chút muối.",
+            "Khuấy đều cho bột tan, thêm hành lá thái nhỏ, để nghỉ 20 phút."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Sơ chế nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Làm sạch tôm, bỏ đầu, đuôi, để nguyên vỏ.",
+            "Thái mỏng thịt ba chỉ, ướp với chút muối và tiêu.",
+            "Rửa sạch giá đỗ, rau sống, để ráo."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Đổ bánh xèo",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Đun nóng chảo, cho 1 muỗng canh dầu ăn.",
+            "Múc một muôi bột đổ vào chảo, xoay đều để bột trải mỏng.",
+            "Cho tôm, thịt, giá đỗ lên một nửa bánh, đậy nắp 2 phút.",
+            "Gập đôi bánh, chiên thêm đến khi vàng giòn."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Pha nước chấm và hoàn thành",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Pha nước chấm: trộn nước mắm, đường, nước lọc, nước cốt chanh, tỏi và ớt băm.",
+            "Xếp bánh xèo ra đĩa, ăn kèm rau sống và nước chấm."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "50 phút",
+      "luu_y": [
+        "Đổ bánh trên lửa vừa để tránh cháy và giữ độ giòn.",
+        "Pha nước chấm cân bằng giữa chua, ngọt, mặn.",
+        "Chiên bánh ngay trước khi ăn để giữ độ nóng giòn."
       ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "8-10 cái bánh, phục vụ 4 người",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để phục vụ 8 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho 2 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Thêm nấm vào nhân để tăng độ ngọt.",
+        "Dùng thịt gà thay thịt heo để đổi vị."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng ớt nếu thích nước chấm cay hơn.",
+        "Giảm đường trong nước chấm nếu muốn vị nhẹ.",
+        "Thêm tỏi băm vào bột bánh để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
     }
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi",
-      "Chảo",
-      "Dao",
-      "Thớt",
-      "Muôi",
-      "Tô"
-    ],
-    "chi_dan_de_hieu": [
-      "Nồi dùng để nậu nước dùng",
-      "Chảo dùng để xào tôm và thịt"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Rửa sạch tôm, thịt, rau sống",
-          "Rang đậu phộng và giã nhỏ"
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nẫu nước dùng",
-        "thoi_gian": "20 phút",
-        "chi_tiet": [
-          "Xào tôm và thịt",
-          "Đun sôi nước dùng",
-          "Nêm gia vị"
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Chuẩn bị mì và rau sống",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Chần mì Quảng",
-          "Xếp mì và topping vào tô"
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thiện món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Múc nước dùng vào tô",
-          "Trang trí với rau sống và đậu phộng"
-        ]
-      }
-    ],
-    "thoi_gian_lam": "45 phút",
-    "luu_y": [
-      "Nước dùng nên sền sệt, không quá loảng"
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4-5 người",
-    "tinh_toan_cho_khau_phan_khac": []
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Thay nước dừa bằng nước hầm xương"
-    ],
-    "dieu_chinh_khau_vi": [
-      "Thêm chanh hoặc ớt tươi"
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
+  
 },
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca689"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Cao Lầu",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Món mì khô đặc sản của Hội An với sợi mì dày, dai, ăn kèm thịt xá xíu, tôm và rau sống.",
-    "img": "https://tse3.mm.bing.net/th?id=OIP.z1d6R4HACLK-MXRZnypB-AHaE7&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4-5 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Mì Cao Lầu (hoặc mì sợi dày)",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Thịt xá xíu (hoặc thịt ba chỉ)",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Tôm",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Giấm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Nước tương (hoặc nước mắm)",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Tiêu",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Bột ngọt",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Rau sống (xà lách, húng quế, giá đỗ, rau thơm)",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Dầu hào hoặc dầu điều (tuỳ thích)",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Bánh phồng tôm (tuỳ thích)",
-        "so_luong": "3-4 miếng"
-      },
-      {
-        "ten": "Nước tro (nếu có, hoặc nước chanh pha loãng)",
-        "so_luong": "50ml"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh Nậm",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bánh nậm là món ăn đặc trưng Huế, bánh dẻo mịn gói trong lá chuối, nhân tôm thịt thơm ngon, chấm nước mắm ớt.",
+      "img": "imgTrung4.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "4 phần ăn",
+      "danh_sach_nguyen_lieu": [
         {
-          "nguyen_lieu": "Mì Cao Lầu",
-          "thay_the": "Mì gạo sợi dày"
+          "ten": "Bột gạo",
+          "so_luong": "200g"
         },
         {
-          "nguyen_lieu": "Thịt xá xíu",
-          "thay_the": "Thịt ba chỉ"
+          "ten": "Bột năng",
+          "so_luong": "50g"
         },
         {
-          "nguyen_lieu": "Nước tro",
-          "thay_the": "Nước chanh pha loãng"
+          "ten": "Nước lọc",
+          "so_luong": "400ml"
+        },
+        {
+          "ten": "Tôm tươi",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Thịt heo băm",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "2 củ"
+        },
+        {
+          "ten": "Hành lá",
+          "so_luong": "30g"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Tiêu xay",
+          "so_luong": "1/4 muỗng cà phê"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Lá chuối",
+          "so_luong": "20 lá"
         }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng bột gạo pha sẵn để tiết kiệm thời gian.",
+          "Thay tôm bằng thịt gà băm nếu không thích hải sản."
+        ]
+      },
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, củ, quả, nhánh, lá"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi hấp",
+        "Chảo chống dính",
+        "Thớt, dao",
+        "Bát trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Nồi hấp cần đủ hơi để bánh chín đều.",
+        "Chảo chống dính giúp xào nhân dễ dàng.",
+        "Dao sắc để cắt lá chuối và thái nguyên liệu.",
+        "Bát trộn lớn để pha bột mịn."
       ]
     },
-    "don_vi_do_luong": "gam, muỗng, củ, tép"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi lớn để nấu nước dùng",
-      "Chảo để xào thịt và tôm",
-      "Nồi để chần mì",
-      "Dao, thớt để cắt thịt, tôm",
-      "Tô lớn để bày món ăn",
-      "Muôi để múc nước dùng"
-    ],
-    "chi_dan_de_hieu": [
-      "Chuẩn bị đầy đủ dụng cụ giúp quá trình nấu ăn dễ dàng hơn.",
-      "Sử dụng nồi lớn để đảm bảo nước dùng có đủ không gian nấu ngon hơn."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Rửa sạch mì Cao Lầu, rau sống, thịt và tôm.",
-          "Bóc vỏ hành tím, tỏi và băm nhỏ.",
-          "Thái lát thịt xá xíu hoặc thịt ba chỉ.",
-          "Nướng bánh phồng tôm nếu dùng."
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị bột bánh",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Trộn bột gạo, bột năng với nước lọc và chút muối.",
+            "Khuấy đều cho bột tan hoàn toàn, để nghỉ 15 phút."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm nhân bánh",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Bóc vỏ tôm, băm nhuyễn.",
+            "Băm nhỏ hành tím, phi thơm với dầu ăn.",
+            "Xào tôm và thịt băm với hành tím, nêm muối, tiêu, đường."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Gói bánh",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Rửa sạch lá chuối, lau khô, cắt thành miếng 20x15cm.",
+            "Phết một lớp bột mỏng lên lá, thêm nhân tôm thịt, rắc ít hành lá.",
+            "Gấp lá chuối lại, xếp gọn vào nồi hấp."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hấp bánh và hoàn thành",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Hấp bánh trên lửa vừa khoảng 10-12 phút đến khi bánh chín.",
+            "Pha nước chấm: trộn nước mắm, đường, nước lọc, ớt băm.",
+            "Bóc lá chuối, xếp bánh ra đĩa, ăn kèm nước chấm."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "60 phút",
+      "luu_y": [
+        "Phết bột mỏng để bánh mềm và dễ chín.",
+        "Gói lá chuối kín để tránh bột chảy ra khi hấp.",
+        "Nước chấm nên pha vừa miệng, không quá mặn."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "20 cái bánh, phục vụ 4 người",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm 40 cái bánh.",
+        "Giảm một nửa nguyên liệu nếu làm cho 2 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng thịt bò băm thay thịt heo để đổi vị.",
+        "Thêm mộc nhĩ vào nhân để tăng độ giòn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng ớt nếu thích nước chấm cay hơn.",
+        "Giảm đường trong nước chấm nếu muốn vị nhẹ.",
+        "Thêm tỏi băm vào nước chấm để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Chè Bắp",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Chè bắp miền Trung ngọt thanh, thơm mùi bắp non, kết hợp với nước cốt dừa béo ngậy, là món tráng miệng dân dã.",
+      "img": "imgTrung5.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "4 phần ăn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Bắp non",
+          "so_luong": "3 trái"
+        },
+        {
+          "ten": "Đường cát",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Nước cốt dừa",
+          "so_luong": "200ml"
+        },
+        {
+          "ten": "Sữa đặc",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Bột năng",
+          "so_luong": "50g"
+        },
+        {
+          "ten": "Nước lọc",
+          "so_luong": "1 lít"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/4 muỗng cà phê"
+        },
+        {
+          "ten": "Lá dứa",
+          "so_luong": "3 lá"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng bắp nếp thay bắp non để tăng độ dẻo.",
+          "Thay nước cốt dừa bằng sữa tươi nếu muốn vị nhẹ hơn."
         ]
       },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu nước dùng",
-        "thoi_gian": "20 phút",
-        "chi_tiet": [
-          "Đun sôi 1.5 - 2 lít nước trong nồi lớn.",
-          "Phi thơm hành tím và tỏi với một ít dầu ăn.",
-          "Xào sơ thịt xá xíu và tôm để thấm gia vị.",
-          "Cho nước vào nồi, nêm nước mắm (hoặc nước tương), đường, tiêu, muối, bột ngọt.",
-          "Đun nước dùng trong 15-20 phút rồi vớt thịt và tôm ra."
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, trái, lít, lá"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu",
+        "Dao, thớt",
+        "Rây lọc",
+        "Bát trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Nồi lớn giúp nấu chè đều và không trào.",
+        "Dao sắc để bào bắp dễ dàng.",
+        "Rây lọc để nước cốt dừa mịn hơn.",
+        "Bát trộn để hòa bột năng."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế bắp",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Bóc vỏ bắp, rửa sạch, dùng dao bào mỏng hạt bắp.",
+            "Giữ lại lõi bắp để nấu nước tăng độ ngọt."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Nấu chè",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Đun 1 lít nước với lõi bắp và lá dứa trong 10 phút, vớt lõi ra.",
+            "Cho hạt bắp bào vào nồi, nấu lửa vừa đến khi bắp chín mềm.",
+            "Thêm đường, khuấy đều, nêm chút muối để cân bằng vị."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Làm nước cốt dừa và bột năng",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Hòa bột năng với 50ml nước, đổ từ từ vào nồi chè, khuấy đều để chè sánh.",
+            "Đun nước cốt dừa với sữa đặc trên lửa nhỏ, thêm chút muối, khuấy đều."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món chè",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Múc chè ra bát, để nguội bớt hoặc thêm đá nếu thích ăn lạnh.",
+            "Rưới nước cốt dừa lên trên trước khi dùng."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "50 phút",
+      "luu_y": [
+        "Bào bắp mỏng để chè có độ sánh tự nhiên.",
+        "Khuấy đều khi cho bột năng để tránh vón cục.",
+        "Nước cốt dừa không đun quá sôi để giữ độ béo."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "4 bát chè, khoảng 200ml/bát",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm 8 bát chè.",
+        "Giảm một nửa nguyên liệu nếu làm cho 2 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng đường thốt nốt thay đường cát để có vị thơm đặc biệt.",
+        "Thêm hạt sen vào chè để tăng độ bùi."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Giảm đường nếu thích vị ngọt nhẹ.",
+        "Tăng nước cốt dừa để chè béo hơn.",
+        "Thêm vani vào nước cốt dừa để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Cơm hến",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Cơm hến là món đặc sản Huế, gồm cơm nguội ăn kèm với hến xào, rau sống, tóp mỡ và nước hến nóng.",
+      "img": "imgTrung6.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần ăn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Hến đã làm sạch",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Cơm nguội",
+          "so_luong": "1 bát"
+        },
+        {
+          "ten": "Tóp mỡ",
+          "so_luong": "20g"
+        },
+        {
+          "ten": "Đậu phộng rang",
+          "so_luong": "10g"
+        },
+        {
+          "ten": "Rau sống (rau thơm, bắp chuối, rau răm...)",
+          "so_luong": "1 nắm nhỏ"
+        },
+        {
+          "ten": "Mắm ruốc Huế",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Ớt chưng",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/4 muỗng cà phê"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay tóp mỡ bằng hành phi nếu ăn chay.",
+          "Dùng mắm tôm thay mắm ruốc trong trường hợp không có."
         ]
       },
-      {
-        "buoc": 3,
-        "ten_buoc": "Chần mì",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Đun nước sôi, cho mì vào chần 2-3 phút.",
-          "Vớt mì ra, xả qua nước lạnh để giữ độ dai.",
-          "Xếp mì vào tô."
+      "don_vi_do_luong": "gram, bát, muỗng cà phê, muỗng canh, nắm nhỏ"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Rổ lọc hến",
+        "Chảo xào",
+        "Dao, thớt",
+        "Tô lớn"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng rổ lọc nhỏ để luộc và lược lấy nước hến.",
+        "Dùng chảo nhỏ để xào hến với gia vị.",
+        "Dao thớt dùng để thái nhỏ rau sống.",
+        "Tô lớn để trộn cơm với các nguyên liệu."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế và luộc hến",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Rửa sạch hến, luộc chín và tách lấy thịt hến.",
+            "Lọc nước luộc hến để dùng làm nước chan."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Xào hến",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Phi thơm tỏi, cho hến vào xào nhanh tay.",
+            "Nêm muối vừa ăn, không xào quá lâu để hến không dai."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Chuẩn bị rau và gia vị",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Rửa sạch rau sống, thái nhỏ.",
+            "Pha mắm ruốc với chút nước và ớt chưng."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Trình bày và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Cho cơm nguội vào tô.",
+            "Xếp rau sống, hến xào, tóp mỡ, đậu phộng lên trên.",
+            "Chan nước hến nóng và thêm mắm ruốc theo khẩu vị."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "25 phút",
+      "luu_y": [
+        "Không nên xào hến quá kỹ để giữ độ ngọt tự nhiên.",
+        "Cơm nguội giúp món ăn không bị nát và hợp vị hơn.",
+        "Mắm ruốc nên pha loãng, nêm từ từ để dễ điều chỉnh mùi vị."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô đầy, khoảng 400-450g",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu cho 2 người ăn.",
+        "Có thể giảm một nửa nguyên liệu nếu ăn kèm thêm món khác."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng mắm tôm thay mắm ruốc nếu khẩu vị khác.",
+        "Thay tóp mỡ bằng hành phi để món ăn nhẹ hơn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng ớt chưng nếu thích ăn cay.",
+        "Giảm mắm ruốc nếu muốn hương vị nhẹ nhàng hơn."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh căn",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bánh căn là món ăn dân dã của miền Trung, làm từ bột gạo đổ trong khuôn đất, ăn kèm nước mắm chua ngọt, xoài bào và mỡ hành.",
+      "img": "imgTrung7.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần ăn (khoảng 8 cái)",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Bột gạo",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Nước",
+          "so_luong": "250ml"
+        },
+        {
+          "ten": "Trứng cút hoặc trứng gà",
+          "so_luong": "8 quả"
+        },
+        {
+          "ten": "Hành lá",
+          "so_luong": "3 nhánh"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Mắm nguyên chất",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Tỏi, ớt băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Xoài xanh bào sợi",
+          "so_luong": "1/2 quả"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay trứng cút bằng trứng gà nếu không có.",
+          "Dùng bột pha sẵn thay cho bột gạo ngâm nếu cần làm nhanh."
         ]
       },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thiện món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Xếp thịt xá xíu, tôm, rau sống lên trên mì.",
-          "Múc nước dùng vào tô sao cho ngập một phần mì.",
-          "Rắc thêm đậu phộng rang, bánh phồng tôm.",
-          "Thêm dầu hào hoặc dầu điều nếu thích."
+      "don_vi_do_luong": "gram, ml, quả, muỗng canh, muỗng cà phê, nhánh"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Khuôn bánh căn (khuôn đất hoặc gang)",
+        "Muôi múc bột",
+        "Tô trộn bột",
+        "Dao, thớt"
+      ],
+      "chi_dan_de_hieu": [
+        "Khuôn nóng và chống dính giúp bánh không bị vỡ.",
+        "Muôi nhỏ giúp đổ bột đều và không bị trào.",
+        "Dao thái hành nhỏ để phi mỡ hành dễ hơn."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Pha bột và chuẩn bị nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Trộn bột gạo với nước thành hỗn hợp lỏng.",
+            "Thái nhỏ hành lá, chuẩn bị trứng cút, bào xoài xanh."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm mỡ hành và pha nước chấm",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Phi hành lá với dầu để làm mỡ hành.",
+            "Pha nước mắm với đường, tỏi, ớt và nước lọc vừa ăn."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Đổ bánh căn",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Làm nóng khuôn, quét dầu mỏng.",
+            "Đổ bột vào 2/3 khuôn, sau đó cho trứng vào giữa.",
+            "Đậy nắp, đợi bánh chín và viền vàng là lấy ra."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Trình bày và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Xếp bánh ra đĩa, rưới mỡ hành, thêm xoài bào.",
+            "Ăn kèm nước chấm chua ngọt đã pha."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "40 phút",
+      "luu_y": [
+        "Nên để khuôn thật nóng trước khi đổ bột.",
+        "Không đổ bột quá đầy để tránh trào khi đậy nắp.",
+        "Có thể thêm nhân tôm, mực nếu muốn phong phú hơn."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 đĩa khoảng 8 bánh",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi bột và trứng để làm cho 2 phần ăn.",
+        "Chia đôi nguyên liệu nếu chỉ cần vài chiếc để ăn nhẹ."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng nhân thịt bằm hoặc hải sản thay trứng.",
+        "Xoài xanh có thể thay bằng dưa leo bào mỏng."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Pha nước chấm ngọt hơn nếu ăn kèm với trẻ em.",
+        "Tăng ớt nếu thích ăn cay đậm vị miền Trung."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    },
+  "hot": 0
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Cháo cá lóc",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Cháo cá lóc miền Trung có vị đậm đà, nấu từ gạo rang với cá lóc tươi, ăn nóng với hành phi, tiêu, rau thơm và đôi khi kèm theo mắm nêm.",
+      "img": "imgTrung8.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 tô lớn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Cá lóc",
+          "so_luong": "250g"
+        },
+        {
+          "ten": "Gạo tẻ",
+          "so_luong": "80g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "3 củ"
+        },
+        {
+          "ten": "Gừng",
+          "so_luong": "3 lát"
+        },
+        {
+          "ten": "Tiêu xay",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Mắm nêm (tùy chọn)",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Hành lá, ngò rí",
+          "so_luong": "3 nhánh"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "1 muỗng canh"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng cá bống hoặc cá chép thay cho cá lóc.",
+          "Không dùng mắm nêm nếu không quen mùi."
         ]
-      }
-    ],
-    "thoi_gian_lam": "45 phút",
-    "luu_y": [
-      "Nếu không có nước tro, có thể dùng nước chanh pha loãng để tạo độ dai cho mì.",
-      "Nêm nếm nước dùng vừa miệng, tránh quá mặn hoặc quá ngọt.",
-      "Có thể thay thế thịt xá xíu bằng thịt ba chỉ nếu cần."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4-5 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu_giam": "50%"
       },
-      {
-        "khau_phan": "6-8 người",
-        "nguyen_lieu_tang": "50%"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Nước tro",
-        "thay_the": "Nước cốt chanh pha loãng"
-      },
-      {
-        "nguyen_lieu": "Thịt xá xíu",
-        "thay_the": "Thịt ba chỉ"
-      },
-      {
-        "nguyen_lieu": "Mì Cao Lầu",
-        "thay_the": "Mì gạo sợi dày"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      "Có thể thêm ớt, chanh để tăng vị cay chua.",
-      "Thay nước mắm bằng nước tương nếu muốn món ăn ít mặn.",
-      "Thêm dầu điều để tạo màu đẹp và hương vị đặc trưng hơn."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, lát, nhánh, củ"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu cháo",
+        "Rây lọc xương cá",
+        "Dao, thớt",
+        "Chảo phi hành"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng rây để lọc xương cá nếu nấu nước dùng từ cá nguyên con.",
+        "Phi hành tím giúp tăng hương vị đặc trưng miền Trung.",
+        "Cháo ngon hơn nếu nấu trong nồi đất hoặc nồi dày giữ nhiệt."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Cá lóc làm sạch, luộc chín với gừng, vớt ra gỡ lấy thịt, giữ lại nước luộc.",
+            "Rang gạo cho thơm rồi vo sạch.",
+            "Hành tím thái lát, hành lá và ngò rí cắt nhỏ."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Nấu cháo",
+          "thoi_gian": "25 phút",
+          "chi_tiet": [
+            "Cho gạo vào nước luộc cá, nấu lửa nhỏ đến khi cháo nhừ.",
+            "Cho phần thịt cá vào nồi, khuấy đều.",
+            "Nêm muối, tiêu, có thể thêm mắm nêm nếu thích vị đậm."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Phi hành và hoàn thiện",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Phi thơm hành tím với dầu ăn.",
+            "Múc cháo ra tô, rắc hành phi, hành lá, ngò rí lên trên."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "45 phút",
+      "luu_y": [
+        "Gạo nên rang trước để cháo có mùi thơm và không bị bở.",
+        "Mắm nêm chỉ dùng nếu quen khẩu vị, không cần thiết.",
+        "Cá lóc đồng giúp món ăn thơm và ngọt tự nhiên hơn cá nuôi."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô lớn, khoảng 450-500g",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm cho 2 người.",
+        "Giảm một nửa gạo nếu muốn ăn loãng nhẹ hơn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Cá chép, cá rô có thể thay thế nếu không có cá lóc.",
+        "Hành phi có thể thay bằng hành khô rang sẵn nếu cần tiết kiệm thời gian."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Thêm tiêu nhiều nếu thích ăn cay theo phong cách miền Trung.",
+        "Không dùng mắm nêm nếu không quen vị mặn nồng đặc trưng."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca68a"
-  },
+  
+    "thong_tin_mon_an": {
+      "ten_mon": "Mắm nêm miền Trung",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Mắm nêm miền Trung là loại nước chấm đặc trưng, có mùi vị mặn nồng, thơm đặc biệt, thường pha với tỏi, ớt, dứa để chấm thịt luộc, bún cuốn, bánh tráng cuốn.",
+      "img": "imgTrung9.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 chén mắm nêm pha sẵn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Mắm nêm nguyên chất",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Thơm (dứa) chín băm nhuyễn",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường trắng",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Ớt băm",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Nước cốt chanh",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Nước lọc (tùy chỉnh độ sệt)",
+          "so_luong": "1–2 muỗng canh"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng thơm đóng hộp nếu không có thơm tươi.",
+          "Ớt có thể thay bằng tương ớt nếu không ăn được cay tươi."
+        ]
+      },
+      "don_vi_do_luong": "muỗng canh, muỗng cà phê"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Chén trộn mắm",
+        "Muỗng khuấy",
+        "Dao, thớt"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng dao thái thơm thật nhuyễn để hòa quyện tốt với mắm.",
+        "Muỗng trộn đều giúp mắm nêm sánh, không lợn cợn."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nguyên liệu",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Thơm gọt vỏ, băm thật nhuyễn.",
+            "Tỏi, ớt băm nhỏ."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Pha mắm nêm",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Cho mắm nêm vào chén, thêm thơm, đường, tỏi, ớt, nước cốt chanh.",
+            "Khuấy đều, thêm nước lọc để điều chỉnh độ đặc theo ý thích.",
+            "Nêm lại nếu cần vị chua ngọt mặn hài hòa."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "10 phút",
+      "luu_y": [
+        "Tỉ lệ pha có thể điều chỉnh theo khẩu vị từng vùng.",
+        "Mắm nêm nguyên chất có mùi mạnh, nên thử lượng vừa phải trước khi pha nhiều.",
+        "Có thể bảo quản lạnh mắm nêm pha trong 1–2 ngày."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 chén nhỏ (~100ml)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nếu pha cho 4–5 cuốn bánh tráng.",
+        "Giảm một nửa nếu chỉ dùng chấm riêng 1 phần thịt luộc."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng tương ớt thay ớt tươi nếu không ăn cay mạnh.",
+        "Dùng nước cốt me thay chanh để tạo vị chua lạ miệng."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Thêm đường nếu thích vị ngọt đậm.",
+        "Thêm ớt nếu thích cay kiểu miền Trung.",
+        "Bỏ thơm nếu không thích vị lên men trái cây."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+  
+},
+{
+ 
+  
+    "thong_tin_mon_an": {
+      "ten_mon": "Mì Quảng",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Mì Quảng là món ăn đặc trưng của Quảng Nam – Đà Nẵng, với sợi mì vàng dai, nước dùng sánh đậm vị, ăn kèm tôm, thịt, trứng, rau sống và bánh tráng nướng.",
+      "img": "imgTrung10.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 tô mì quảng",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Sợi mì Quảng (hoặc bánh phở tươi bản to)",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Thịt ba chỉ",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Tôm sú",
+          "so_luong": "4 con"
+        },
+        {
+          "ten": "Trứng cút luộc",
+          "so_luong": "2 quả"
+        },
+        {
+          "ten": "Củ nén (hoặc hành tím)",
+          "so_luong": "3 củ"
+        },
+        {
+          "ten": "Nghệ tươi (hoặc bột nghệ)",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Hạt điều màu (để tạo màu dầu)",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Nước mắm, muối, đường, tiêu",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Rau sống (xà lách, húng, cải non, giá...)",
+          "so_luong": "1 dĩa"
+        },
+        {
+          "ten": "Bánh tráng mè nướng",
+          "so_luong": "1 cái"
+        },
+        {
+          "ten": "Đậu phộng rang giã",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Hành lá, ớt trái",
+          "so_luong": "vừa đủ"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng bánh phở tươi nếu không có mì Quảng sẵn.",
+          "Hành tím thay cho củ nén nếu không có.",
+          "Trứng cút có thể thay bằng trứng gà luộc bổ đôi."
+        ]
+      },
+      "don_vi_do_luong": "gram, con, quả, củ, muỗng cà phê, muỗng canh, cái"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu nước lèo",
+        "Chảo xào nhân",
+        "Dao, thớt",
+        "Tô lớn, vá múc"
+      ],
+      "chi_dan_de_hieu": [
+        "Chảo chống dính giúp xào nhân không bị khét.",
+        "Nồi nhỏ đủ sâu để nấu nước lèo sánh.",
+        "Dao sắc dùng thái mỏng thịt ba chỉ đẹp mắt."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Thịt ba chỉ rửa sạch, thái miếng mỏng vừa ăn.",
+            "Tôm bỏ đầu, lột vỏ, giữ lại phần đuôi nếu thích.",
+            "Trứng cút luộc chín, bóc vỏ.",
+            "Củ nén hoặc hành tím đập dập, băm nhỏ."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Xào nhân và nấu nước lèo",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Phi củ nén với dầu màu điều cho thơm.",
+            "Cho thịt, tôm vào xào săn, nêm nước mắm, muối, nghệ, tiêu.",
+            "Thêm ít nước vào tạo nước dùng sền sệt, đun liu riu 10 phút."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Chuẩn bị rau và trụng mì",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Rửa sạch rau sống, để ráo.",
+            "Trụng mì Quảng trong nước sôi, vớt ra để ráo, trộn ít dầu tránh dính."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Trình bày và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Cho rau sống vào đáy tô, tiếp theo là mì.",
+            "Múc phần nhân và chan nước sền lên trên.",
+            "Thêm trứng cút, rắc đậu phộng, hành lá, ớt và bánh tráng nướng bẻ nhỏ."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "45 phút",
+      "luu_y": [
+        "Nước lèo không cần nhiều như bún, chỉ xâm xấp mặt mì.",
+        "Màu điều giúp tạo sắc vàng cam đặc trưng của mì Quảng.",
+        "Có thể thêm gà xé hoặc sườn non tùy khẩu vị."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô đầy đủ (~400g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm 2 tô.",
+        "Giảm một nửa nếu dùng cho trẻ em hoặc ăn nhẹ."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Thay tôm bằng gà xé, cá lóc hoặc thịt vịt nếu thích.",
+        "Dùng nước hầm xương thay nước lọc cho nước lèo đậm đà hơn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng nghệ nếu muốn màu đậm hơn.",
+        "Thêm mắm nêm vào nước chan nếu thích vị đậm miền Trung."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh ít lá gai",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bánh ít lá gai là món bánh truyền thống có lớp vỏ làm từ bột nếp và lá gai xay nhuyễn, bọc nhân đậu xanh dừa ngọt thơm, thường được gói trong lá chuối và hấp chín.",
+      "img": "imgTrung11.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "Khoảng 6–8 cái bánh",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Bột nếp",
+          "so_luong": "300g"
+        },
+        {
+          "ten": "Lá gai (đã luộc, xay nhuyễn)",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Đậu xanh cà vỏ",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Dừa nạo",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Đường cát trắng",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Dầu ăn (hoặc mỡ heo)",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/4 muỗng cà phê"
+        },
+        {
+          "ten": "Lá chuối tươi (để gói bánh)",
+          "so_luong": "6–8 miếng"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng đường thốt nốt để tăng độ thơm đặc trưng.",
+          "Dùng dầu dừa thay dầu ăn để bánh thơm hơn.",
+          "Nếu không có lá chuối, có thể dùng giấy nến gói tạm nhưng không đúng hương vị truyền thống."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng canh, muỗng cà phê, miếng"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi hấp",
+        "Tô trộn bột",
+        "Máy xay hoặc cối xay lá gai",
+        "Dao, thớt, chảo chống dính"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng máy xay hoặc cối giã kỹ lá gai để vỏ bánh mịn.",
+        "Chảo chống dính giúp xào nhân không bị khét.",
+        "Nồi hấp phải có nắp kín để bánh chín đều và không bị sũng nước."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nhân bánh",
+          "thoi_gian": "30 phút",
+          "chi_tiet": [
+            "Ngâm đậu xanh 3–4 tiếng, nấu chín và tán nhuyễn.",
+            "Xào đậu xanh với đường, dừa nạo, chút muối đến khi sên dẻo.",
+            "Để nguội rồi vo viên nhỏ làm nhân."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm vỏ bánh",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Trộn bột nếp với lá gai đã xay nhuyễn.",
+            "Thêm đường, dầu ăn, nhồi đến khi bột dẻo mịn, không dính tay."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Gói và hấp bánh",
+          "thoi_gian": "30 phút",
+          "chi_tiet": [
+            "Chia bột, bọc nhân vào giữa, vê tròn rồi gói trong lá chuối.",
+            "Xếp bánh vào xửng, hấp cách thủy khoảng 25–30 phút.",
+            "Bánh chín là khi vỏ bánh dẻo, không còn mùi bột sống."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "75 phút",
+      "luu_y": [
+        "Lá gai nên luộc mềm rồi mới xay nhuyễn để bột mịn.",
+        "Không hấp bánh quá lâu sẽ làm vỏ bánh bị nhão.",
+        "Lá chuối nên trụng sơ qua nước sôi hoặc hơ lửa cho mềm dễ gói."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "6–8 cái bánh ít lá gai",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu muốn làm 15 cái bánh.",
+        "Chia đôi nguyên liệu nếu chỉ làm thử 3–4 cái."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Nhân có thể thay bằng nhân dừa, mè đen hoặc đậu phộng sên.",
+        "Dùng đường thốt nốt tạo vị ngọt thanh và màu đẹp."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Thêm nhiều dừa nếu thích nhân béo ngậy.",
+        "Giảm đường nếu không thích ngọt gắt."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }  
+
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Cao lầu",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Cao lầu là món ăn đặc trưng của Hội An với sợi mì dai đặc biệt, thịt xá xíu đậm đà, nước dùng ít nhưng cô đọng, ăn kèm rau sống và bánh đa giòn.",
+      "img": "imgTrung12.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 tô cao lầu",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Sợi cao lầu",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Thịt heo ba rọi",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Xì dầu (nước tương)",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Ngũ vị hương",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Tỏi, hành tím băm",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Đường, muối, tiêu",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Rau sống (xà lách, cải non, húng lủi...)",
+          "so_luong": "1 dĩa"
+        },
+        {
+          "ten": "Nước dùng (nước hầm xương heo)",
+          "so_luong": "50ml"
+        },
+        {
+          "ten": "Bánh đa chiên giòn (hoặc mì cao lầu phơi giòn chiên)",
+          "so_luong": "1 ít"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng mì Quảng khô thay tạm nếu không có sợi cao lầu.",
+          "Nước tương đậm đặc thay xì dầu nếu cần.",
+          "Thịt nạc vai thay ba rọi nếu không thích mỡ."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng canh, muỗng cà phê, ml, dĩa, ít"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi luộc mì",
+        "Chảo xào thịt",
+        "Dao, thớt",
+        "Tô lớn để trộn cao lầu"
+      ],
+      "chi_dan_de_hieu": [
+        "Chảo chống dính giúp xào thịt đều và thơm hơn.",
+        "Tô sâu lòng để trộn cao lầu không bị tràn.",
+        "Dao bén giúp thái thịt đều và đẹp."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế và ướp thịt",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Thịt heo rửa sạch, thái miếng mỏng vừa ăn.",
+            "Ướp với xì dầu, ngũ vị hương, hành tỏi băm, chút đường, muối, tiêu. Để 30 phút cho thấm."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Xào thịt và chuẩn bị nước dùng",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Xào thịt trên chảo đến khi săn, thơm, hơi sém cạnh.",
+            "Thêm chút nước dùng hầm xương để lấy nước chan đậm vị."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Trụng sợi cao lầu và rau sống",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Trụng sơ sợi cao lầu trong nước sôi, vớt ra để ráo.",
+            "Rửa sạch rau sống, để ráo nước."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Trình bày và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Xếp rau sống dưới đáy tô, cho sợi cao lầu lên trên.",
+            "Thêm thịt xá xíu, chan nước dùng sệt vừa đủ.",
+            "Rắc bánh đa giòn lên trên cùng, ăn kèm ớt và chanh nếu thích."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "40 phút",
+      "luu_y": [
+        "Sợi cao lầu chính gốc Hội An làm bằng nước tro và gạo lứt, có độ dai đặc trưng.",
+        "Nước dùng chỉ chan ít, không ngập như bún hoặc phở.",
+        "Có thể bảo quản thịt xá xíu trong tủ lạnh và hâm lại khi ăn."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô cao lầu (~400g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nếu chỉ muốn làm phần ăn nhỏ nhẹ nhàng."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng thịt gà xé thay thịt heo nếu muốn ít mỡ.",
+        "Có thể làm chay bằng nấm xào và nước tương."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng ngũ vị hương nếu thích vị đậm kiểu Hoa.",
+        "Thêm ớt tươi hoặc sate nếu muốn cay nồng."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+{
+
   "thong_tin_mon_an": {
     "ten_mon": "Nem Lụi Huế",
     "mien_quoc_gia": "Miền Trung",
     "mo_ta_ngan": "Nem lụi Huế là những viên thịt nướng được xiên que, có hương vị đậm đà, thường được ăn kèm với rau sống và nước mắm pha chua ngọt. Món ăn này nổi bật với sự kết hợp giữa vị ngọt của thịt, độ béo của mỡ, và vị chua ngọt của nước mắm.",
-    "img": "https://tse1.mm.bing.net/th?id=OIP.U0qIEtNYS0DxofJQyoUYFQHaEK&pid=Api&P=0&h=220"
+    "img": "imgTrung13.jpg"
   },
   "nguyen_lieu": {
     "khau_phan": "4-5 người",
@@ -4956,581 +4974,445 @@
     "$oid": "67ed0c710018c91a35113362"
   }
 },
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca68b"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh Lọc Huế",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bánh lọc Huế là món ăn truyền thống với lớp vỏ trong suốt làm từ bột năng, nhân tôm thịt đậm đà và nước mắm chấm đặc trưng.",
-    "img": "https://tse1.mm.bing.net/th?id=OIP.hKPCVyLVocpLAmMs-3m-jgHaE8&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bột năng",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Nước",
-        "so_luong": "250ml"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Tôm tươi",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Thịt ba chỉ",
-        "so_luong": "150g"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "2 cây"
-      },
-      {
-        "ten": "Tiêu",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Hạt nêm",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Nước cốt chanh",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Ớt",
-        "so_luong": "1-2 trái"
-      },
-      {
-        "ten": "Nước lọc",
-        "so_luong": "2 muỗng canh"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh lọc Huế",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bánh lọc Huế là món bánh đặc trưng với vỏ bánh trong suốt làm từ bột năng, nhân tôm thịt, gói trong lá chuối và hấp chín. Món ăn có hương vị đậm đà, thơm ngon, ăn kèm với nước mắm tỏi ớt.",
+      "img": "imgTrung14.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "Khoảng 6–8 cái bánh lọc",
+      "danh_sach_nguyen_lieu": [
         {
-          "nguyen_lieu": "Tôm tươi",
-          "thay_the": "Tôm khô, thịt gà, hoặc nấm cho phiên bản chay"
+          "ten": "Bột năng",
+          "so_luong": "200g"
         },
         {
-          "nguyen_lieu": "Thịt ba chỉ",
-          "thay_the": "Thịt bò hoặc thịt gà"
-        }
-      ]
-    },
-    "don_vi_do_luong": "gram, ml, muỗng cà phê, muỗng canh"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi hấp",
-      "Chảo",
-      "Thìa",
-      "Đũa",
-      "Dao",
-      "Thớt",
-      "Rây bột",
-      "Đĩa hoặc mâm"
-    ],
-    "chi_dan_de_hieu": [
-      "Dùng nồi hấp để hấp bánh giúp bánh chín đều",
-      "Rây bột để tránh vón cục"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Làm vỏ bánh",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Pha bột với nước, muối và đường, khuấy đều tránh vón cục.",
-          "Đun nước sôi và từ từ đổ vào bột, khuấy liên tục cho đến khi bột chín.",
-          "Nhồi bột đến khi dẻo và mịn, chia thành viên nhỏ."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Làm nhân bánh",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Tôm và thịt ba chỉ băm nhỏ.",
-          "Phi hành tím, xào thịt rồi thêm tôm, nêm gia vị, cuối cùng cho hành lá."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Gói bánh",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Dàn mỏng viên bột, cho nhân vào giữa, gấp lại thành hình bán nguyệt.",
-          "Lót lá chuối hoặc giấy nướng, xếp bánh vào nồi hấp."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hấp bánh",
-        "thoi_gian": "20-25 phút",
-        "chi_tiet": [
-          "Hấp bánh đến khi bánh trong suốt.",
-          "Lấy bánh ra để nguội một chút trước khi thưởng thức."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Pha nước mắm chấm",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Pha nước mắm, đường, nước cốt chanh, nước lọc, tỏi băm và ớt băm."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "Khoảng 1 giờ",
-    "luu_y": [
-      "Kiểm soát lượng nước khi pha bột để đạt độ dẻo mong muốn.",
-      "Nhân bánh nên xào vừa chín để không bị khô.",
-      "Bánh hấp nên ăn ngay khi còn nóng để có vị ngon nhất."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "dieu_chinh": "Giảm nguyên liệu một nửa"
-      },
-      {
-        "khau_phan": "8 người",
-        "dieu_chinh": "Gấp đôi nguyên liệu"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay nhân bằng thịt gà, bò, hoặc nhân chay."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Điều chỉnh lượng đường và nước cốt chanh trong nước mắm chấm theo khẩu vị cá nhân."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca68c"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Chả Bò Đà Nẵng",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Món ăn đặc sản của Đà Nẵng, có vị ngọt, thơm của thịt bò tươi kết hợp gia vị đặc trưng.",
-    "img": "https://tse4.mm.bing.net/th?id=OIP.9NGpHSwMLQLney_6MgLFQAHaE8&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4-5 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Thịt bò tươi (nạc vai, bắp bò)",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Mỡ heo (hoặc mỡ bò)",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Hành tím băm",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Tiêu",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Bột ngọt",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Hạt nêm",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Nước đá lạnh",
-        "so_luong": "50ml"
-      },
-      {
-        "ten": "Giấy bọc chả (hoặc lá chuối)",
-        "so_luong": "5-6 lá"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        {
-          "nguyen_lieu": "Mỡ heo",
-          "thay_the": "Mỡ bò hoặc dầu ăn"
+          "ten": "Tôm tươi",
+          "so_luong": "100g"
         },
         {
-          "nguyen_lieu": "Lá chuối",
-          "thay_the": "Giấy bạc hoặc giấy bọc thực phẩm"
-        }
-      ]
-    },
-    "don_vi_do_luong": "gram, ml, muỗng"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Máy xay thịt hoặc cối giã",
-      "Chảo để chiên",
-      "Tô lớn để trộn thịt",
-      "Dao và thớt",
-      "Giấy bọc chả hoặc lá chuối"
-    ],
-    "chi_dan_de_hieu": [
-      "Dùng máy xay để thịt nhuyễn mịn hơn.",
-      "Nếu dùng lá chuối, nên trụng qua nước nóng để lá mềm và dễ gói."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Rửa sạch thịt bò, cắt thành miếng nhỏ.",
-          "Cắt mỡ heo thành miếng nhỏ.",
-          "Bóc vỏ hành tím, tỏi và băm nhỏ."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Xay hoặc giã thịt",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Cho thịt bò và mỡ vào máy xay hoặc cối giã.",
-          "Xay thịt thật nhuyễn, thêm nước đá lạnh từng chút để giữ độ tươi."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Trộn gia vị",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Trộn thịt với nước mắm, tiêu, bột ngọt, đường, hành tím băm, tỏi băm.",
-          "Nhào thật kỹ để thịt có độ dẻo."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Gói và luộc chả",
-        "thoi_gian": "40 phút",
-        "chi_tiet": [
-          "Chia thịt thành từng miếng dài 10-12cm.",
-          "Gói chả bằng lá chuối hoặc giấy bọc, buộc chặt hai đầu.",
-          "Luộc chả trong nước sôi 30-40 phút cho đến khi chín."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Chiên chả",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Làm nóng chảo với dầu ăn, cho chả vào chiên.",
-          "Chiên vàng đều các mặt, lật đều để không bị cháy."
-        ]
-      },
-      {
-        "buoc": 6,
-        "ten_buoc": "Hoàn thiện và thưởng thức",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Cắt chả thành từng miếng vừa ăn.",
-          "Ăn kèm với cơm, bún hoặc rau sống, chấm nước mắm chua ngọt."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "Khoảng 1 giờ 30 phút",
-    "luu_y": [
-      "Nên chọn thịt bò tươi, có độ nạc vừa để chả không bị khô.",
-      "Nước đá lạnh giúp giữ thịt tươi và làm chả có độ dai."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "Khoảng 4-5 người ăn, mỗi người 2-3 miếng.",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2-3 người",
-        "nguyen_lieu_giam": "50%"
-      },
-      {
-        "khau_phan": "8-10 người",
-        "nguyen_lieu_tang": "Gấp đôi"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Thịt bò",
-        "thay_the": "Một phần thịt heo hoặc gà"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      {
-        "thay_doi": "Giảm tiêu",
-        "hieu_ung": "Ít cay hơn, phù hợp cho trẻ nhỏ."
-      },
-      {
-        "thay_doi": "Thêm nước mắm",
-        "hieu_ung": "Hương vị đậm đà hơn."
-      }
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca68d"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bún Chả Cá",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bún chả cá có nước dùng thơm ngon từ cá, kết hợp với bún tươi, chả cá chiên hoặc hấp và các loại rau sống, tạo nên một món ăn đậm đà, thanh mát và dễ ăn.",
-    "img": "https://tiki.vn/blog/wp-content/uploads/2023/03/HVfOfCy6md05zNG9B02CM-J4VXe1mw1HvzrGQ9C60CnAPul8A71NjogTmujbmIyZIchr-99wnZuhW2O-veZ1Inw1_CM4QmR-DlbFqtnwjyMVmgVdSXyzAnDmJ0utqsctgFHR3Mxb2fBrPpFddY0G-MA.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Chả cá",
-        "so_luong": "400g"
-      },
-      {
-        "ten": "Cá tươi",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Bún tươi",
-        "so_luong": "400g"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Gừng",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Cà chua",
-        "so_luong": "2 quả"
-      },
-      {
-        "ten": "Dứa (thơm)",
-        "so_luong": "1/4 quả"
-      },
-      {
-        "ten": "Cà rốt",
-        "so_luong": "1 củ (tùy chọn)"
-      },
-      {
-        "ten": "Mắm ruốc",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "Một ít"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "Một ít"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "1 muỗng canh"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        {
-          "nguyen_lieu": "Mắm ruốc",
-          "thay_the_bang": "Nước mắm"
+          "ten": "Thịt heo xay",
+          "so_luong": "50g"
         },
         {
-          "nguyen_lieu": "Cá thu",
-          "thay_the_bang": "Cá basa hoặc cá rô phi"
+          "ten": "Hành tím",
+          "so_luong": "2 củ"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường, muối",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Lá chuối",
+          "so_luong": "6–8 miếng"
+        },
+        {
+          "ten": "Tỏi, ớt",
+          "so_luong": "vừa đủ"
         }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay thịt heo bằng thịt gà hoặc chả cá nếu thích.",
+          "Nước mắm có thể dùng mắm nêm để thêm đậm đà.",
+          "Có thể thay tôm tươi bằng tôm khô nếu không có tôm tươi."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng canh, muỗng cà phê, miếng"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi hấp",
+        "Tô trộn bột",
+        "Chảo chống dính",
+        "Dao, thớt"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng dao bén để thái tôm và thịt đều.",
+        "Nồi hấp phải có nắp kín để bánh chín đều.",
+        "Chảo chống dính giúp xào nhân không bị dính."
       ]
     },
-    "don_vi_do_luong": "gam, muỗng canh"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi lớn",
-      "Chảo",
-      "Dao và thớt",
-      "Tô lớn",
-      "Cối hoặc máy xay",
-      "Rây lọc"
-    ],
-    "chi_dan_de_hieu": [
-      "Dùng nồi lớn để nấu nước dùng",
-      "Dùng chảo để chiên chả cá",
-      "Rây lọc để loại bỏ cặn trong nước dùng"
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Làm sạch cá, cắt miếng nhỏ",
-          "Xay cá với gia vị nếu tự làm chả cá",
-          "Thái cà chua, dứa, cà rốt",
-          "Băm nhỏ hành, tỏi, gừng"
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu nước dùng",
-        "thoi_gian": "30 phút",
-        "chi_tiet": [
-          "Đun sôi nước, phi thơm hành tỏi",
-          "Cho cà chua, dứa vào xào",
-          "Thêm mắm ruốc, nêm gia vị",
-          "Nấu 20-30 phút cho đậm đà"
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Chiên chả cá",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Chiên vàng đều các miếng chả cá"
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Nấu cá tươi",
-        "thoi_gian": "5-7 phút",
-        "chi_tiet": [
-          "Cho cá vào nước dùng, nấu chín"
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Chuẩn bị bún",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Luộc bún, vớt ra tô"
-        ]
-      },
-      {
-        "buoc": 6,
-        "ten_buoc": "Hoàn thiện và thưởng thức",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Xếp bún, chả cá, cá tươi vào tô",
-          "Rắc rau sống, ớt, ngò rí",
-          "Vắt chanh, ăn kèm nước mắm"
-        ]
-      }
-    ],
-    "thoi_gian_lam": "Khoảng 1 giờ",
-    "luu_y": [
-      "Chọn cá tươi để nước dùng ngon hơn",
-      "Nếu không thích mắm ruốc, có thể thay bằng nước mắm",
-      "Chả cá có thể hấp thay vì chiên để giảm dầu mỡ"
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu": "Giảm một nửa tất cả nguyên liệu"
-      },
-      {
-        "khau_phan": "6 người",
-        "nguyen_lieu": "Tăng 1.5 lần tất cả nguyên liệu"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Cá thu",
-        "thay_the_bang": "Cá ngừ hoặc cá hồi"
-      },
-      {
-        "nguyen_lieu": "Chả cá chiên",
-        "thay_the_bang": "Chả cá hấp"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      "Thêm xương heo vào nước dùng để tăng độ ngọt",
-      "Giảm mắm ruốc nếu không thích mùi quá đậm"
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nhân bánh",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Tôm rửa sạch, thái nhỏ.",
+            "Thịt heo xay trộn với hành tím băm nhỏ, xào thơm với dầu ăn.",
+            "Trộn tôm, thịt với một chút gia vị: muối, đường, nước mắm."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm vỏ bánh",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Trộn bột năng với nước nóng, thêm muối, đường và dầu ăn vào, nhào bột cho mịn.",
+            "Chia bột thành từng phần nhỏ, nặn thành các miếng dẹt."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Gói bánh và hấp",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Cho nhân tôm thịt vào giữa miếng bột đã nặn.",
+            "Gói bánh trong lá chuối, cố định lại bằng dây lạt hoặc lá chuối.",
+            "Xếp bánh vào xửng hấp, hấp khoảng 15–20 phút cho bánh chín."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Chuẩn bị nước mắm chấm và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Pha nước mắm với tỏi băm, ớt và chút đường cho vừa ăn.",
+            "Khi bánh chín, dọn bánh ra đĩa, ăn kèm với nước mắm chua ngọt."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "45 phút",
+      "luu_y": [
+        "Bột năng phải trộn với nước nóng để tạo độ dẻo và trong cho vỏ bánh.",
+        "Nên hấp bánh đều để bánh không bị nát.",
+        "Lá chuối gói bánh nên hơ qua lửa cho mềm, dễ gói."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "6–8 cái bánh lọc",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu chỉ làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Thay thịt heo bằng chả cá hoặc tôm khô nếu muốn đổi vị.",
+        "Có thể dùng nước mắm nêm thay nước mắm thông thường để tạo hương vị đặc trưng hơn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng độ cay của nước mắm nếu thích ăn cay.",
+        "Có thể thêm một chút giấm vào nước mắm để tăng độ chua."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+  
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca68e"
-  },
+
+  
+    "thong_tin_mon_an": {
+      "ten_mon": "Chả bò Đà Nẵng",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Chả bò Đà Nẵng là món ăn nổi tiếng với thịt bò xay nhuyễn, gia vị đặc trưng, được ép thành từng miếng tròn và hấp chín. Món này thường được ăn kèm với bún, cơm, hoặc là món nhắm ngon miệng.",
+      "img": "imgTrung15.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 miếng chả bò (~150g)",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Thịt bò nạc xay",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Thịt ba chỉ xay",
+          "so_luong": "50g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "1 củ"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Tiêu",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Bột ngọt",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Lá chuối",
+          "so_luong": "1 miếng"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay thịt ba chỉ bằng thịt mỡ hoặc thịt nạc heo.",
+          "Thêm chút ớt băm vào gia vị nếu muốn ăn cay.",
+          "Nước mắm có thể thay bằng mắm nêm để tạo hương vị đậm đà hơn."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, miếng"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi hấp",
+        "Tô trộn",
+        "Dao, thớt",
+        "Muỗng"
+      ],
+      "chi_dan_de_hieu": [
+        "Dao bén giúp thái hành và tỏi thật mịn.",
+        "Nồi hấp phải có nắp kín để chả bò hấp chín đều.",
+        "Muỗng hoặc tay sạch để trộn gia vị đều trong thịt."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị thịt",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Thịt bò nạc và ba chỉ xay nhuyễn.",
+            "Hành tím, tỏi băm nhỏ.",
+            "Trộn thịt với gia vị: nước mắm, đường, tiêu, bột ngọt và hành tỏi băm."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Nặn và gói chả bò",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Nặn thịt thành các miếng tròn hoặc hình dẹt theo sở thích.",
+            "Gói chả bò trong lá chuối hoặc giấy bạc để hấp."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Hấp chả bò",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Xếp chả bò vào nồi hấp, hấp khoảng 20 phút cho chả chín đều."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Dọn chả bò ra đĩa, có thể ăn kèm với bún, cơm hoặc dùng làm món nhắm với bia.",
+            "Có thể chấm với nước mắm pha hoặc mắm nêm tùy theo khẩu vị."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "45 phút",
+      "luu_y": [
+        "Chả bò nên được hấp chín đều để không bị dai hoặc khô.",
+        "Có thể bảo quản chả bò trong tủ lạnh và hấp lại khi ăn.",
+        "Chả bò ngon nhất khi ăn kèm với nước mắm tỏi ớt hoặc mắm nêm."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 miếng chả bò (~150g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Thay thịt bò bằng thịt gà hoặc thịt heo xay nếu muốn đổi vị.",
+        "Có thể dùng lá chuối khác hoặc dùng giấy bạc thay nếu không có lá chuối."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng gia vị nếu thích ăn đậm đà hơn.",
+        "Có thể cho thêm chút ớt băm vào nhân nếu muốn ăn cay."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+  
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bún chả cá",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bún chả cá là món ăn nổi tiếng với chả cá chiên vàng giòn, bún tươi, và nước dùng thơm ngon, đậm đà, ăn kèm với rau sống tươi mát và gia vị. Món ăn này rất phổ biến ở Đà Nẵng và các tỉnh miền Trung.",
+      "img": "imgTrung16.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần bún chả cá (~350g)",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Chả cá",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Bún tươi",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Cà chua",
+          "so_luong": "2 quả"
+        },
+        {
+          "ten": "Hành tây",
+          "so_luong": "1 củ"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Hành lá",
+          "so_luong": "2 nhánh"
+        },
+        {
+          "ten": "Rau sống",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Chanh",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay chả cá bằng cá thu hoặc cá mối nếu không có chả cá truyền thống.",
+          "Thêm chút mắm tôm vào nước dùng nếu thích ăn đậm đà hơn.",
+          "Dùng bún khô thay bún tươi nếu muốn."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, quả, nhánh"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu nước dùng",
+        "Chảo chiên",
+        "Tô lớn",
+        "Dao, thớt"
+      ],
+      "chi_dan_de_hieu": [
+        "Nồi nấu nước dùng nên có khả năng giữ nhiệt để nước dùng luôn nóng.",
+        "Chảo chiên nên sử dụng chảo không dính để chiên chả cá đều và không bị dính.",
+        "Dùng dao bén để thái cà chua và hành tây đều."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nguyên liệu",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Cà chua rửa sạch, bổ múi cau.",
+            "Hành tây thái mỏng.",
+            "Chả cá chiên vàng giòn, cắt miếng vừa ăn."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Nấu nước dùng",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Nấu nước dùng từ xương hoặc nước luộc chả cá, nêm gia vị với nước mắm, đường, và tỏi băm.",
+            "Cho cà chua vào nấu cho mềm, tạo màu và vị ngọt tự nhiên cho nước dùng."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Chần bún và chuẩn bị bát",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Chần bún qua nước sôi rồi cho vào tô lớn.",
+            "Thêm hành lá, rau sống vào tô bún.",
+            "Xếp chả cá lên trên bún."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành và thưởng thức",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Múc nước dùng nóng vào tô bún chả cá.",
+            "Thêm chút ớt tươi và chanh để tăng hương vị.",
+            "Dùng ngay khi còn nóng để thưởng thức."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "35 phút",
+      "luu_y": [
+        "Nước dùng nên được nêm nếm vừa phải để tạo độ ngọt thanh tự nhiên.",
+        "Chả cá chiên vàng giòn sẽ giúp món ăn thêm hấp dẫn.",
+        "Có thể thêm một ít mắm tôm vào nước dùng để tạo thêm vị đậm đà."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô (~350g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Có thể thay chả cá bằng cá thu hoặc cá mối.",
+        "Thêm mắm tôm vào nước dùng nếu thích ăn đậm đà."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng chanh và ớt tươi nếu thích ăn chua cay.",
+        "Có thể thêm chút tiêu xay vào nước dùng để tăng hương vị."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+
+  
+},
+{
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Chè Huế",
     "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "https://media.mia.vn/uploads/blog-du-lich/Thuong-thuc-nhung-mon-che-Hue-day-hap-dan-tai-che-Mo-Ton-Dich-08-1638913129.jpg"
+    "mo_ta_ngan": "Chè Huế là món tráng miệng nổi tiếng với sự kết hợp đa dạng của đậu xanh, đậu đen, hạt lựu và nước cốt dừa, mang hương vị ngọt thanh, béo ngậy đặc trưng.",
+    "img": "imgTrung17.jpg"
   },
   "nguyen_lieu": {
     "khau_phan": "4-5 người",
@@ -5579,29 +5461,20 @@
     "de_tim_kiem": {
       "goi_y_thay_the": [
         {
-          "nguyen_lieu": "Bột báng",
-          "thay_the": [
-            "Bột năng",
-            "Thạch dừa"
-          ]
+          "ten": "Bột năng",
+          "so_luong": "50g thay cho bột báng"
         },
         {
-          "nguyen_lieu": "Đậu xanh",
-          "thay_the": [
-            "Đậu đỏ",
-            "Đậu ngự"
-          ]
+          "ten": "Đậu đỏ",
+          "so_luong": "100g thay cho đậu xanh"
         },
         {
-          "nguyen_lieu": "Nước cốt dừa",
-          "thay_the": [
-            "Sữa tươi",
-            "Không sử dụng"
-          ]
+          "ten": "Sữa tươi",
+          "so_luong": "200ml thay cho nước cốt dừa"
         }
-      ]
-    },
-    "don_vi_do_luong": "gram, ml, lá, ống"
+      ],
+      "don_vi_do_luong": "gram, ml, lá, ống"
+    }
   },
   "dung_cu_can_thiet": {
     "danh_sach_dung_cu": [
@@ -5625,9 +5498,9 @@
       {
         "buoc": 1,
         "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "2-3 giờ (ngâm đậu), 15 phút (bột báng)",
+        "thoi_gian": "15 phút",
         "chi_tiet": [
-          "Ngâm đậu xanh và đậu đen trong nước, sau đó rửa sạch.",
+          "Ngâm đậu xanh và đậu đen trong nước 2-3 giờ, sau đó rửa sạch.",
           "Ngâm bột báng trong nước khoảng 15 phút.",
           "Cắt nhỏ lá dứa và xay với nước để lấy nước cốt."
         ]
@@ -5635,7 +5508,7 @@
       {
         "buoc": 2,
         "ten_buoc": "Nấu chè",
-        "thoi_gian": "30-40 phút",
+        "thoi_gian": "35 phút",
         "chi_tiet": [
           "Đun nước sôi, cho đậu xanh vào nấu trước, sau đó thêm đậu đen.",
           "Nấu hạt lựu và bột báng riêng đến khi chín, sau đó vớt ra để ráo.",
@@ -5646,7 +5519,7 @@
       {
         "buoc": 3,
         "ten_buoc": "Hoàn thiện chè",
-        "thoi_gian": "5-10 phút",
+        "thoi_gian": "10 phút",
         "chi_tiet": [
           "Tiếp tục đun chè trên lửa nhỏ để các nguyên liệu hòa quyện.",
           "Tắt bếp, để chè nguội hoặc làm lạnh trong tủ lạnh."
@@ -5655,7 +5528,7 @@
       {
         "buoc": 4,
         "ten_buoc": "Thưởng thức",
-        "thoi_gian": "Tùy thích",
+        "thoi_gian": "5 phút",
         "chi_tiet": [
           "Múc chè ra tô, có thể thêm đá bào.",
           "Ăn kèm với dừa nạo hoặc bánh tráng nướng nếu thích."
@@ -5674,14 +5547,7 @@
     "tinh_toan_cho_khau_phan_khac": [
       {
         "khau_phan": "2 người",
-        "dieu_chinh": {
-          "Đậu xanh": "50g",
-          "Đậu đen": "50g",
-          "Cốt dừa": "100ml",
-          "Hạt lựu": "25g",
-          "Nước": "500ml",
-          "Đường": "50g"
-        }
+        "dieu_chinh": "Giảm nguyên liệu một nửa"
       }
     ]
   },
@@ -5700,413 +5566,315 @@
     "$oid": "67ed0c710018c91a35113362"
   }
 },
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca68f"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Cơm Gà Tam Kỳ",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Cơm gà Tam Kỳ nổi bật với hạt cơm tơi, thơm mùi gà, thịt gà mềm ngon, ăn kèm với nước mắm gừng đặc trưng và rau sống.",
-    "img": "https://statics.vinpearl.com/com-ga-tam-ky-05%20(1)_1631434093.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Gà",
-        "so_luong": "1 con (1.2 – 1.5 kg)"
-      },
-      {
-        "ten": "Gạo",
-        "so_luong": "300g"
-      },
-      {
-        "ten": "Hành tây",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "3 tép"
-      },
-      {
-        "ten": "Gừng",
-        "so_luong": "1 củ"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "Vừa đủ"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "Vừa đủ"
-      },
-      {
-        "ten": "Hạt nêm",
-        "so_luong": "Vừa đủ"
-      },
-      {
-        "ten": "Tiêu",
-        "so_luong": "Vừa đủ"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "Vừa đủ"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Nước cốt dừa",
-        "so_luong": "50ml"
-      },
-      {
-        "ten": "Ớt",
-        "so_luong": "1-2 trái"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Xà lách, rau răm, ngò rí"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Cơm Gà Tam Kỳ",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Cơm gà Tam Kỳ là món ăn nổi tiếng của Quảng Nam, với cơm nấu từ nước luộc gà thơm lừng, thịt gà luộc mềm ngọt, ăn kèm với rau sống và gia vị, tạo nên một món ăn vừa ngon vừa bổ dưỡng.",
+      "img": "imgTrung18.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần cơm gà (~400g)",
+      "danh_sach_nguyen_lieu": [
         {
-          "nguyen_lieu": "Gà",
-          "thay_the": [
-            "Vịt",
-            "Thịt heo"
+          "ten": "Gà ta",
+          "so_luong": "1 con (khoảng 600g)"
+        },
+        {
+          "ten": "Gạo nếp",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Gạo tẻ",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Hành tây",
+          "so_luong": "1 củ"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Gừng tươi",
+          "so_luong": "1 củ nhỏ"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Rau sống",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Chanh",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1 muỗng cà phê"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay gà ta bằng gà công nghiệp nếu không có gà ta.",
+          "Dùng gạo nếp và gạo tẻ để tạo ra cơm mềm, dẻo và thơm.",
+          "Có thể thêm chút mắm tôm vào gia vị nếu thích."
+        ]
+      },
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu cơm",
+        "Chảo chiên",
+        "Dao, thớt",
+        "Tô trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Nồi nấu cơm nên có khả năng giữ nhiệt để cơm không bị khô.",
+        "Chảo chiên dùng để chiên hành và tỏi cho thơm.",
+        "Dao bén để thái gà và hành tây đều, đẹp."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Luộc gà",
+          "thoi_gian": "30 phút",
+          "chi_tiet": [
+            "Gà rửa sạch, cho vào nồi cùng với gừng và hành tây đập dập.",
+            "Đổ nước vừa đủ, nấu cho gà chín mềm, trong khi luộc gà, vớt bọt để nước dùng trong.",
+            "Khi gà chín, vớt ra, xé nhỏ thịt gà và để riêng nước luộc."
           ]
         },
         {
-          "nguyen_lieu": "Nước cốt chanh",
-          "thay_the": [
-            "Giấm"
+          "buoc": 2,
+          "ten_buoc": "Nấu cơm",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Gạo tẻ và nếp ngâm trước 30 phút, sau đó rửa sạch.",
+            "Cho gạo vào nồi, đổ nước dùng gà vào nấu cơm, thêm một ít muối để cơm dẻo và thơm.",
+            "Nấu cơm cho đến khi chín, nếu cần có thể cho thêm nước trong quá trình nấu."
           ]
-        }
-      ]
-    },
-    "don_vi_do_luong": "gram, muỗng, củ, tép"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi lớn để luộc gà",
-      "Chảo để xào cơm",
-      "Dao và thớt",
-      "Chén để pha nước mắm gừng",
-      "Tô lớn để trộn gạo"
-    ],
-    "chi_dan_de_hieu": [
-      "Sử dụng nồi có kích thước đủ lớn để luộc gà nguyên con.",
-      "Chảo chống dính giúp xào cơm dễ dàng hơn."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "30 phút",
-        "chi_tiet": [
-          "Rửa sạch gà, luộc với muối, hành và gừng trong 25-30 phút, sau đó vớt ra, để nguội và xé nhỏ.",
-          "Rửa sạch gạo, ngâm 30 phút rồi để ráo.",
-          "Thái mỏng hành tây, băm nhỏ hành tím, tỏi và gừng."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Nấu cơm",
-        "thoi_gian": "40 phút",
-        "chi_tiet": [
-          "Cho gạo vào nồi cơm điện, thêm dầu ăn, muối, hành tây, gừng thái lát, nước cốt dừa và nước.",
-          "Nấu cơm cho đến khi chín, dùng đũa xới nhẹ để hạt cơm tơi."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Xào cơm",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Phi thơm hành tím, tỏi và gừng băm trong dầu ăn.",
-          "Cho cơm vào xào khoảng 5-7 phút cho cơm thơm, không bị dính."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Pha nước mắm gừng",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Pha nước mắm với đường, nước cốt chanh, ớt và gừng thái lát.",
-          "Khuấy đều cho tan hết đường."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Hoàn thiện món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Múc cơm ra đĩa, xếp thịt gà lên trên.",
-          "Rưới nước mắm gừng lên gà, trang trí với rau sống."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "90 phút",
-    "luu_y": [
-      "Chọn gà ta để thịt thơm và mềm hơn.",
-      "Có thể dùng gạo nếp hoặc gạo tấm để cơm mềm hơn.",
-      "Nước cốt dừa giúp cơm béo và thơm, nhưng có thể bỏ qua nếu không thích."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu": [
-          {
-            "ten": "Gà",
-            "so_luong": "½ con"
-          },
-          {
-            "ten": "Gạo",
-            "so_luong": "150g"
-          }
-        ]
-      },
-      {
-        "khau_phan": "8 người",
-        "nguyen_lieu": [
-          {
-            "ten": "Gà",
-            "so_luong": "2 con"
-          },
-          {
-            "ten": "Gạo",
-            "so_luong": "600g"
-          }
-        ]
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Gà có thể thay bằng vịt hoặc thịt heo.",
-      "Nước cốt chanh có thể thay bằng giấm.",
-      "Cơm có thể không xào mà chỉ nấu chín bình thường."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Có thể thêm nước cốt dừa để tăng độ béo cho cơm.",
-      "Nước mắm gừng có thể điều chỉnh độ cay theo khẩu vị."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca690"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh Hỏi Thịt Heo Quay",
-    "mien_quoc_gia": "Miền Trung",
-    "mo_ta_ngan": "Bánh hỏi mềm mịn kết hợp với thịt heo quay giòn tan, ăn kèm nước mắm chua ngọt và rau sống tươi ngon.",
-    "img": "https://tse1.mm.bing.net/th?id=OIP.9Ty3Mlusne89u5_AiMl-mQHaFj&pid=Api&P=0&h=220"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "4 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Thịt heo ba chỉ",
-        "so_luong": "500g"
-      },
-      {
-        "ten": "Bánh hỏi",
-        "so_luong": "400g"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "3 tép"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "3 muỗng canh"
-      },
-      {
-        "ten": "Nước cốt chanh",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Ớt",
-        "so_luong": "1-2 trái"
-      },
-      {
-        "ten": "Nước lọc",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Rau sống",
-        "so_luong": "Tùy ý (xà lách, húng quế, giá đỗ, ngò rí, dưa leo)"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+        },
         {
-          "ten_goc": "Thịt heo quay",
-          "goi_y": [
-            "Thịt gà quay",
-            "Thịt vịt quay"
+          "buoc": 3,
+          "ten_buoc": "Chuẩn bị gia vị",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Tỏi băm nhỏ và phi vàng với dầu ăn cho thơm.",
+            "Chanh vắt lấy nước, ớt thái lát mỏng."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Khi cơm đã chín, cho cơm ra đĩa, xếp thịt gà lên trên.",
+            "Rưới chút dầu tỏi lên cơm, thêm gia vị mắm, ớt, rau sống và chanh để món ăn thêm đậm đà và tươi mát."
           ]
         }
+      ],
+      "thoi_gian_lam": "60 phút",
+      "luu_y": [
+        "Cơm gà Tam Kỳ phải được nấu từ nước luộc gà để cơm có mùi thơm đặc trưng.",
+        "Có thể thêm chút gia vị như mắm tôm để món ăn thêm đậm đà.",
+        "Thịt gà luộc nên được xé nhỏ và thấm gia vị để ăn ngon hơn."
       ]
     },
-    "don_vi_do_luong": "gram, muỗng canh, tép, trái"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi hấp",
-      "Chảo chiên",
-      "Dao và thớt",
-      "Bát để pha nước mắm"
-    ],
-    "chi_dan_de_hieu": [
-      "Sử dụng nồi hấp để làm nóng bánh hỏi trước khi ăn.",
-      "Dùng chảo để quay hoặc chiên thịt nếu không có lò nướng."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị thịt heo quay",
-        "thoi_gian": "30 phút ướp, 40-50 phút nướng",
-        "chi_tiet": [
-          "Rửa sạch thịt, khía nhẹ phần da.",
-          "Ướp thịt với muối, tiêu, dầu ăn, đường, nước mắm, tỏi băm trong 30 phút.",
-          "Nướng thịt ở 180°C trong 40-50 phút hoặc chiên giòn trên chảo.",
-          "Thái lát thịt sau khi chín."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Chuẩn bị bánh hỏi",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Hấp bánh hỏi khoảng 5-10 phút cho nóng.",
-          "Dùng dầu ăn hoặc hành phi trộn vào bánh hỏi để thêm hương vị."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Pha nước mắm chấm",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Pha nước mắm với đường, nước cốt chanh, nước lọc.",
-          "Thêm tỏi băm, ớt cắt nhỏ, khuấy đều.",
-          "Nêm nếm lại cho vừa khẩu vị."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thiện món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Xếp bánh hỏi ra đĩa, đặt thịt heo quay lên trên.",
-          "Thêm rau sống và dưa leo xung quanh.",
-          "Dùng nước mắm chấm kèm khi ăn."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "Khoảng 1 giờ 30 phút",
-    "luu_y": [
-      "Kiểm tra nhiệt độ lò để tránh thịt bị cháy.",
-      "Bánh hỏi cần hấp đúng cách để giữ độ mềm.",
-      "Có thể điều chỉnh độ chua ngọt của nước mắm theo khẩu vị."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "4 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu": {
-          "Thịt heo ba chỉ": "250g",
-          "Bánh hỏi": "200g",
-          "Hành tím": "1 củ",
-          "Tỏi": "1-2 tép",
-          "Nước mắm": "1.5 muỗng canh",
-          "Nước cốt chanh": "0.5 muỗng canh",
-          "Đường": "0.5 muỗng canh",
-          "Ớt": "1 trái",
-          "Nước lọc": "1 muỗng canh",
-          "Rau sống": "Tùy ý"
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 phần cơm gà (~400g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Có thể thay gà ta bằng gà công nghiệp hoặc thậm chí thịt vịt nếu muốn thử món mới.",
+        "Nước dùng có thể nấu từ xương gà nếu muốn nước dùng ngọt hơn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng hành tỏi phi nếu thích ăn đậm đà.",
+        "Có thể cho thêm chút mắm tôm vào cơm nếu muốn hương vị thêm phong phú."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+},
+
+ 
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh Hỏi Thịt Heo Quay",
+      "mien_quoc_gia": "Miền Trung",
+      "mo_ta_ngan": "Bánh hỏi thịt heo quay là món ăn đặc sản của miền Trung, với bánh hỏi mềm mịn kết hợp với thịt heo quay giòn tan, ăn kèm với rau sống, đậu phộng và nước mắm chua ngọt, mang đến hương vị đậm đà khó quên.",
+      "img": "imgTrung19.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần (~400g)",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Thịt heo",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Bánh hỏi",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "1 củ"
+        },
+        {
+          "ten": "Tỏi băm",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Chanh",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Rau sống",
+          "so_luong": "vừa đủ"
+        },
+        {
+          "ten": "Đậu phộng rang",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Gia vị: muối, tiêu",
+          "so_luong": "vừa đủ"
         }
-      },
-      {
-        "khau_phan": "6 người",
-        "nguyen_lieu": {
-          "Thịt heo ba chỉ": "750g",
-          "Bánh hỏi": "600g",
-          "Hành tím": "3 củ",
-          "Tỏi": "4-5 tép",
-          "Nước mắm": "4.5 muỗng canh",
-          "Nước cốt chanh": "1.5 muỗng canh",
-          "Đường": "1.5 muỗng canh",
-          "Ớt": "2-3 trái",
-          "Nước lọc": "3 muỗng canh",
-          "Rau sống": "Tùy ý"
-        }
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "ten_goc": "Thịt heo quay",
-        "goi_y": [
-          "Thịt gà quay",
-          "Thịt vịt quay"
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay thịt heo quay bằng thịt heo luộc hoặc thịt gà quay nếu không thích ăn heo.",
+          "Dùng bánh tráng thay cho bánh hỏi nếu không có sẵn bánh hỏi."
         ]
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      {
-        "mo_ta": "Nếu thích cay, thêm ớt xay vào nước mắm."
       },
-      {
-        "mo_ta": "Nếu thích nước mắm ngọt hơn, tăng lượng đường."
-      },
-      {
-        "mo_ta": "Có thể thêm bạc hà hoặc rau mùi tàu để tạo hương vị mới."
-      }
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ed0c710018c91a35113362"
-  }
+      "don_vi_do_luong": "gram, muỗng cà phê, muỗng canh, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Chảo chiên",
+        "Nồi hấp",
+        "Dao, thớt",
+        "Tô trộn"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng chảo chống dính để chiên thịt heo quay giòn.",
+        "Nồi hấp dùng để làm nóng bánh hỏi.",
+        "Dao sắc để thái thịt heo và rau sống đẹp."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nguyên liệu",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Rửa sạch thịt heo, thái miếng vừa ăn.",
+            "Hành tím bóc vỏ, thái mỏng, tỏi băm nhỏ.",
+            "Bánh hỏi làm sẵn nếu có, nếu chưa có thì hấp bánh hỏi cho nóng."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Chiên thịt heo quay",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Thịt heo xát muối, tiêu, hành và tỏi băm vào thịt để ướp trong khoảng 10 phút.",
+            "Cho thịt vào chảo chiên, lật đều các mặt đến khi thịt giòn và có màu vàng đẹp."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Chuẩn bị nước mắm",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Pha nước mắm với đường, chanh và ớt tươi thái lát mỏng.",
+            "Nếm thử và điều chỉnh lại gia vị cho vừa khẩu vị."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Xếp bánh hỏi vào đĩa, đặt thịt heo quay lên trên.",
+            "Rưới nước mắm lên bánh hỏi và thịt heo, thêm rau sống, đậu phộng rang và ớt thái lát.",
+            "Món ăn này nên ăn ngay khi còn nóng để cảm nhận trọn vẹn hương vị."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "40 phút",
+      "luu_y": [
+        "Thịt heo quay phải giòn nhưng không khô.",
+        "Nước mắm có thể điều chỉnh lượng chanh và đường tùy theo khẩu vị.",
+        "Nếu không có bánh hỏi, bạn có thể dùng bánh tráng cuốn để thay thế."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 phần (~400g)",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu nếu làm cho 2 người.",
+        "Giảm một nửa nguyên liệu nếu làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Có thể thay thịt heo quay bằng thịt bò hoặc thịt gà quay.",
+        "Bánh hỏi có thể thay bằng bánh tráng hoặc bún nếu muốn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Thêm chút tiêu xay vào nước mắm nếu thích ăn cay.",
+        "Có thể thêm chút tỏi băm vào nước mắm để tăng hương vị."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ed0c710018c91a35113362"
+    }
+  
+  
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca691"
-  },
+  
   "thong_tin_mon_an": {
     "ten_mon": "Chả Tôm Thanh Hóa",
     "mien_quoc_gia": "Miền Trung",
     "mo_ta_ngan": "Chả tôm Thanh Hóa là món ăn nổi tiếng với lớp bánh phồng giòn tan cuộn tôm xay đậm đà, nướng trên than hồng thơm lừng, ăn kèm rau sống và nước mắm chua ngọt.",
-    "img": "https://statics.vincom.com.vn/xu-huong/0-0-0-0-mon-ngon-mien-trung/image16.png"
+    "img": "imgTrung20.jpg"
   },
   "nguyen_lieu": {
     "khau_phan": "4 người",
@@ -6143,21 +5911,23 @@
     "de_tim_kiem": {
       "goi_y_thay_the": [
         {
-          "ten_goc": "Tôm tươi",
-          "goi_y": [
-            "Tôm khô ngâm mềm",
-            "Cá xay nhuyễn"
-          ]
+          "ten": "Tôm khô ngâm mềm",
+          "so_luong": "200g thay cho tôm tươi"
+        },
+        {
+          "ten": "Cá xay nhuyễn",
+          "so_luong": "400g thay cho tôm tươi"
         }
-      ]
-    },
-    "don_vi_do_luong": "gram, cái, củ"
+      ],
+      "don_vi_do_luong": "gram, cái, củ"
+    }
   },
   "dung_cu_can_thiet": {
     "danh_sach_dung_cu": [
       "Cối xay hoặc máy xay",
       "Vỉ nướng than hoặc lò nướng",
-      "Dao, thớt",
+      "Dao",
+      "Thớt",
       "Chổi quét mỡ"
     ],
     "chi_dan_de_hieu": [
@@ -6225,50 +5995,22 @@
     "tinh_toan_cho_khau_phan_khac": [
       {
         "khau_phan": "2 người",
-        "nguyen_lieu": {
-          "Tôm tươi": "200g",
-          "Thịt ba chỉ xay": "50g",
-          "Mỡ heo": "25g",
-          "Bánh phồng tôm": "6 cái",
-          "Hành tím": "1 củ",
-          "Gia vị": "Vừa đủ",
-          "Rau sống ăn kèm": "Tùy ý"
-        }
+        "dieu_chinh": "Giảm nguyên liệu một nửa"
       },
       {
         "khau_phan": "6 người",
-        "nguyen_lieu": {
-          "Tôm tươi": "600g",
-          "Thịt ba chỉ xay": "150g",
-          "Mỡ heo": "75g",
-          "Bánh phồng tôm": "18 cái",
-          "Hành tím": "3 củ",
-          "Gia vị": "Vừa đủ",
-          "Rau sống ăn kèm": "Tùy ý"
-        }
+        "dieu_chinh": "Tăng nguyên liệu lên 1.5 lần"
       }
     ]
   },
   "kha_nang_tuy_bien": {
     "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "ten_goc": "Tôm tươi",
-        "goi_y": [
-          "Tôm khô ngâm mềm",
-          "Cá xay nhuyễn"
-        ]
-      }
+      "Có thể dùng tôm khô ngâm mềm hoặc cá xay nhuyễn thay tôm tươi."
     ],
     "dieu_chinh_khau_vi": [
-      {
-        "mo_ta": "Có thể tăng tiêu nếu thích vị cay nồng."
-      },
-      {
-        "mo_ta": "Thêm hành lá cắt nhỏ vào nhân cho thơm hơn."
-      },
-      {
-        "mo_ta": "Nước mắm chấm có thể pha thêm tỏi, ớt, đường và nước chanh để tăng vị."
-      }
+      "Có thể tăng tiêu nếu thích vị cay nồng.",
+      "Thêm hành lá cắt nhỏ vào nhân cho thơm hơn.",
+      "Nước mắm chấm có thể pha thêm tỏi, ớt, đường và nước chanh để tăng vị."
     ]
   },
   "categoryId": {
@@ -6276,9 +6018,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed444b27ff8cb0d09fc334"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Bún chả Hà Nội",
     "mien_quoc_gia": "Miền Bắc",
@@ -6466,9 +6206,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed44cb27ff8cb0d09fc336"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Cơm Lam Hòa Bình",
     "mien_quoc_gia": "Miền Bắc",
@@ -6612,9 +6350,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed450a27ff8cb0d09fc338"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Cá kho làng Vũ Đại",
     "mien_quoc_gia": "Miền Bắc",
@@ -6780,9 +6516,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed455c27ff8cb0d09fc33a"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Bánh đa cua Hải Phòng",
     "mien_quoc_gia": "Miền Bắc",
@@ -6959,9 +6693,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed45c627ff8cb0d09fc33c"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Phở Hà Nội",
     "mien_quoc_gia": "Miền Bắc",
@@ -7139,9 +6871,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed461727ff8cb0d09fc33e"
-  },
+  
   "thong_tin_mon_an": {
     "ten_mon": "Sườn xào chua ngọt miền Bắc",
     "mien_quoc_gia": "Miền Bắc",
@@ -7305,9 +7035,7 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed465a27ff8cb0d09fc340"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Cơm rang dưa bò",
     "mien_quoc_gia": "Miền Bắc",
@@ -7468,479 +7196,477 @@
   }
 },
 {
-  "_id": {
-    "$oid": "67ed473e27ff8cb0d09fc343"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bún Thang",
-    "mien_quoc_gia": "Miền Bắc",
-    "mo_ta_ngan": "Bún thang là món ăn đặc trưng của Hà Nội với nước dùng trong, ngọt thanh, kết hợp nhiều nguyên liệu thái sợi.",
-    "img": "imgBac8.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "1 người trưởng thành",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bún tươi",
-        "so_luong": "150g"
-      },
-      {
-        "ten": "Thịt gà luộc",
-        "so_luong": "50g"
-      },
-      {
-        "ten": "Trứng gà",
-        "so_luong": "1 quả"
-      },
-      {
-        "ten": "Giò lụa",
-        "so_luong": "30g"
-      },
-      {
-        "ten": "Nấm hương",
-        "so_luong": "3 cái"
-      },
-      {
-        "ten": "Hành lá",
-        "so_luong": "2 nhánh"
-      },
-      {
-        "ten": "Rau răm",
-        "so_luong": "5 lá"
-      },
-      {
-        "ten": "Nước dùng gà",
-        "so_luong": "300ml"
-      },
-      {
-        "ten": "Tôm khô",
-        "so_luong": "10g"
-      },
-      {
-        "ten": "Mắm tôm",
-        "so_luong": "1/2 muỗng cà phê"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
+ 
+    "thong_tin_mon_an": {
+      "ten_mon": "Bún Thang",
+      "mien_quoc_gia": "Miền Bắc", 
+      "mo_ta_ngan": "Bún thang là món ăn đặc trưng của Hà Nội với nước dùng trong, ngọt thanh, kết hợp nhiều nguyên liệu thái sợi.",
+      "img": "imgBac8.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần ăn",
+      "danh_sach_nguyen_lieu": [
         {
-          "nguyen_lieu": "Giò lụa",
-          "goi_y": "Chả quế"
+          "ten": "Bún tươi",
+          "so_luong": "150g"
         },
         {
-          "nguyen_lieu": "Tôm khô",
-          "goi_y": "Ruốc tôm"
-        }
-      ]
-    },
-    "don_vi_do_luong": "gram, ml, muỗng cà phê"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi nấu nước dùng",
-      "Chảo chống dính",
-      "Dao, thớt",
-      "Rây lọc"
-    ],
-    "chi_dan_de_hieu": [
-      "Dùng dao sắc để thái nguyên liệu thật mỏng.",
-      "Dùng rây lọc để nước dùng trong hơn."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Luộc gà, lấy nước dùng và xé nhỏ thịt gà.",
-          "Ngâm tôm khô với nước ấm trong 10 phút, giã nhuyễn.",
-          "Ngâm nấm hương, rửa sạch rồi thái sợi.",
-          "Thái sợi giò lụa, hành lá, rau răm."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Làm trứng chiên mỏng",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Đánh tan trứng, thêm chút nước mắm.",
-          "Chiên trứng mỏng rồi thái sợi."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Nấu nước dùng",
-        "thoi_gian": "20 phút",
-        "chi_tiet": [
-          "Lọc nước luộc gà cho trong.",
-          "Cho tôm khô giã nhuyễn vào nước dùng, nêm nếm với nước mắm.",
-          "Đun lửa nhỏ để giữ nước dùng trong."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thành món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Chần bún qua nước sôi, cho vào tô.",
-          "Xếp thịt gà, giò lụa, trứng thái sợi, nấm hương lên trên.",
-          "Rưới nước dùng nóng lên, thêm hành lá, rau răm và một ít mắm tôm nếu thích."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "45 phút",
-    "luu_y": [
-      "Nên thái nguyên liệu thật mỏng để món ăn đẹp mắt hơn.",
-      "Mắm tôm có thể thêm hoặc không tùy khẩu vị."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "1 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu_tang_them": "Gấp đôi nguyên liệu"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Giò lụa",
-        "thay_the": "Chả quế"
-      },
-      {
-        "nguyen_lieu": "Tôm khô",
-        "thay_the": "Ruốc tôm"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      "Tăng lượng mắm tôm nếu thích đậm vị.",
-      "Giảm lượng hành lá nếu không thích vị hăng."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ed47eb27ff8cb0d09fc345"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Gà Ri Nướng Làng Vũ Đại",
-    "mien_quoc_gia": "Miền Bắc",
-    "mo_ta_ngan": "Món gà ri nướng đặc sản Làng Vũ Đại với lớp da vàng giòn, thịt thơm mềm, tẩm ướp gia vị đậm đà.",
-    "img": "imgBac9.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "1 người trưởng thành",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Gà ri nguyên con",
-        "so_luong": "1/2 con (~500g)"
-      },
-      {
-        "ten": "Mật ong",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Dầu hào",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Tỏi băm",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Sả băm",
-        "so_luong": "2 cây"
-      },
-      {
-        "ten": "Ớt băm",
-        "so_luong": "1 trái"
-      },
-      {
-        "ten": "Muối hột",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Hạt tiêu",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Lá chanh",
-        "so_luong": "5 lá"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        {
-          "nguyen_lieu": "Mật ong",
-          "goi_y": "Đường nâu"
+          "ten": "Thịt gà luộc",
+          "so_luong": "50g"
         },
         {
-          "nguyen_lieu": "Sả",
-          "goi_y": "Hành tím"
-        }
-      ]
-    },
-    "don_vi_do_luong": "gram, muỗng canh, muỗng cà phê"
-  },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Lò nướng hoặc bếp than",
-      "Cọ quét gia vị",
-      "Dao, thớt",
-      "Dĩa lớn"
-    ],
-    "chi_dan_de_hieu": [
-      "Nên dùng bếp than để có hương vị truyền thống hơn.",
-      "Dùng cọ quét gia vị đều lên gà khi nướng để da giòn hơn."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Rửa sạch gà với nước muối, để ráo.",
-          "Băm nhỏ tỏi, sả, ớt.",
-          "Pha nước ướp gồm: nước mắm, dầu hào, mật ong, tỏi băm, sả băm, tiêu."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Ướp gà",
-        "thoi_gian": "30 phút",
-        "chi_tiet": [
-          "Xoa muối hột lên da gà, rửa lại.",
-          "Thoa đều hỗn hợp gia vị lên toàn bộ con gà, để thấm 30 phút."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Nướng gà",
-        "thoi_gian": "40 phút",
-        "chi_tiet": [
-          "Làm nóng lò nướng ở 200°C hoặc nhóm bếp than.",
-          "Nướng gà trong lò 40 phút, lật mặt sau 20 phút.",
-          "Nếu dùng bếp than, nướng đến khi da vàng giòn."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thành",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Cắt gà thành miếng vừa ăn.",
-          "Trang trí với lá chanh thái nhỏ, ăn kèm muối tiêu chanh."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "90 phút",
-    "luu_y": [
-      "Không nên nướng gà quá lâu để tránh bị khô.",
-      "Có thể dùng giấy bạc bọc gà khi nướng để giữ nước."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "1 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu_tang_them": "Gấp đôi nguyên liệu"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Mật ong",
-        "thay_the": "Đường nâu"
-      },
-      {
-        "nguyen_lieu": "Sả",
-        "thay_the": "Hành tím"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      "Thêm ớt nếu muốn cay hơn.",
-      "Giảm mật ong nếu không thích vị ngọt."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ed485f27ff8cb0d09fc347"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Bánh Cuốn Thanh Trì",
-    "mien_quoc_gia": "Miền Bắc",
-    "mo_ta_ngan": "Bánh cuốn Thanh Trì là món ăn nổi tiếng của Hà Nội, với lớp bánh mềm mỏng, nhân thịt xay đậm đà và nước chấm thơm ngon.",
-    "img": "imgBac10.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "1 người trưởng thành",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Bột gạo",
-        "so_luong": "200g"
-      },
-      {
-        "ten": "Thịt heo xay",
-        "so_luong": "150g"
-      },
-      {
-        "ten": "Hành khô",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Nấm hương",
-        "so_luong": "5 cái"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Đường",
-        "so_luong": "1 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "1 muỗng canh"
-      },
-      {
-        "ten": "Bánh phở",
-        "so_luong": "3 cái"
-      },
-      {
-        "ten": "Chanh",
-        "so_luong": "1/2 quả"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        {
-          "nguyen_lieu": "Thịt heo",
-          "goi_y": "Thịt gà xay"
+          "ten": "Trứng gà",
+          "so_luong": "1 quả"
         },
         {
-          "nguyen_lieu": "Nấm hương",
-          "goi_y": "Nấm mèo"
+          "ten": "Giò lụa",
+          "so_luong": "30g"
+        },
+        {
+          "ten": "Nấm hương",
+          "so_luong": "3 cái"
+        },
+        {
+          "ten": "Hành lá",
+          "so_luong": "2 nhánh"
+        },
+        {
+          "ten": "Rau răm",
+          "so_luong": "5 lá"
+        },
+        {
+          "ten": "Nước dùng gà",
+          "so_luong": "300ml"
+        },
+        {
+          "ten": "Tôm khô",
+          "so_luong": "10g"
+        },
+        {
+          "ten": "Mắm tôm",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/4 muỗng cà phê" 
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1/4 muỗng cà phê" 
         }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể thay giò lụa bằng chả quế để đổi vị.",
+          "Dùng ruốc tôm thay tôm khô nếu không có sẵn."
+        ]
+      },
+      "don_vi_do_luong": "gram, ml, muỗng cà phê, quả, cái, nhánh, lá" 
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi nấu nước dùng",
+        "Chảo chống dính",
+        "Dao, thớt",
+        "Rây lọc"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng dao sắc để thái nguyên liệu thật mỏng.",
+        "Dùng rây lọc để nước dùng trong hơn.",
+        "Chảo chống dính giúp chiên trứng mỏng dễ dàng.",
+        "Nồi lớn để đun nước dùng giữ nhiệt tốt."
       ]
     },
-    "don_vi_do_luong": "gram, muỗng canh, muỗng cà phê"
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Luộc gà, lấy nước dùng và xé nhỏ thịt gà.",
+            "Ngâm tôm khô với nước ấm trong 10 phút, giã nhuyễn.",
+            "Ngâm nấm hương, rửa sạch rồi thái sợi.",
+            "Thái sợi giò lụa, hành lá, rau răm."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm trứng chiên mỏng",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Đánh tan trứng, thêm chút nước mắm.",
+            "Chiên trứng mỏng rồi thái sợi."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Nấu nước dùng",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Lọc nước luộc gà cho trong.",
+            "Cho tôm khô giã nhuyễn vào nước dùng, nêm muối và đường.",
+            "Đun lửa nhỏ để giữ nước dùng trong."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Chần bún qua nước sôi, cho vào tô.",
+            "Xếp thịt gà, giò lụa, trứng thái sợi, nấm hương lên trên.",
+            "Rưới nước dùng nóng lên, thêm hành lá, rau răm và một ít mắm tôm nếu thích."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "45 phút",
+      "luu_y": [
+        "Nên thái nguyên liệu thật mỏng để món ăn đẹp mắt hơn.",
+        "Mắm tôm có thể thêm hoặc không tùy khẩu vị.",
+        "Lọc nước dùng kỹ để đảm bảo độ trong."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 tô, khoảng 400g",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để phục vụ 2 người.",
+        "Giảm một nửa nguyên liệu nếu chỉ làm cho nửa phần ăn."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng chả quế thay giò lụa để đổi vị.",
+        "Dùng ruốc tôm thay tôm khô nếu không có sẵn."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng mắm tôm nếu thích đậm vị.",
+        "Giảm lượng hành lá nếu không thích vị hăng.",
+        "Thêm chút tiêu xay để tăng hương vị."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Chảo",
-      "Bát, đĩa",
-      "Dao, thớt",
-      "Rây lọc"
-    ],
-    "chi_dan_de_hieu": [
-      "Dùng chảo chống dính để tránh bánh bị dính.",
-      "Có thể dùng nồi hấp để làm chín bánh nhanh hơn."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Chuẩn bị nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Thịt heo xay, nấm hương ngâm nước ấm, thái nhỏ.",
-          "Hành khô, tỏi băm nhỏ.",
-          "Bánh phở cắt thành miếng vừa ăn."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Làm nhân bánh",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Phi hành tỏi với dầu ăn cho thơm.",
-          "Thêm thịt heo xay vào xào cho chín.",
-          "Thêm nấm hương, nêm gia vị với nước mắm và đường."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Làm bánh cuốn",
-        "thoi_gian": "20 phút",
-        "chi_tiet": [
-          "Dùng khuôn hấp bánh, cho bột gạo vào khuôn, hấp trong 3-5 phút.",
-          "Khi bột chín, cho nhân thịt vào giữa, cuộn lại."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Hoàn thành món ăn",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Xếp bánh cuốn lên đĩa.",
-          "Rưới nước mắm pha chanh, đường lên trên và thêm rau sống nếu thích."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "50 phút",
-    "luu_y": [
-      "Bánh cuốn khi làm xong nên ăn ngay để giữ độ mềm.",
-      "Có thể thêm rau sống hoặc chả lụa để tăng thêm hương vị."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "1 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      {
-        "khau_phan": "2 người",
-        "nguyen_lieu_tang_them": "Gấp đôi nguyên liệu"
-      }
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      {
-        "nguyen_lieu": "Thịt heo",
-        "thay_the": "Thịt gà xay"
-      },
-      {
-        "nguyen_lieu": "Nấm hương",
-        "thay_the": "Nấm mèo"
-      }
-    ],
-    "dieu_chinh_khau_vi": [
-      "Thêm ít chanh để nước chấm có vị chua nhẹ.",
-      "Giảm lượng đường nếu muốn nước chấm ít ngọt hơn."
-    ]
-  },
-  "categoryId": {
-    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
-  }
+  "hot": 0
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca692"
-  },
+
+    "thong_tin_mon_an": {
+      "ten_mon": "Gà Ri Nướng Làng Vũ Đại",
+      "mien_quoc_gia": "Miền Bắc",
+      "mo_ta_ngan": "Gà ri nướng Làng Vũ Đại là món ăn dân dã, thơm lừng với thịt gà ri săn chắc, da giòn, thấm đẫm gia vị đặc trưng.",
+      "img": "imgBac9.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "1 phần ăn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Gà ri nguyên con",
+          "so_luong": "1 con (khoảng 1-1.2kg)"
+        },
+        {
+          "ten": "Sả",
+          "so_luong": "3 cây"
+        },
+        {
+          "ten": "Tỏi",
+          "so_luong": "5 tép"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "3 củ"
+        },
+        {
+          "ten": "Gừng",
+          "so_luong": "1 mẩu nhỏ (20g)"
+        },
+        {
+          "ten": "Lá chanh",
+          "so_luong": "10 lá"
+        },
+        {
+          "ten": "Mật ong",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Tiêu xay",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "2 quả"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng gà ta thay gà ri nếu không tìm được gà ri nguyên con.",
+          "Dùng bột sả khô thay sả tươi nếu cần bảo quản lâu."
+        ]
+      },
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, con, cây, tép, củ, lá, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Vỉ nướng",
+        "Bếp than",
+        "Dao, thớt",
+        "Chảo nhỏ"
+      ],
+      "chi_dan_de_hieu": [
+        "Dùng vỉ nướng sạch để gà không dính.",
+        "Bếp than giúp gà có mùi thơm đặc trưng.",
+        "Dao sắc để chặt gà và thái nguyên liệu dễ dàng.",
+        "Chảo nhỏ để pha nước sốt ướp gà."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế gà và nguyên liệu",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Làm sạch gà ri, rửa với nước muối loãng, để ráo.",
+            "Băm nhuyễn sả, tỏi, hành tím, gừng và ớt tươi.",
+            "Thái nhỏ lá chanh."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Ướp gà",
+          "thoi_gian": "30 phút",
+          "chi_tiet": [
+            "Trộn sả, tỏi, hành tím, gừng, ớt băm với mật ong, nước mắm, dầu ăn, muối, tiêu xay.",
+            "Xoa đều hỗn hợp lên gà, nhét một ít vào bụng gà cùng lá chanh.",
+            "Để gà thấm gia vị trong 30 phút."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Nướng gà",
+          "thoi_gian": "40 phút",
+          "chi_tiet": [
+            "Đốt bếp than, đặt vỉ nướng lên trên.",
+            "Cho gà lên vỉ, nướng trên lửa vừa, thỉnh thoảng trở đều để gà chín vàng.",
+            "Quét thêm nước ướp lên gà trong quá trình nướng để tăng hương vị."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Gà chín vàng, da giòn thì lấy ra khỏi vỉ.",
+            "Chặt gà thành miếng vừa ăn, bày ra đĩa.",
+            "Trang trí với lá chanh và ớt tươi, ăn kèm muối tiêu chanh."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "90 phút",
+      "luu_y": [
+        "Nướng trên than hoa để gà có mùi thơm đặc trưng.",
+        "Trở gà thường xuyên để tránh cháy.",
+        "Ướp đủ thời gian để gà thấm gia vị."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 con gà, phục vụ 3-4 người",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để phục vụ 6-8 người.",
+        "Dùng nửa con gà nếu chỉ làm cho 1-2 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Thay mật ong bằng đường nếu muốn vị ngọt nhẹ hơn.",
+        "Thêm bột nghệ để gà có màu vàng đẹp mắt."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng ớt nếu thích vị cay nồng.",
+        "Giảm muối nếu không muốn mặn.",
+        "Thêm lá chanh để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ebfee2f8d3b2e3ede2ba7d"
+    }
+},
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Bánh Cuốn Thanh Trì",
+      "mien_quoc_gia": "Miền Bắc Việt Nam",
+      "mo_ta_ngan": "Bánh cuốn Thanh Trì là món ăn truyền thống Hà Nội với lớp bánh mỏng tang, nhân thịt băm và mộc nhĩ, chấm nước mắm thơm ngon.",
+      "img": "imgBac10.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "2 phần ăn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Bột gạo tẻ",
+          "so_luong": "200g"
+        },
+        {
+          "ten": "Bột năng",
+          "so_luong": "50g"
+        },
+        {
+          "ten": "Nước lọc",
+          "so_luong": "500ml"
+        },
+        {
+          "ten": "Thịt lợn băm",
+          "so_luong": "150g"
+        },
+        {
+          "ten": "Mộc nhĩ",
+          "so_luong": "20g"
+        },
+        {
+          "ten": "Hành tím",
+          "so_luong": "2 củ"
+        },
+        {
+          "ten": "Nước mắm",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Giấm",
+          "so_luong": "1 muỗng canh"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "1 quả"
+        },
+        {
+          "ten": "Hành phi",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Dầu ăn",
+          "so_luong": "3 muỗng canh"
+        },
+        {
+          "ten": "Muối",
+          "so_luong": "1/2 muỗng cà phê"
+        },
+        {
+          "ten": "Tiêu xay",
+          "so_luong": "1/4 muỗng cà phê"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng bột gạo pha sẵn để tiết kiệm thời gian.",
+          "Thay mộc nhĩ bằng nấm hương nếu thích vị đậm hơn."
+        ]
+      },
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, củ, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Nồi hấp",
+        "Khay tráng bánh",
+        "Chảo chống dính",
+        "Dao, thớt"
+      ],
+      "chi_dan_de_hieu": [
+        "Khay tráng bánh cần được bôi dầu để bánh không dính.",
+        "Nồi hấp phải đủ hơi để bánh chín đều.",
+        "Chảo chống dính giúp xào nhân dễ dàng.",
+        "Dao sắc để thái hành và mộc nhĩ."
+      ]
+    },
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Chuẩn bị bột bánh",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Trộn bột gạo tẻ, bột năng với nước lọc và một chút muối.",
+            "Khuấy đều cho bột tan hoàn toàn, để nghỉ 30 phút."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Làm nhân bánh",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Ngâm mộc nhĩ trong nước ấm 10 phút, rửa sạch, băm nhỏ.",
+            "Băm nhỏ hành tím, phi thơm với dầu ăn.",
+            "Xào thịt băm với mộc nhĩ, hành phi, nêm muối và tiêu xay."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Tráng bánh",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Đun sôi nước trong nồi hấp, đặt khay tráng bánh lên trên.",
+            "Quét một lớp dầu mỏng lên khay, múc một muôi bột đổ đều.",
+            "Đậy nắp, hấp khoảng 1 phút đến khi bánh trong, lấy ra nhẹ nhàng."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Cho nhân thịt vào giữa bánh, cuộn lại nhẹ nhàng.",
+            "Pha nước chấm: trộn nước mắm, đường, giấm, nước lọc, ớt băm.",
+            "Rắc hành phi lên bánh, ăn kèm nước chấm và chả quế nếu thích."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "55 phút",
+      "luu_y": [
+        "Tráng bánh mỏng để giữ độ mềm mại và trong suốt.",
+        "Pha nước chấm vừa miệng, không quá mặn.",
+        "Xào nhân vừa chín tới để giữ độ ngọt."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "2 đĩa bánh, khoảng 10-12 cuốn",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm 4 phần ăn.",
+        "Giảm một nửa nguyên liệu nếu chỉ làm cho 1 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng tôm băm thay thịt lợn để đổi vị.",
+        "Thêm nấm hương vào nhân để tăng hương thơm."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng ớt nếu thích nước chấm cay hơn.",
+        "Giảm đường trong nước chấm nếu muốn vị nhẹ.",
+        "Thêm tỏi băm vào nước chấm để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ebfee2f8d3b2e3ede2ba7d"
+    }
+},
+{
+
   "thong_tin_mon_an": {
     "ten_mon": "Phở Gà",
     "mien_quoc_gia": "Miền Bắc",
@@ -8071,12 +7797,14 @@
     "dieu_chinh_khau_vi": [
       "Có thể thêm nước mắm hoặc muối tùy theo khẩu vị."
     ]
-  }
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
+  },
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca693"
-  },
+ 
   "thong_tin_mon_an": {
     "ten_mon": "Bún Đậu Mắm Tôm",
     "mien_quoc_gia": "Miền Bắc",
@@ -8230,12 +7958,14 @@
       "Thêm tỏi băm nếu thích mắm tôm đậm đà hơn",
       "Có thể thêm ớt nhiều hơn nếu thích ăn cay"
     ]
-  }
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
+  },
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca694"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Nem Chua Rán",
     "mien_quoc_gia": "Miền Bắc",
@@ -8388,158 +8118,157 @@
     "dieu_chinh_khau_vi": [
       "Nếu thích cay, có thể thêm nhiều ớt vào nhân hoặc mắm tôm."
     ]
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
-{
-  "_id": {
-    "$oid": "67ef65327519e2040feca695"
-  },
-  "thong_tin_mon_an": {
-    "ten_mon": "Thịt Đông",
-    "mien_quoc_gia": "Miền Bắc",
-    "mo_ta_ngan": "Thịt đông là món ăn truyền thống của miền Bắc, đặc biệt phổ biến vào mùa đông. Món ăn có vị thanh mát, kết dính tự nhiên nhờ gelatin từ bì lợn, thường ăn kèm dưa hành hoặc cơm nóng.",
-    "img": "imgBac14.jpg"
-  },
-  "nguyen_lieu": {
-    "khau_phan": "2 người",
-    "danh_sach_nguyen_lieu": [
-      {
-        "ten": "Thịt chân giò (hoặc thịt ba chỉ)",
-        "so_luong": "400g"
+
+
+  {
+    "thong_tin_mon_an": {
+      "ten_mon": "Thịt Lợn Muối Chua",
+      "mien_quoc_gia": "Miền Bắc",
+      "mo_ta_ngan": "Thịt lợn muối chua là món ăn dân dã, thịt lợn lên men tự nhiên với vị chua nhẹ, thơm ngon, thường ăn kèm rau sống.",
+      "img": "imgBac14.jpg"
+    },
+    "nguyen_lieu": {
+      "khau_phan": "4 phần ăn",
+      "danh_sach_nguyen_lieu": [
+        {
+          "ten": "Thịt lợn ba chỉ",
+          "so_luong": "500g"
+        },
+        {
+          "ten": "Gạo nếp",
+          "so_luong": "100g"
+        },
+        {
+          "ten": "Lá ổi",
+          "so_luong": "20 lá"
+        },
+        {
+          "ten": "Muối hạt",
+          "so_luong": "2 muỗng canh"
+        },
+        {
+          "ten": "Nước lọc",
+          "so_luong": "500ml"
+        },
+        {
+          "ten": "Tỏi",
+          "so_luong": "5 tép"
+        },
+        {
+          "ten": "Ớt tươi",
+          "so_luong": "2 quả"
+        },
+        {
+          "ten": "Đường",
+          "so_luong": "1 muỗng cà phê"
+        },
+        {
+          "ten": "Rau sống (húng, kinh giới)",
+          "so_luong": "100g"
+        }
+      ],
+      "de_tim_kiem": {
+        "goi_y_thay_the": [
+          "Có thể dùng thịt vai thay ba chỉ nếu muốn ít mỡ hơn.",
+          "Thay lá ổi bằng lá sung nếu không tìm được lá ổi."
+        ]
       },
-      {
-        "ten": "Bì lợn",
-        "so_luong": "100g"
-      },
-      {
-        "ten": "Mộc nhĩ",
-        "so_luong": "10g"
-      },
-      {
-        "ten": "Nấm hương",
-        "so_luong": "10g"
-      },
-      {
-        "ten": "Hành tím",
-        "so_luong": "2 củ"
-      },
-      {
-        "ten": "Tỏi",
-        "so_luong": "2 tép"
-      },
-      {
-        "ten": "Nước mắm",
-        "so_luong": "2 muỗng canh"
-      },
-      {
-        "ten": "Muối",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Hạt tiêu",
-        "so_luong": "1/2 muỗng cà phê"
-      },
-      {
-        "ten": "Dầu ăn",
-        "so_luong": "1 muỗng canh"
-      }
-    ],
-    "de_tim_kiem": {
-      "goi_y_thay_the": [
-        "Có thể thay bì lợn bằng gelatin để tạo độ đông."
+      "don_vi_do_luong": "gram, ml, muỗng canh, muỗng cà phê, lá, tép, quả"
+    },
+    "dung_cu_can_thiet": {
+      "danh_sach_dung_cu": [
+        "Hũ thủy tinh",
+        "Nồi nhỏ",
+        "Thớt, dao",
+        "Chậu sạch"
+      ],
+      "chi_dan_de_hieu": [
+        "Hũ thủy tinh phải được tiệt trùng để tránh vi khuẩn.",
+        "Nồi nhỏ dùng để nấu nước muối.",
+        "Dao sắc để thái thịt đều và mỏng.",
+        "Chậu sạch để trộn nguyên liệu."
       ]
     },
-    "don_vi_do_luong": "gram, muỗng, củ"
+    "cach_lam": {
+      "cac_buoc_thuc_hien": [
+        {
+          "buoc": 1,
+          "ten_buoc": "Sơ chế nguyên liệu",
+          "thoi_gian": "20 phút",
+          "chi_tiet": [
+            "Rửa sạch thịt ba chỉ, thái lát mỏng, để ráo.",
+            "Rửa sạch lá ổi, để ráo nước.",
+            "Bóc tỏi, đập dập; ớt tươi thái lát."
+          ]
+        },
+        {
+          "buoc": 2,
+          "ten_buoc": "Chuẩn bị hỗn hợp muối chua",
+          "thoi_gian": "15 phút",
+          "chi_tiet": [
+            "Rang gạo nếp đến khi vàng, xay thành bột mịn.",
+            "Đun sôi nước, hòa muối hạt và đường, để nguội.",
+            "Trộn bột gạo nếp với thịt, tỏi, ớt."
+          ]
+        },
+        {
+          "buoc": 3,
+          "ten_buoc": "Ướp và muối thịt",
+          "thoi_gian": "10 phút",
+          "chi_tiet": [
+            "Xếp lần lượt lá ổi, thịt, lá ổi vào hũ thủy tinh.",
+            "Đổ nước muối nguội vào hũ, đảm bảo ngập thịt.",
+            "Đậy kín hũ, để nơi thoáng mát 3-5 ngày cho thịt lên men."
+          ]
+        },
+        {
+          "buoc": 4,
+          "ten_buoc": "Hoàn thành món ăn",
+          "thoi_gian": "5 phút",
+          "chi_tiet": [
+            "Khi thịt có vị chua nhẹ, lấy ra khỏi hũ.",
+            "Xếp thịt lên đĩa, ăn kèm rau sống và nước mắm ớt."
+          ]
+        }
+      ],
+      "thoi_gian_lam": "60 phút (chưa kể thời gian lên men)",
+      "luu_y": [
+        "Kiểm tra hũ thường xuyên, đảm bảo thịt ngập nước để tránh hỏng.",
+        "Thời gian lên men phụ thuộc vào nhiệt độ, mùa hè nhanh hơn mùa đông.",
+        "Rửa sạch rau sống để ăn kèm, đảm bảo vệ sinh."
+      ]
+    },
+    "so_luong_khi_lam_xong": {
+      "khau_phan": "1 hũ thịt, khoảng 500g",
+      "tinh_toan_cho_khau_phan_khac": [
+        "Tăng gấp đôi nguyên liệu để làm 1kg thịt.",
+        "Giảm một nửa nguyên liệu nếu làm cho 2 người."
+      ]
+    },
+    "kha_nang_tuy_bien": {
+      "lua_chon_thay_the_nguyen_lieu": [
+        "Dùng lá chè xanh thay lá ổi để có mùi thơm khác.",
+        "Thêm gừng thái lát để tăng vị ấm."
+      ],
+      "dieu_chinh_khau_vi": [
+        "Tăng lượng ớt nếu thích vị cay hơn.",
+        "Giảm muối nếu không muốn quá mặn.",
+        "Thêm tỏi để tăng mùi thơm."
+      ]
+    },
+    "categoryId": {
+      "$oid": "67ebfee2f8d3b2e3ede2ba7d"
+    
   },
-  "dung_cu_can_thiet": {
-    "danh_sach_dung_cu": [
-      "Nồi hầm",
-      "Dao, thớt",
-      "Bát tô hoặc khuôn đựng thịt đông"
-    ],
-    "chi_dan_de_hieu": [
-      "Sử dụng bát hoặc hộp nhựa để đổ thịt sau khi nấu giúp dễ dàng bảo quản trong tủ lạnh."
-    ]
-  },
-  "cach_lam": {
-    "cac_buoc_thuc_hien": [
-      {
-        "buoc": 1,
-        "ten_buoc": "Sơ chế nguyên liệu",
-        "thoi_gian": "15 phút",
-        "chi_tiet": [
-          "Thịt chân giò rửa sạch, thái miếng vừa ăn.",
-          "Bì lợn rửa sạch, luộc sơ rồi thái sợi nhỏ.",
-          "Mộc nhĩ, nấm hương ngâm nước ấm, rửa sạch, thái nhỏ.",
-          "Hành tím, tỏi bóc vỏ, băm nhỏ."
-        ]
-      },
-      {
-        "buoc": 2,
-        "ten_buoc": "Xào thịt",
-        "thoi_gian": "10 phút",
-        "chi_tiet": [
-          "Đun nóng dầu ăn, phi thơm hành tím và tỏi băm.",
-          "Cho thịt vào đảo đều, nêm nước mắm, muối, tiêu, đảo đến khi thịt săn lại."
-        ]
-      },
-      {
-        "buoc": 3,
-        "ten_buoc": "Hầm thịt",
-        "thoi_gian": "45 phút",
-        "chi_tiet": [
-          "Thêm bì lợn, mộc nhĩ, nấm hương vào nồi.",
-          "Đổ nước vừa ngập thịt, đun nhỏ lửa khoảng 45 phút cho thịt mềm.",
-          "Nêm nếm lại gia vị cho vừa ăn."
-        ]
-      },
-      {
-        "buoc": 4,
-        "ten_buoc": "Để nguội và làm đông",
-        "thoi_gian": "4-5 giờ",
-        "chi_tiet": [
-          "Múc thịt vào bát hoặc khuôn, để nguội rồi cho vào ngăn mát tủ lạnh.",
-          "Để khoảng 4-5 giờ cho thịt đông lại tự nhiên."
-        ]
-      },
-      {
-        "buoc": 5,
-        "ten_buoc": "Trình bày và thưởng thức",
-        "thoi_gian": "5 phút",
-        "chi_tiet": [
-          "Úp thịt đông ra đĩa, cắt miếng vừa ăn.",
-          "Thưởng thức cùng dưa hành, cơm nóng hoặc bánh chưng."
-        ]
-      }
-    ],
-    "thoi_gian_lam": "5 giờ",
-    "luu_y": [
-      "Thịt đông ngon hơn khi để qua đêm trong tủ lạnh.",
-      "Không nên để thịt đông ở nhiệt độ phòng quá lâu, dễ làm hỏng kết cấu.",
-      "Có thể thêm cà rốt thái lát để tạo màu sắc đẹp mắt."
-    ]
-  },
-  "so_luong_khi_lam_xong": {
-    "khau_phan": "2 người",
-    "tinh_toan_cho_khau_phan_khac": [
-      "Nếu muốn làm nhiều hơn, bạn có thể tăng nguyên liệu theo tỉ lệ tương ứng."
-    ]
-  },
-  "kha_nang_tuy_bien": {
-    "lua_chon_thay_the_nguyen_lieu": [
-      "Có thể thay bì lợn bằng gelatin để tạo độ đông.",
-      "Thêm tai heo hoặc chân gà để tăng độ giòn."
-    ],
-    "dieu_chinh_khau_vi": [
-      "Nếu thích béo hơn, có thể dùng nhiều bì lợn hơn.",
-      "Thêm tiêu xay để tăng vị cay nhẹ."
-    ]
-  }
+  "hot": 1
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca696"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Thịt Đông",
     "mien_quoc_gia": "Miền Bắc",
@@ -8680,12 +8409,12 @@
       "Nếu thích béo hơn, có thể dùng nhiều bì lợn hơn.",
       "Thêm tiêu xay để tăng vị cay nhẹ."
     ]
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca697"
-  },
   "thong_tin_mon_an": {
     "ten_mon": "Giả Cầy",
     "mien_quoc_gia": "Miền Bắc",
@@ -8808,12 +8537,13 @@
       "Nếu thích ngọt hơn, có thể thêm đường.",
       "Nếu thích chua hơn, có thể tăng lượng mẻ."
     ]
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca698"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Ô Mai Hà Nội",
     "mien_quoc_gia": "Miền Bắc",
@@ -8939,12 +8669,13 @@
       "Thêm nhiều đường nếu thích vị ngọt hơn.",
       "Bớt muối nếu muốn ô mai bớt mặn."
     ]
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca699"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Vịt Om Sấu",
     "mien_quoc_gia": "Miền Bắc",
@@ -9078,12 +8809,13 @@
     "dieu_chinh_khau_vi": [
       "Thêm sấu nếu muốn món ăn chua hơn."
     ]
+  },
+  "categoryId": {
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca69a"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Lươn om chuối đậu",
     "mien_quoc_gia": "Miền Bắc",
@@ -9183,13 +8915,11 @@
     ]
   },
   "categoryId": {
-    "$oid": "6412b2f7d7da9b1b8b2f9e5d"
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 },
 {
-  "_id": {
-    "$oid": "67ef65327519e2040feca69b"
-  },
+
   "thong_tin_mon_an": {
     "ten_mon": "Ếch om chuối đậu",
     "mien_quoc_gia": "Miền Bắc",
@@ -9289,6 +9019,6 @@
     ]
   },
   "categoryId": {
-    "$oid": "6412b2f7d7da9b1b8b2f9e5d"
+    "$oid": "67ebfee2f8d3b2e3ede2ba7d"
   }
 }]
