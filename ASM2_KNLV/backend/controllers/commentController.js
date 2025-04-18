@@ -1,20 +1,25 @@
 const Comment = require("../models/commentModel");
-
+const User = require("../models/userModel");
 // Lấy danh sách bình luận theo sản phẩm
 const getCommentsByProduct = async (req, res) => {
-  try {
-    const { productId } = req.query; // Use query parameter instead of URL parameter
-    if (!productId) {
-      return res.status(400).json({ error: "Product ID is required." });
-    }
+  console.log('Request received');
+  const { productId } = req.params;
+  console.log('Received Product ID:', productId);
 
-    const comments = await Comment.find({ productId }).populate('userId', 'name'); // Populate userId with name
+  if (!productId) {
+    return res.status(400).json({ error: 'Product ID is required.' });
+  }
+
+  try {
+    const comments = await Comment.find({ productId })
+      .populate('userId', 'name'); // ✨ Hiện tên + avatar người bình luận
     res.status(200).json(comments);
   } catch (error) {
-    console.error("Error fetching comments:", error);
-    res.status(500).json({ error: "Lỗi khi lấy danh sách bình luận." });
+    res.status(500).json({ message: error.message });
   }
 };
+
+
 
 // Thêm bình luận mới
 const createComment = async (req, res) => {

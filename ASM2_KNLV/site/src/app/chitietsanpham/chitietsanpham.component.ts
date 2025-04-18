@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 import { CartService } from '../cart.service';
 import { UserService } from '../user.service';
 import { CommentComponent } from '../comment/comment.component';
-
+import { environment } from '../environments/environment';
 @Component({
   selector: 'app-chitietsanpham',
   standalone: true,
@@ -16,7 +16,7 @@ import { CommentComponent } from '../comment/comment.component';
   schemas: [] // No need for CUSTOM_ELEMENTS_SCHEMA if CommentComponent is properly imported
 })
 export class ChitietsanphamComponent {
-
+  apiUrl: string = environment.apiUrl; 
   productDetail!: ProductInterface;
   isFavorite: boolean = false; // ✅ trạng thái yêu thích
 

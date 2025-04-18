@@ -9,7 +9,7 @@ const commentSchema = new mongoose.Schema(
     },
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User", // Ensure this matches the User model
+      ref: "users", // Ensure this matches the User model
       required: true,
     },
     content: {

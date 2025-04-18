@@ -4,6 +4,7 @@ import { ReactiveFormsModule, FormGroup, FormBuilder, Validators } from '@angula
 import { Router } from '@angular/router';
 import { CommentService } from '../comment.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { environment } from '../environments/environment'; // Import environment
 
 @Component({
   selector: 'app-comment',
@@ -13,25 +14,25 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrl: './comment.component.css'
 })
 export class CommentComponent implements OnInit, OnChanges {
-  @Input() productId!: string; // Accept productId as input
+  @Input() productId!: string;
   comments: any[] = [];
-  commentForm!: FormGroup; // Declare without initialization
-  token: string = ''; // Token to check login status
-  userName: string = ''; // Store the user's name
+  commentForm!: FormGroup;
+  token: string = '';
+  userName: string = '';
 
   constructor(
     private commentService: CommentService,
     private fb: FormBuilder,
     private router: Router,
-    private http: HttpClient // Add HttpClient for API calls
+    private http: HttpClient
   ) {}
 
   ngOnInit(): void {
-    this.token = localStorage.getItem('token') || ''; // Retrieve token from local storage
+    this.token = localStorage.getItem('token') || '';
     if (!this.token) {
       console.warn('User is not logged in.');
     } else {
-      this.fetchUserName(); // Fetch the user's name based on the token
+      this.fetchUserName();
     }
 
     if (!this.productId) {
@@ -39,7 +40,6 @@ export class CommentComponent implements OnInit, OnChanges {
       return;
     }
 
-    // Initialize commentForm here
     this.commentForm = this.fb.group({
       content: ['', [Validators.required, Validators.maxLength(1000)]],
     });
@@ -49,7 +49,7 @@ export class CommentComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['productId'] && changes['productId'].currentValue) {
-      this.loadComments(); // Reload comments when productId changes
+      this.loadComments();
     }
   }
 
@@ -61,13 +61,14 @@ export class CommentComponent implements OnInit, OnChanges {
     }
 
     const headers = new HttpHeaders().set('Authorization', `Bearer ${this.token}`);
-    this.http.get<{ name: string }>('http://localhost:3000/users/getuser', { headers }).subscribe(
+    // Use environment.apiUrl instead of hard-coded localhost
+    this.http.get<{ name: string }>(`${environment.apiUrl}/users/getuser`, { headers }).subscribe(
       (data) => {
-        this.userName = data.name || 'Ẩn danh'; // Set the user's name or default to 'Ẩn danh'
+        this.userName = data.name || 'Ẩn danh';
       },
       (error) => {
         console.error('Error fetching user information:', error);
-        this.userName = 'Ẩn danh'; // Default to 'Ẩn danh' in case of an error
+        this.userName = 'Ẩn danh';
       }
     );
   }
@@ -78,29 +79,22 @@ export class CommentComponent implements OnInit, OnChanges {
       return;
     }
 
-    // Check if comments exist in localStorage
-    const storedComments = localStorage.getItem(`comments_${this.productId}`);
-    if (storedComments) {
-      this.comments = JSON.parse(storedComments).sort((a: any, b: any) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-      console.log('Loaded comments from localStorage:', this.comments);
-    } else {
-      // Fetch comments from the server if not in localStorage
-      this.commentService.getComments(this.productId).subscribe(
-        (data) => {
-          this.comments = data.sort((a: any, b: any) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-          localStorage.setItem(`comments_${this.productId}`, JSON.stringify(this.comments)); // Save to localStorage
-        },
-        (error) => {
-          console.error('Error fetching comments:', error);
-        }
-      );
-    }
+    this.commentService.getComments(this.productId).subscribe(
+      (data) => {
+        this.comments = data.sort(
+          (a: any, b: any) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        );
+      },
+      (error) => {
+        console.error('Error fetching comments from server:', error);
+      }
+    );
   }
 
   addComment(): void {
     if (!this.token) {
       alert('Bạn cần đăng nhập để bình luận.');
-      this.router.navigate(['/dangky']); // Redirect to login page
+      this.router.navigate(['/dangky']);
       return;
     }
 
@@ -110,7 +104,7 @@ export class CommentComponent implements OnInit, OnChanges {
     }
 
     const content = this.commentForm.value.content;
-    console.log("Sending comment data:", { productId: this.productId, content, token: this.token }); // Log data being sent
+    console.log("Sending comment data:", { productId: this.productId, content, token: this.token });
 
     if (!this.productId || !content) {
       console.error("Missing required fields: productId or content.");
@@ -121,14 +115,12 @@ export class CommentComponent implements OnInit, OnChanges {
     this.commentService.addComment(this.productId, content, this.token).subscribe(
       (data) => {
         console.log("Comment added successfully:", data);
-        const newComment = { userName: this.userName, content, createdAt: new Date() };
-        this.comments.unshift(newComment); // Add the new comment to the top of the list
-        localStorage.setItem(`comments_${this.productId}`, JSON.stringify(this.comments)); // Update localStorage
         this.commentForm.reset();
-        alert('Bình luận của bạn đã được gửi thành công!'); // Display success message
+        alert('Bình luận của bạn đã được gửi thành công!');
+        this.loadComments(); // ✅ Load lại bình luận từ server sau khi gửi thành công
       },
       (error) => {
-        console.error("Error adding comment:", error); // Log the error for debugging
+        console.error("Error adding comment:", error);
         if (error.status === 400) {
           alert('Dữ liệu không hợp lệ. Vui lòng kiểm tra và thử lại.');
         } else if (error.status === 401) {

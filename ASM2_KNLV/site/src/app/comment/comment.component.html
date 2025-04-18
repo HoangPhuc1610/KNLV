@@ -13,7 +13,7 @@
 
   <!-- Hiển thị danh sách bình luận -->
   <div *ngFor="let comment of comments" class="comment">
-    <p><strong>{{ comment.userName || 'Ẩn danh' }}</strong> 
+    <p><strong>{{ comment.userId?.name || 'Ẩn danh' }}</strong> 
       <span class="comment-time"> {{ comment.createdAt | date: 'short' }}</span>
     </p>
     <p>{{ comment.content }}</p>

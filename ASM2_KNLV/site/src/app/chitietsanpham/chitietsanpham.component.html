@@ -24,7 +24,10 @@
         <!-- Hero Section -->
         <section class="hero">
             <h1 class="dish-name">{{productDetail.thong_tin_mon_an.ten_mon}}</h1>
-            <img src="http://localhost:3000/images/{{productDetail.thong_tin_mon_an.img}}" alt="{{productDetail.thong_tin_mon_an.ten_mon}}">
+            <img
+            [src]="apiUrl + '/images/' + productDetail.thong_tin_mon_an.img"
+            [alt]="productDetail.thong_tin_mon_an.ten_mon"
+          />          
         </section>
 
         <!-- Description -->

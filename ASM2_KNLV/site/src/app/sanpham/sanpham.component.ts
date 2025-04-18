@@ -7,7 +7,7 @@ import { Router, RouterModule } from '@angular/router';
 import { NgxSliderModule, Options } from '@angular-slider/ngx-slider';
 import { CategoryInterface } from '../product-interface';
 import { ListcardComponent } from '../listcard/listcard.component';
-
+import { environment } from '../environments/environment';
 @Component({
   selector: 'app-sanpham',
   standalone: true,
@@ -26,7 +26,7 @@ export class SanphamComponent {
   cookTimeFilter: string = 'all';
   khauPhanFilter: string = 'all';
   sortOption: string = 'newest'; // hoặc 'oldest'
-
+  apiUrl: string = environment.apiUrl;
   constructor(private productService: ProductService, private router: Router) {}
 
   ngOnInit() {

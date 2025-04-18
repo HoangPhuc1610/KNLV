@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { environment } from '../environments/environment'; // Import environment
 
 @Component({
   selector: 'app-yeuthich',
@@ -12,12 +13,12 @@ import { RouterModule } from '@angular/router';
 export class YeuthichComponent implements OnInit {
   favoriteProducts: any[] = [];
   email = localStorage.getItem('email'); // email user đăng nhập
-
+  environment = environment; 
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
     const email = localStorage.getItem('email');
-    this.http.get(`http://localhost:3000/users/${email}/favorites`)
+    this.http.get(`${environment.apiUrl}/users/${email}/favorites`) // Sử dụng apiUrl từ environment
       .subscribe((res: any) => {
         this.favoriteProducts = res.favoriteProducts;
       });
@@ -31,7 +32,7 @@ export class YeuthichComponent implements OnInit {
       return;
     }
   
-    this.http.delete(`http://localhost:3000/users/${email}/favorite/${productId}`)
+    this.http.delete(`${environment.apiUrl}/users/${email}/favorite/${productId}`) // Sử dụng apiUrl từ environment
       .subscribe({
         next: () => {
           // Sau khi xóa, cập nhật lại danh sách yêu thích
@@ -43,6 +44,4 @@ export class YeuthichComponent implements OnInit {
         }
       });
   }
-  
-  
 }

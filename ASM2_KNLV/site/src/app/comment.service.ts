@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from './environments/environment'; // ✅ Import environment
 
 @Injectable({
   providedIn: 'root',
 })
 export class CommentService {
-  private apiUrl = `http://localhost:3000/comments`; // URL API
+  private apiUrl = `${environment.apiUrl}/comments`; // Sử dụng apiUrl từ environment
 
   constructor(private http: HttpClient) {}
 
@@ -15,7 +16,7 @@ export class CommentService {
     if (!productId) {
       throw new Error('Product ID is required to fetch comments.');
     }
-    return this.http.get<any[]>(`${this.apiUrl}?productId=${productId}`); // Use query parameter for productId
+    return this.http.get<any[]>(`${this.apiUrl}/${productId}`); // Sử dụng query parameter cho productId
   }
 
   // Thêm bình luận mới
