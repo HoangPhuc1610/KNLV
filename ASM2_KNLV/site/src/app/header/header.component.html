@@ -8,30 +8,35 @@
       </div>
     </div>
     <div class="right">
-      <span style="margin-right: 20px;">Số thành viên <b>0</b></span>
+      <span style="margin-right: 20px;"></span>
 <!-- Tài khoản -->
-  <ng-template #notLoggedIn>
+<ng-template #notLoggedIn>
   <a routerLink="/dangky" class="login-link">ĐĂNG NHẬP</a>
   </ng-template>
 
 
   <li *ngIf="isLoggedIn(); else notLoggedIn" class="account">
-    <a href="#" class="account-link">Chào, {{ getUserName() }}</a>
+    <a routerLink="/" class="account-link">Chào, {{ getUserName() }}</a>
     <ul class="account-menu">
       <li><a (click)="logout()">ĐĂNG XUẤT</a></li>
     </ul>
   </li>
-  
     </div>
   </div>
   
-  <!-- Hamburger Icon -->
-  <div class="hamburger" (click)="toggleMenu()">
-    &#9776;
-  </div>
+
   
   <!-- Menu chính -->
   <section class="menu-section">
+      <!-- Hamburger Icon -->
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+  <div class="logo-item">
+    <a (click)="goToTop()" style="cursor: pointer;">
+    <img src="assets/img/LOGO.png" alt="Ajinomoto Logo" class="menu-logo-mobile">
+  </a>
+  </div>
     <ul class="menu" [class.show]="isMenuOpen">
       <div class="logo-item">
         <a (click)="goToTop()" style="cursor: pointer;">
@@ -42,6 +47,9 @@
       <li class="dropdown" [class.open]="dropdownOpen[0]">
         <a [routerLink]="['/sanpham']" (click)="toggleDropdown($event, 0)" style="color: black;">Công thức món ăn ▼</a>
         <ul class="dropdown-menu">
+          <li>
+            <a [routerLink]="['/sanpham']" style="color: black; cursor: pointer;">Tất cả công thức </a>
+          </li>
           <li *ngFor="let cat of categories">
             <a (click)="selectCategory(cat._id)" style="color: black; cursor: pointer;">
               {{ cat.name }}

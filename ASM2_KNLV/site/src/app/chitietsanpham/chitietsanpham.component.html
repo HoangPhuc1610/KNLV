@@ -12,9 +12,10 @@
             <p>Khẩu phần: {{productDetail.nguyen_lieu.khau_phan}}</p>
             <p>Calo: 350kcal</p>
             <h3>THÊM VÀO YÊU THÍCH</h3>
-            <button class="favorite-btn" onclick="toggleFavorite()">
-                <span class="favorite-icon">❤️</span> Thêm vào yêu thích
-            </button>
+            <button class="favorite-btn" (click)="addToFavorite()" [disabled]="isFavorite">
+                {{ isFavorite ? 'Đã yêu thích' : 'Thêm vào yêu thích' }}
+              </button>
+              
         </div>
     </aside>
 
@@ -23,14 +24,17 @@
         <!-- Hero Section -->
         <section class="hero">
             <h1 class="dish-name">{{productDetail.thong_tin_mon_an.ten_mon}}</h1>
-            <img src="http://localhost:3000/images/{{productDetail.thong_tin_mon_an.img}}" alt="{{productDetail.thong_tin_mon_an.ten_mon}}">
+            <img
+            [src]="apiUrl + '/images/' + productDetail.thong_tin_mon_an.img"
+            [alt]="productDetail.thong_tin_mon_an.ten_mon"
+          />          
         </section>
 
         <!-- Description -->
         <section class="description">
             <h2>Mô Tả</h2>
             <p>{{productDetail.thong_tin_mon_an.mo_ta_ngan}}</p>
-            <p><strong>M:</strong> muỗng canh – <strong>m:</strong> muỗng cafe</p>
+        
         </section>
 
         <!-- Ingredients -->
@@ -52,7 +56,7 @@
         <!-- Steps -->
         <section class="steps">
             <h2>Thực Hiện</h2>
-            <button class="toggle-steps-btn">Ẩn/Hiện các bước</button>
+            <!-- <button class="toggle-steps-btn">Ẩn/Hiện các bước</button> -->
             <div class="steps-content">
                 <div class="step" *ngFor="let step of productDetail.cach_lam.cac_buoc_thuc_hien">
                     <h3>Bước {{step.buoc}}: {{step.ten_buoc}}</h3>
@@ -84,19 +88,9 @@
             </ul>
         </section>
          <!-- Comments -->
-         <section class="comments">
-            <h2>Ý Kiến Đóng Góp, Ý Tưởng!</h2>
-            <form>
-                <textarea placeholder="Viết ý kiến của bạn..." required></textarea>
-                <button type="submit">Gửi Ý Kiến</button>
-            </form>
-        
-            <!-- Bình luận mẫu đây -->
-            <div class="comment">
-                <p><strong>Nguyễn Văn A</strong> <span class="comment-time"> 14:30  04/04/2025</span></p>
-                <p>Món này nhìn hấp dẫn quá! Mình sẽ thử làm vào cuối tuần này.</p>
-            </div>
-           
-        </section>
+        <!-- Comments Section -->
+        <ng-container *ngIf="productDetail._id">
+          <app-comment [productId]="productDetail._id"></app-comment>
+        </ng-container>
     </main>
 </div>

@@ -5,7 +5,7 @@ import { ProductInterface } from '../product-interface';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-
+import { environment } from '../environments/environment';
 @Component({
   selector: 'app-sanpham3mien',
   standalone: true,
@@ -20,7 +20,7 @@ export class Sanpham3mienComponent implements OnInit {
   sortOption: string = 'newest';
   cookTimeFilter: string = 'all';
   khauPhanFilter: string = 'all';
-
+  apiUrl: string = environment.apiUrl;
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService

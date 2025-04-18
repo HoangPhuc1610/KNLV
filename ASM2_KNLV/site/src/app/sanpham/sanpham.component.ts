@@ -2,16 +2,16 @@ import { Component } from '@angular/core';
 import { ProductInterface } from '../product-interface';
 import { ProductService } from '../product.service';
 import { CommonModule } from '@angular/common';
-import { ListcardComponent } from '../listcard/listcard.component';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { NgxSliderModule, Options } from '@angular-slider/ngx-slider';
 import { CategoryInterface } from '../product-interface';
-
+import { ListcardComponent } from '../listcard/listcard.component';
+import { environment } from '../environments/environment';
 @Component({
   selector: 'app-sanpham',
   standalone: true,
-  imports: [CommonModule, ListcardComponent, FormsModule, NgxSliderModule, RouterModule],
+  imports: [CommonModule, FormsModule, NgxSliderModule, RouterModule,ListcardComponent],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
 })
@@ -26,7 +26,7 @@ export class SanphamComponent {
   cookTimeFilter: string = 'all';
   khauPhanFilter: string = 'all';
   sortOption: string = 'newest'; // hoặc 'oldest'
-
+  apiUrl: string = environment.apiUrl;
   constructor(private productService: ProductService, private router: Router) {}
 
   ngOnInit() {

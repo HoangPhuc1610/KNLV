@@ -63,13 +63,21 @@ export class DangkyComponent {
       console.error('Mật khẩu xác nhận không khớp');
       return;
     }
-
+  
+    // Kiểm tra email có phải Gmail không
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+    if (!emailPattern.test(this.user.email)) {
+      this.errorMessage = 'Email phải là Gmail!';
+      console.error('Email phải là Gmail!');
+      return;
+    }
+  
     const formData = new FormData();
     formData.append('username', this.user.username);
     formData.append('email', this.user.email);
     formData.append('password', this.user.password);
     formData.append('confirmPassword', this.user.confirmPassword);
-
+  
     this.userService.postUser(formData).subscribe({
       next: () => {
         console.log('Đăng ký thành công', this.user);
@@ -82,6 +90,7 @@ export class DangkyComponent {
       }
     });
   }
+  
 
   // đăng nhập
   onLoginSubmit(event: Event) {

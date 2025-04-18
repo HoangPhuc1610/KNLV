@@ -37,7 +37,13 @@
         <h2>Danh sách món ăn</h2>
         <div class="recipes-container">
             <div *ngFor="let product of sortedProduct" class="recipe-card">
-              <img src="http://localhost:3000/images/{{product.thong_tin_mon_an.img}}" [alt]="product.thong_tin_mon_an.ten_mon" class="recipe-image">
+            <a [routerLink]="['/chitiet', product._id]">
+          <img
+            [src]="apiUrl + '/images/' + product.thong_tin_mon_an.img"
+            [alt]="product.thong_tin_mon_an.ten_mon"
+            class="recipe-image"
+          />
+        </a>
               <div class="recipe-details">
                 <h3 class="recipe-name">{{ product.thong_tin_mon_an.ten_mon }}</h3>
                 <h6 class="recipe-time">{{ product.thong_tin_mon_an.mien_quoc_gia }}</h6>
