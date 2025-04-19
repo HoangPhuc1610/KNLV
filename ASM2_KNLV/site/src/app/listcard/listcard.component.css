@@ -646,54 +646,78 @@ a{
 /* Responsive cho tablet (768px) */
 @media (max-width: 768px) {
     .featured-recipes {
-        padding: 20px 10px; /* Giảm padding cho gọn */
+        padding: 20px 10px;
     }
 
     .section-title {
-        font-size: 1.2em; /* Giảm kích thước chữ */
+        font-size: 1.2em;
     }
 
     .recipes-container {
-        gap: 15px; /* Giảm gap */
+        gap: 15px;
     }
 
     .recipe-card {
-        width: calc(50% - 15px); /* 2 box trên 1 hàng, trừ gap */
-        max-width: 300px; /* Giới hạn chiều rộng tối đa */
+        width: calc(50% - 15px);
+        min-height: 340px; 
+    }
+
+    .recipe-image img {
+        height: 180px; 
     }
 }
 
 /* Responsive cho mobile (480px) */
 @media (max-width: 480px) {
     .featured-recipes {
-        padding: 15px 5px; /* Giảm thêm padding */
+        padding: 15px 5px;
     }
 
     .section-title {
-        font-size: 1.2em; /* Giảm kích thước chữ cho mobile */
+        font-size: 1.1em; 
     }
 
     .recipes-container {
-        gap: 10px; /* Giảm gap nhỏ hơn */
+        gap: 10px;
+        justify-content: space-between; 
     }
 
     .recipe-card {
-        width: calc(50% - 10px); /* 2 box trên 1 hàng, trừ gap */
-        max-width: none; /* Loại bỏ giới hạn để linh hoạt */
+        width: calc(50% - 5px); 
+        min-height: 280px; 
+        border-radius: 6px; 
+    }
+
+    .recipe-image img {
+        height: 120px; 
+        border-radius: 6px 6px 0 0;
     }
 
     .recipe-details {
-        padding: 10px; /* Giảm padding trong card */
+        padding: 10px;
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .recipe-name {
-        font-size: 1em; /* Giảm kích thước chữ */
+        font-size: 0.95em;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
 
     .recipe-info {
-        font-size: 0.8em; /* Giảm kích thước chữ */
-        gap: 8px;
+        font-size: 0.8em;
+        gap: 6px;
+        flex-wrap: wrap; 
+    }
 
+    .recipe-info span {
+        display: flex;
+        align-items: center;
     }
 
     .recipe-info svg {
@@ -702,18 +726,48 @@ a{
     }
 
     .view-button {
-        padding: 8px 12px; /* Giảm kích thước nút */
-        font-size: 0.9em;
+        padding: 8px;
+        font-size: 0.85em;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: auto;
     }
 
     .wishlist-button {
         width: 25px;
         height: 25px;
+        top: 8px;
+        right: 8px;
     }
 
     .wishlist-button svg {
         width: 16px;
         height: 16px;
+    }
+}
+
+/* Responsive cho màn hình siêu nhỏ (360px) */
+@media (max-width: 360px) {
+    .recipe-card {
+        width: calc(50% - 4px); 
+        min-height: 260px;
+    }
+
+    .recipe-image img {
+        height: 100px;
+    }
+
+    .recipe-name {
+        font-size: 0.9em;
+    }
+
+    .recipe-info {
+        font-size: 0.75em;
+    }
+
+    .view-button {
+        padding: 6px;
+        font-size: 0.8em;
     }
 }
 
